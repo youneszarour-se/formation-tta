@@ -1,0 +1,2723 @@
+{
+ "generated": "2026-09-24T10:37:19",
+ "folder": "10Lzy14Ghzarc_bY_zEfOxgHMdVjaYVsk",
+ "clips": [
+  {
+   "name": "Etape_0E_1",
+   "order": 1,
+   "step": "0.E",
+   "main": "0",
+   "title": {
+    "fr": "Découvrir l'interface : fenêtre des paramètres et niveaux de vitesse",
+    "ar": "التعرّف على الواجهة: نافذة الإعدادات ومستويات السرعة"
+   },
+   "sub": {
+    "fr": "Découvrir l'interface : fenêtre des paramètres et niveaux de vitesse",
+    "ar": "التعرّف على الواجهة: نافذة الإعدادات ومستويات السرعة"
+   },
+   "duration": 114.3,
+   "drive": {
+    "fr": "",
+    "ar": "1uT8828CvY25qg9RzclNYfdArFLGl0No7"
+   },
+   "keys": {
+    "fr": [
+     "Onglets Input1 / Output : état des entrées et des sorties de l'automate (diagnostic).",
+     "Pour modifier un paramètre : Unlock Params, puis Save en acceptant l'écrasement du fichier.",
+     "Six niveaux prédéfinis, Speed 1 à 6. En mise au point, travaillez en Speed 1.",
+     "Accel / Decel Time — trop court : à-coups et vibrations ; trop long : cadence perdue."
+    ],
+    "ar": [
+     "تبويبا Input1 / Output: حالة مداخل ومخارج المتحكم (للتشخيص).",
+     "لتعديل إعداد: Unlock Params ثم Save مع قبول استبدال الملف.",
+     "ستة مستويات مسبقة، من Speed 1 إلى 6. عند الضبط اعمل على Speed 1.",
+     "Accel / Decel Time: قصير جداً يسبب اهتزازات، وطويل جداً يُضيّع الإنتاجية."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_0F_1",
+   "order": 2,
+   "step": "0.F",
+   "main": "0",
+   "title": {
+    "fr": "Identifier les caméras de la machine",
+    "ar": "التعرّف على كاميرات الآلة"
+   },
+   "sub": {
+    "fr": "Identifier les caméras de la machine",
+    "ar": "التعرّف على كاميرات الآلة"
+   },
+   "duration": 156.1,
+   "drive": {
+    "fr": "",
+    "ar": "1afDS0bG8fWrZ4H0i9EiwnIGzBJZSjOfa"
+   },
+   "keys": {
+    "fr": [
+     "Onglets de vue : Disp Cam, Bond Cam, Transfer Cam, Wafer Cam, Bond Review, Disp Review, Machine View.",
+     "Caméra avant : elle regarde avant l'opération. Caméra de contrôle (Review) : elle vérifie après."
+    ],
+    "ar": [
+     "تبويبات العرض: Disp Cam، Bond Cam، Transfer Cam، Wafer Cam، Bond Review، Disp Review، Machine View.",
+     "الكاميرا الأمامية تنظر قبل العملية، وكاميرا المراقبة (Review) تتحقق بعدها."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_0A_1",
+   "order": 3,
+   "step": "0.A",
+   "main": "0",
+   "title": {
+    "fr": "Démarrage et initialisation (EmergencyStop → Initialization → Init Done)",
+    "ar": "التشغيل والتهيئة (EmergencyStop ← Initialization ← Init Done)"
+   },
+   "sub": {
+    "fr": "Démarrage et initialisation (EmergencyStop → Initialization → Init Done)",
+    "ar": "التشغيل والتهيئة (EmergencyStop ← Initialization ← Init Done)"
+   },
+   "duration": 95.7,
+   "drive": {
+    "fr": "",
+    "ar": "1WM3vTAz1vtR_epuSWNFOw5Y7VqIAJjfb"
+   },
+   "keys": {
+    "fr": [
+     "Séquence d'initialisation : EmergencyStop → Initialization → Init Done.",
+     "Avant toute intervention physique : machine à l'arrêt, arrêt d'urgence enclenché lorsque la procédure le demande.",
+     "Home : prise d'origine de l'axe — à faire avant de se fier aux positions affichées."
+    ],
+    "ar": [
+     "تسلسل التهيئة: EmergencyStop ← Initialization ← Init Done.",
+     "قبل أي تدخل مادي: الآلة متوقفة، وزر الطوارئ مفعّل حين يطلب الإجراء ذلك.",
+     "Home: إعادة المحور إلى أصله، قبل الاعتماد على المواضع المعروضة."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_0A_2",
+   "order": 4,
+   "step": "0.A",
+   "main": "0",
+   "title": {
+    "fr": "Fin de l'initialisation",
+    "ar": "انتهاء التهيئة"
+   },
+   "sub": {
+    "fr": "Démarrage et initialisation (EmergencyStop → Initialization → Init Done)",
+    "ar": "التشغيل والتهيئة (EmergencyStop ← Initialization ← Init Done)"
+   },
+   "duration": 20.3,
+   "drive": {
+    "fr": "",
+    "ar": "14h2hNJseKeZ7hSfCzlDc5Qtp8GRaNKyQ"
+   },
+   "keys": {
+    "fr": [
+     "Init Done : déclare l'initialisation terminée — la machine est alors prête."
+    ],
+    "ar": [
+     "Init Done: يعلن انتهاء التهيئة — وتصبح الآلة جاهزة."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_1A_1",
+   "order": 5,
+   "step": "1.A",
+   "main": "1",
+   "title": {
+    "fr": "Introduction à l'enfilage",
+    "ar": "مقدمة لتمرير الشريط"
+   },
+   "sub": {
+    "fr": "Enfiler la bande (bande guide) et raccorder l'antenne",
+    "ar": "تمرير الشريط (الشريط الدليل) وتوصيل الهوائي"
+   },
+   "duration": 18.7,
+   "drive": {
+    "fr": "",
+    "ar": "186cSnCKqtyAUvEENOLdb4J5vue9rw6K8"
+   },
+   "keys": {
+    "fr": [
+     "À l'enfilage, on coupe la dépose de colle, le report, le pressage et le test : on ne garde que l'entraînement et l'enroulement."
+    ],
+    "ar": [
+     "عند تمرير الشريط نوقف وضع الغراء والتركيب والكبس والاختبار، ونُبقي فقط على السحب واللف."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_1A_2",
+   "order": 6,
+   "step": "1.A",
+   "main": "1",
+   "title": {
+    "fr": "Retirer la bande et préparer la jonction",
+    "ar": "نزع الشريط والتحضير للوصل"
+   },
+   "sub": {
+    "fr": "Enfiler la bande (bande guide) et raccorder l'antenne",
+    "ar": "تمرير الشريط (الشريط الدليل) وتوصيل الهوائي"
+   },
+   "duration": 130.9,
+   "drive": {
+    "fr": "",
+    "ar": "1iR39OVoSeemm6FsXrV6i1ZxpWUQ-FSWI"
+   },
+   "keys": {
+    "fr": [
+     "Étape 1 du changement de produit : enfiler la bande, raccorder l'antenne, désactiver les fonctions non utilisées."
+    ],
+    "ar": [
+     "الخطوة 1 من تغيير المنتج: تمرير الشريط، وصل الهوائي، تعطيل الوظائف غير المستخدمة."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_1A_3",
+   "order": 7,
+   "step": "1.A",
+   "main": "1",
+   "title": {
+    "fr": "Mettre la bobine en place et raccorder l'antenne",
+    "ar": "تركيب اللفة ووصل الهوائي"
+   },
+   "sub": {
+    "fr": "Enfiler la bande (bande guide) et raccorder l'antenne",
+    "ar": "تمرير الشريط (الشريط الدليل) وتوصيل الهوائي"
+   },
+   "duration": 222.5,
+   "drive": {
+    "fr": "",
+    "ar": "10m4Zs1MwXTgyf9I_xQYrbieXyiPG84p_"
+   },
+   "keys": {
+    "fr": [
+     "Correcteur de bande : à passer en manuel pendant un transfert d'antenne, puis à remettre en automatique."
+    ],
+    "ar": [
+     "مصحّح الشريط: يُحوَّل إلى الوضع اليدوي أثناء نقل الهوائي، ثم يُعاد إلى الوضع التلقائي."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_1A_4",
+   "order": 8,
+   "step": "1.A",
+   "main": "1",
+   "title": {
+    "fr": "Le chemin de la bande",
+    "ar": "مسار الشريط"
+   },
+   "sub": {
+    "fr": "Enfiler la bande (bande guide) et raccorder l'antenne",
+    "ar": "تمرير الشريط (الشريط الدليل) وتوصيل الهوائي"
+   },
+   "duration": 281.7,
+   "drive": {
+    "fr": "",
+    "ar": "18QskHNqY9t4C_1KgCc8IAM6ll2NnVZwP"
+   },
+   "keys": {
+    "fr": [
+     "À l'enfilage : Skip Disp, Skip Bond et Skip Hot Press cochés — seuls l'entraînement et l'enroulement restent actifs.",
+     "Bande guide : bande amorce utilisée pour enfiler la machine quand il n'y a pas d'antennes.",
+     "Use Take-up : doit rester coché quand l'enrouleur est utilisé — ne jamais le décocher."
+    ],
+    "ar": [
+     "عند التمرير: تُفعَّل Skip Disp وSkip Bond وSkip Hot Press، ولا يبقى إلا السحب واللف.",
+     "الشريط الدليل: شريط بادئ يُستخدم لتمرير الآلة حين لا توجد هوائيات.",
+     "Use Take-up: يجب أن يبقى مفعّلاً عند استخدام أداة اللف، ولا يُلغى أبداً."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_1A_5",
+   "order": 9,
+   "step": "1.A",
+   "main": "1",
+   "title": {
+    "fr": "Plaquer la bande et la mettre en tension",
+    "ar": "ضغط الشريط وشدّه"
+   },
+   "sub": {
+    "fr": "Enfiler la bande (bande guide) et raccorder l'antenne",
+    "ar": "تمرير الشريط (الشريط الدليل) وتوصيل الهوائي"
+   },
+   "duration": 104.5,
+   "drive": {
+    "fr": "",
+    "ar": "1IzQ2RxVIe5rGtaLY48vcoXgMWRFUSNo5"
+   },
+   "keys": {
+    "fr": [
+     "Le vide est produit par une soufflante. Ne jamais fermer les deux vannes d'aspiration en même temps : la soufflante risquerait d'être détruite."
+    ],
+    "ar": [
+     "التفريغ تولّده منفاخة. لا تُغلق صمّامي الشفط معاً أبداً: قد تتلف المنفاخة."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_1A_6",
+   "order": 10,
+   "step": "1.A",
+   "main": "1",
+   "title": {
+    "fr": "Position de la bobine et tension du dérouleur",
+    "ar": "موضع اللفة وشدّ أداة الفك"
+   },
+   "sub": {
+    "fr": "Enfiler la bande (bande guide) et raccorder l'antenne",
+    "ar": "تمرير الشريط (الشريط الدليل) وتوصيل الهوائي"
+   },
+   "duration": 94.2,
+   "drive": {
+    "fr": "",
+    "ar": "1aTJMJjm-OcDHSdJcbVsHd8yA1YcN-MzO"
+   },
+   "keys": {
+    "fr": [
+     "Un seul changement à la fois, et on note la valeur d'avant."
+    ],
+    "ar": [
+     "تغيير واحد في كل مرة، مع تدوين القيمة السابقة."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_1A_7",
+   "order": 11,
+   "step": "1.A",
+   "main": "1",
+   "title": {
+    "fr": "Rouleau de tension et largeur d'antenne",
+    "ar": "بكرة الشد وعرض الهوائي"
+   },
+   "sub": {
+    "fr": "Enfiler la bande (bande guide) et raccorder l'antenne",
+    "ar": "تمرير الشريط (الشريط الدليل) وتوصيل الهوائي"
+   },
+   "duration": 96.0,
+   "drive": {
+    "fr": "",
+    "ar": "1JJlhGNk2OF-yPcHePKAx00tZif-M8rvk"
+   },
+   "keys": {
+    "fr": [],
+    "ar": []
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_1A_8",
+   "order": 12,
+   "step": "1.A",
+   "main": "1",
+   "title": {
+    "fr": "Bacs tampons : capteurs haut et bas",
+    "ar": "حاويات التخزين: الحساسات العلوية والسفلية"
+   },
+   "sub": {
+    "fr": "Enfiler la bande (bande guide) et raccorder l'antenne",
+    "ar": "تمرير الشريط (الشريط الدليل) وتوصيل الهوائي"
+   },
+   "duration": 110.1,
+   "drive": {
+    "fr": "",
+    "ar": "1Bx0D4xbvr5KhjWZgH-l21JS53pExFjXM"
+   },
+   "keys": {
+    "fr": [
+     "Une cause, un poste : avant de toucher un réglage, demandez-vous quel module produit le défaut observé."
+    ],
+    "ar": [
+     "سبب واحد، موقع واحد: قبل تغيير أي إعداد، اسأل أي وحدة تُنتج الخلل الملاحظ."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_1B_1",
+   "order": 13,
+   "step": "1.B",
+   "main": "1",
+   "title": {
+    "fr": "Défilement à vide : fonctions et premier démarrage",
+    "ar": "التمرير على الفارغ: الوظائف والتشغيل الأول"
+   },
+   "sub": {
+    "fr": "Désactiver les fonctions non utilisées (Skip Disp, Skip Bond, Skip Hot Press)",
+    "ar": "تعطيل الوظائف غير المستخدمة (Skip Disp، Skip Bond، Skip Hot Press)"
+   },
+   "duration": 200.7,
+   "drive": {
+    "fr": "",
+    "ar": "1YtyPPego-46V8BjGHxhlBk-rNxF25jAt"
+   },
+   "keys": {
+    "fr": [
+     "Func Enable : active le jeu de fonctions sélectionné.",
+     "À l'enfilage, on coupe la dépose de colle, le report, le pressage et le test : on ne garde que l'entraînement et l'enroulement.",
+     "Reader : HF / UHF — doit correspondre à la technologie de l'étiquette."
+    ],
+    "ar": [
+     "Func Enable: يفعّل مجموعة الوظائف المختارة.",
+     "عند تمرير الشريط نوقف وضع الغراء والتركيب والكبس والاختبار، ونُبقي فقط على السحب واللف.",
+     "Reader: HF / UHF — يجب أن يطابق تقنية الملصق."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_1B_2",
+   "order": 14,
+   "step": "1.B",
+   "main": "1",
+   "title": {
+    "fr": "Activer la dépose seule, verrouiller le mode",
+    "ar": "تفعيل الوضع وحده وقفل النمط"
+   },
+   "sub": {
+    "fr": "Désactiver les fonctions non utilisées (Skip Disp, Skip Bond, Skip Hot Press)",
+    "ar": "تعطيل الوظائف غير المستخدمة (Skip Disp، Skip Bond، Skip Hot Press)"
+   },
+   "duration": 80.0,
+   "drive": {
+    "fr": "",
+    "ar": "1K08BvJYfGtcsLORKTpEVK3qJ4ymWL-Xm"
+   },
+   "keys": {
+    "fr": [
+     "Skip Disp / Skip Bond / Skip Hot Press : cocher une case, c'est sauter le poste. On n'active que ce dont on se sert, puis on verrouille le mode pour éviter un clic malheureux."
+    ],
+    "ar": [
+     "Skip Disp / Skip Bond / Skip Hot Press: تأشير الخانة يعني تجاوز المحطة. نفعّل ما نستعمله فقط، ثم نقفل النمط تفادياً لنقرة خاطئة."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_2A_1",
+   "order": 15,
+   "step": "2.A",
+   "main": "2",
+   "title": {
+    "fr": "Mesurer le pas d'antenne et défiler en vision",
+    "ar": "قياس خطوة الهوائي والتمرير بالرؤية"
+   },
+   "sub": {
+    "fr": "Saisir le pas d'antenne (Antenna Pitch)",
+    "ar": "إدخال خطوة الهوائي (Antenna Pitch)"
+   },
+   "duration": 94.7,
+   "drive": {
+    "fr": "",
+    "ar": "1Vz4JzLQ1wGMaSGFXlFuuF74-ACBHjrTI"
+   },
+   "keys": {
+    "fr": [
+     "Skip Feed Vis : désactive le contrôle visuel de l'alimentation.",
+     "Antenna Pitch : la valeur de référence de tout le procédé — elle commande l'avance. Exemple relevé : 25 400."
+    ],
+    "ar": [
+     "Skip Feed Vis: يعطّل الفحص البصري للتغذية.",
+     "Antenna Pitch: القيمة المرجعية لكامل العملية — تتحكم في التقدم. مثال مُسجّل: 25 400."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_3_1",
+   "order": 16,
+   "step": "3",
+   "main": "3",
+   "title": {
+    "fr": "Cellule du pressage et position de pressage sur la puce",
+    "ar": "خلية الكبس وموضع الكبس على الشريحة"
+   },
+   "sub": {
+    "fr": "",
+    "ar": ""
+   },
+   "duration": 357.6,
+   "drive": {
+    "fr": "",
+    "ar": "1FuoMjT1uZVbqc-W35oKr2aGxa4HtoFYJ"
+   },
+   "keys": {
+    "fr": [
+     "Align Dis : distance d'alignement avant pressage — positionne l'étiquette sous les têtes.",
+     "Distances mécaniques (règle, en cm) : vérifier que les postes sont physiquement à la bonne place le long de la bande. Exemples relevés : 13,7 / 13,5 / 15,5 cm."
+    ],
+    "ar": [
+     "Align Dis: مسافة المحاذاة قبل الكبس — تضع الملصق تحت الرؤوس.",
+     "المسافات الميكانيكية (بالمسطرة، بالسنتيمتر): التحقق من أن المحطات في مكانها الصحيح على طول الشريط. أمثلة مُسجّلة: 13.7 / 13.5 / 15.5 سم."
+    ]
+   },
+   "note": "Rattaché à l'étape 3: le technicien parle de la position de pressage par rapport à la puce et aux postes. Le capteur photoélectrique montré n'est pas décrit dans le guide (réglage concerné:).",
+   "confidence": "probable",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_3_2",
+   "order": 17,
+   "step": "3",
+   "main": "3",
+   "title": {
+    "fr": "Cellule photoélectrique et repère (mark point)",
+    "ar": "الخلية الضوئية والعلامة (mark point)"
+   },
+   "sub": {
+    "fr": "",
+    "ar": ""
+   },
+   "duration": 69.3,
+   "drive": {
+    "fr": "",
+    "ar": "1QpQdFn3-UVGWYnZQSsLQbsdzJZSWgMgO"
+   },
+   "keys": {
+    "fr": [
+     "Align Dis : distance d'alignement avant pressage — positionne l'étiquette sous les têtes.",
+     "Reconnaissance du repère : dépend du produit — certaines antennes ont un repère, d'autres non."
+    ],
+    "ar": [
+     "Align Dis: مسافة المحاذاة قبل الكبس — تضع الملصق تحت الرؤوس.",
+     "التعرّف على العلامة: حسب المنتج — بعض الهوائيات لها علامة، وبعضها لا."
+    ]
+   },
+   "note": "Même sujet que la vidéo précédente de l'étape 3. Capteur non décrit dans le guide; réglage concerné:'ont pas été doublées.",
+   "confidence": "probable",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_3_3",
+   "order": 18,
+   "step": "3",
+   "main": "3",
+   "title": {
+    "fr": "Guides latéraux : les régler à la règle",
+    "ar": "الموجّهات الجانبية: ضبطها بالمسطرة"
+   },
+   "sub": {
+    "fr": "",
+    "ar": ""
+   },
+   "duration": 144.3,
+   "drive": {
+    "fr": "",
+    "ar": "14uJfoOfDp4dYdN6idn28PJQdMYGQqtV1"
+   },
+   "keys": {
+    "fr": [
+     "Distances mécaniques (règle) : vérifier que les postes sont physiquement à la bonne place le long de la bande.",
+     "La vision corrige, elle ne répare pas : si la mécanique est mal placée, la correction par caméra finit par saturer."
+    ],
+    "ar": [
+     "المسافات الميكانيكية (بالمسطرة): التحقق من أن المحطات في مكانها الصحيح على طول الشريط.",
+     "الرؤية تصحّح ولا تُصلح: إن كانت الميكانيكا في غير مكانها، يبلغ تصحيح الكاميرا حدّه في النهاية."
+    ]
+   },
+   "note": "Les guides mécaniques montrés ne sont pas nommés dans le guide; rattaché à l'étape 3.",
+   "confidence": "probable",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_3_4",
+   "order": 19,
+   "step": "3",
+   "main": "3",
+   "title": {
+    "fr": "Pratique : cellule, repère et position de pressage",
+    "ar": "تطبيق: الخلية والعلامة وموضع الكبس"
+   },
+   "sub": {
+    "fr": "",
+    "ar": ""
+   },
+   "duration": 445.5,
+   "drive": {
+    "fr": "",
+    "ar": "1nsvfSLRo1bRsqICi73dNFX_zFYztf4kt"
+   },
+   "keys": {
+    "fr": [
+     "Distances mécaniques : vérifier que les postes sont physiquement à la bonne place le long de la bande.",
+     "La colle polymérise sous la chaleur, tandis que la pression maintient les contacts de la puce sur l'antenne.",
+     "Align Dis : distance d'alignement avant pressage — positionne l'étiquette sous les têtes."
+    ],
+    "ar": [
+     "المسافات الميكانيكية: التحقق من أن المحطات في مكانها الصحيح على طول الشريط.",
+     "الغراء يتصلّب بالحرارة، بينما يُبقي الضغطُ تلامس الشريحة مع الهوائي.",
+     "Align Dis: مسافة المحاذاة قبل الكبس — تضع الملصق تحت الرؤوس."
+    ]
+   },
+   "note": "Même sujet que les autres vidéos de l'étape 3. Le rouleau presseur doit éviter la zone de colle non durcie (règle du technicien;).",
+   "confidence": "probable",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_4_1",
+   "order": 20,
+   "step": "4",
+   "main": "4",
+   "title": {
+    "fr": "Recentrer les caméras sur le point de colle",
+    "ar": "إعادة توسيط الكاميرات على نقطة الغراء"
+   },
+   "sub": {
+    "fr": "",
+    "ar": ""
+   },
+   "duration": 325.0,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "keys": {
+    "fr": [
+     "Étape 4 du guide : centrer les caméras de contrôle — chaque caméra doit voir l'endroit dont elle est responsable.",
+     "La caméra de contrôle regarde l'aplomb de la buse : ce qu'elle voit est exactement là où la colle tombe.",
+     "La vision corrige, elle ne répare pas : si la mécanique est mal placée, la correction par caméra finit par saturer."
+    ],
+    "ar": [
+     "الخطوة 4 في الدليل: توسيط كاميرات المراقبة — على كل كاميرا أن ترى الموضع المسؤولة عنه.",
+     "كاميرا المراجعة تنظر إلى أسفل الفوهة: وما تراه هو تماماً حيث يقع الغراء.",
+     "الرؤية تصحّح ولا تُصلح: فإن كانت الميكانيكا في غير موضعها تشبّع التصحيح بالكاميرا."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_5A_1",
+   "order": 21,
+   "step": "5.A",
+   "main": "5",
+   "title": {
+    "fr": "Caméras de dépose, antenne sous la buse, hauteur de buse",
+    "ar": "كاميرات الوضع، الهوائي تحت الفوهة، ارتفاع الفوهة"
+   },
+   "sub": {
+    "fr": "Régler la position de dépose de colle",
+    "ar": "ضبط موضع وضع الغراء"
+   },
+   "duration": 278.0,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "keys": {
+    "fr": [
+     "Caméras de la machine : une caméra avant la dépose, une caméra de contrôle après — ce sont deux objectifs distincts.",
+     "Position de dépose : la buse travaille tout près de l'étiquette ; trop haut, le point s'étale et se décale."
+    ],
+    "ar": [
+     "كاميرات الآلة: كاميرا قبل الوضع وكاميرا مراجعة بعده — وهما عدستان مختلفتان.",
+     "موضع الوضع: تعمل الفوهة قريبة جداً من الملصق؛ وإذا علت انتشرت النقطة وانزاحت."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_5A_2",
+   "order": 22,
+   "step": "5.A",
+   "main": "5",
+   "title": {
+    "fr": "Corriger la position du point (décalages S et Y)",
+    "ar": "تصحيح موضع النقطة (إزاحتا S وY)"
+   },
+   "sub": {
+    "fr": "Régler la position de dépose de colle",
+    "ar": "ضبط موضع وضع الغراء"
+   },
+   "duration": 205.0,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "keys": {
+    "fr": [
+     "Le décalage de dépose se corrige dans la fenêtre Disp, en unités machine — pas en millimètres.",
+     "Un seul changement à la fois, et on note la valeur d'avant : sinon, impossible de revenir en arrière."
+    ],
+    "ar": [
+     "تُصحَّح إزاحة الوضع في نافذة Disp، بوحدات الآلة — لا بالمليمترات.",
+     "تغيير واحد في كل مرّة، مع تدوين القيمة السابقة: وإلّا تعذّر الرجوع."
+    ]
+   },
+   "note": "« 300 unités par point » est l'ordre de grandeur du technicien sur cette machine, pas une valeur du guide.",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_5B_1",
+   "order": 23,
+   "step": "5.B",
+   "main": "5",
+   "title": {
+    "fr": "Créer le modèle de vision de dépose (Disp Cam)",
+    "ar": "إنشاء نموذج رؤية وضع الغراء (Disp Cam)"
+   },
+   "sub": {
+    "fr": "Créer le modèle de vision de dépose (Disp Cam)",
+    "ar": "إنشاء نموذج رؤية وضع الغراء (Disp Cam)"
+   },
+   "duration": 100.3,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "keys": {
+    "fr": [
+     "Disp Mark Rec : reconnaissance du repère imprimé. Dépend du produit : certaines antennes ont un repère, d'autres non.",
+     "Modèle de vision : Create Model → Edit Model → Find Model → Model Params",
+     "Le point de repère du modèle est la position renvoyée à la machine : le déplacer déplace la correction."
+    ],
+    "ar": [
+     "Disp Mark Rec: التعرّف على العلامة المطبوعة. حسب المنتج: بعض الهوائيات لها علامة، وبعضها لا.",
+     "نموذج الرؤية: Create Model ← Edit Model ← Find Model ← Model Params",
+     "نقطة المرجع في النموذج هي الموضع الذي يُرسَل إلى الآلة: تحريكها يحرّك التصحيح."
+    ]
+   },
+   "note": "Rattachement déduit du contenu : le technicien prend une seule antenne comme modèle de vision ; le guide ne décrit pas exactement ce geste.",
+   "confidence": "probable",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_5B_2",
+   "order": 24,
+   "step": "5.B",
+   "main": "5",
+   "title": {
+    "fr": "Mode vision : le modèle de dépose",
+    "ar": "وضع الرؤية: نموذج وضع الغراء"
+   },
+   "sub": {
+    "fr": "Créer le modèle de vision de dépose (Disp Cam)",
+    "ar": "إنشاء نموذج رؤية وضع الغراء (Disp Cam)"
+   },
+   "duration": 71.5,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "keys": {
+    "fr": [
+     "Create Model → Edit Model → Find Model → Model Params",
+     "Find Model : c'est le test — si la pièce n'est pas trouvée, le modèle est à revoir."
+    ],
+    "ar": [
+     "Create Model ← Edit Model ← Find Model ← Model Params",
+     "Find Model: هذا هو الاختبار — إن لم تُوجد القطعة فالنموذج يحتاج مراجعة."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_5B_3",
+   "order": 25,
+   "step": "5.B",
+   "main": "5",
+   "title": {
+    "fr": "Créer le modèle de dépose : un repère unique",
+    "ar": "إنشاء نموذج الوضع: علامة فريدة"
+   },
+   "sub": {
+    "fr": "Créer le modèle de vision de dépose (Disp Cam)",
+    "ar": "إنشاء نموذج رؤية وضع الغراء (Disp Cam)"
+   },
+   "duration": 200.0,
+   "drive": {
+    "fr": "",
+    "ar": "1XXW56H6py7cxdoQUys5mGn8-L-gD6puW"
+   },
+   "keys": {
+    "fr": [
+     "Modèle de vision : on apprend une forme unique et stable de l'étiquette, jamais une zone qui change d'un produit à l'autre.",
+     "Threshold / similarité : trop haut, la machine ne retrouve plus le motif ; 50 % suffit ici."
+    ],
+    "ar": [
+     "نموذج الرؤية: نُعلّم الآلة شكلاً فريداً ثابتاً من الملصق، لا منطقة تتغيّر بين منتج وآخر.",
+     "العتبة/التشابه: إن ارتفعت كثيراً لم تعد الآلة تجد الشكل؛ و50٪ تكفي هنا."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_5B_4",
+   "order": 26,
+   "step": "5.B",
+   "main": "5",
+   "title": {
+    "fr": "Changement d'antenne : refaire le modèle",
+    "ar": "تغيير الهوائي: إعادة إنشاء النموذج"
+   },
+   "sub": {
+    "fr": "Créer le modèle de vision de dépose (Disp Cam)",
+    "ar": "إنشاء نموذج رؤية وضع الغراء (Disp Cam)"
+   },
+   "duration": 78.0,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "keys": {
+    "fr": [
+     "Un modèle n'est valable que pour l'étiquette sur laquelle il a été appris : au raccord de bobine, il est à reprendre.",
+     "Arrêts fréquents sans défaut visible : avant de suspecter la machine, vérifier que le modèle correspond encore au produit."
+    ],
+    "ar": [
+     "لا يصلح النموذج إلا للملصق الذي تعلّمه منه: وعند وصل البكرة يجب إعادته.",
+     "توقفات متكرّرة بلا عطل ظاهر: قبل اتّهام الآلة، تحقّق من مطابقة النموذج للمنتج."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_5C_1",
+   "order": 27,
+   "step": "5.C",
+   "main": "5",
+   "title": {
+    "fr": "Température de la colle et pression d'air",
+    "ar": "حرارة الغراء وضغط الهواء"
+   },
+   "sub": {
+    "fr": "Paramètres de dépose et contrôle du point de colle",
+    "ar": "إعدادات وضع الغراء وفحص نقطة الغراء"
+   },
+   "duration": 68.0,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "keys": {
+    "fr": [
+     "Les paramètres de dépose vivent dans la fenêtre Disp : c'est là que se règle le point de colle.",
+     "Chaque colle a ses valeurs : température et pression dépendent du produit, à faire confirmer par le service méthodes."
+    ],
+    "ar": [
+     "إعدادات الوضع في نافذة Disp: ومنها تُضبط نقطة الغراء.",
+     "لكل غراء قيمه: الحرارة والضغط يتوقفان على المنتج، ويؤكّدهما قسم الطرق."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_5C_2",
+   "order": 28,
+   "step": "5.C",
+   "main": "5",
+   "title": {
+    "fr": "Purge et paramètres du doseur",
+    "ar": "التفريغ وإعدادات الموزّع"
+   },
+   "sub": {
+    "fr": "Paramètres de dépose et contrôle du point de colle",
+    "ar": "إعدادات وضع الغراء وفحص نقطة الغراء"
+   },
+   "duration": 134.0,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "keys": {
+    "fr": [
+     "Disp Time (open time) et course : les deux réglages qui changent la taille du point de colle.",
+     "Le mode continu sert à purger, pas à produire : on revient toujours au point unique ensuite."
+    ],
+    "ar": [
+     "Disp Time (زمن الفتح) والشوط: الإعدادان اللذان يغيّران حجم نقطة الغراء.",
+     "الوضع المستمر للتفريغ لا للإنتاج: ونعود بعده دائماً إلى النقطة الواحدة."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_5C_3",
+   "order": 29,
+   "step": "5.C",
+   "main": "5",
+   "title": {
+    "fr": "Augmenter le point de colle (course)",
+    "ar": "تكبير نقطة الغراء (الشوط)"
+   },
+   "sub": {
+    "fr": "Paramètres de dépose et contrôle du point de colle",
+    "ar": "إعدادات وضع الغراء وفحص نقطة الغراء"
+   },
+   "duration": 77.0,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "keys": {
+    "fr": [
+     "Point de colle trop gros ou trop petit : pression d'air d'abord, puis Disp Time, puis la course. Un seul réglage à la fois."
+    ],
+    "ar": [
+     "نقطة الغراء كبيرة أو صغيرة: ضغط الهواء أولاً، ثم Disp Time، ثم الشوط. وإعداد واحد في كل مرّة."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_5C_4",
+   "order": 30,
+   "step": "5.C",
+   "main": "5",
+   "title": {
+    "fr": "Réduire le point, et juger la bonne quantité",
+    "ar": "تصغير النقطة، والحكم على الكمية الصحيحة"
+   },
+   "sub": {
+    "fr": "Paramètres de dépose et contrôle du point de colle",
+    "ar": "إعدادات وضع الغراء وفحص نقطة الغراء"
+   },
+   "duration": 119.5,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "keys": {
+    "fr": [
+     "Disp Time (open time) pour le réglage fin, la course pour un changement franc — l'un des deux à la fois.",
+     "La plupart des effets ne se jugent pas sur une étiquette mais sur une dizaine : on vérifie sur plusieurs cycles."
+    ],
+    "ar": [
+     "Disp Time (زمن الفتح) للضبط الدقيق، والشوط لتغيير واضح — واحد منهما في كل مرّة.",
+     "معظم الآثار لا تُحكَم على ملصق واحد بل على عشرة: نتحقّق عبر عدّة دورات."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_6A_1",
+   "order": 31,
+   "step": "6.A",
+   "main": "6",
+   "title": {
+    "fr": "Position de report : la puce dans la rainure à vide",
+    "ar": "موضع التركيب: الشريحة داخل مجرى التفريغ"
+   },
+   "sub": {
+    "fr": "Régler la position de report",
+    "ar": "ضبط موضع التركيب"
+   },
+   "duration": 123.8,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "keys": {
+    "fr": [
+     "Juste avant la pose, une caméra mesure l'écart réel ; la machine corrige la position de pose.",
+     "Caméra de contrôle (Review) : vérifie que la puce est posée et bien orientée."
+    ],
+    "ar": [
+     "قبيل الوضع تقيس كاميرا الانزياح الفعلي؛ فتصحّح الآلة موضع الوضع.",
+     "كاميرا المراقبة (Review): تتحقق من أن الشريحة موضوعة وموجّهة جيداً."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_6B_1",
+   "order": 32,
+   "step": "6.B",
+   "main": "6",
+   "title": {
+    "fr": "Modèle de report : la zone de reconnaissance",
+    "ar": "نموذج التركيب: منطقة التعرّف"
+   },
+   "sub": {
+    "fr": "Créer le modèle de report (Bond Cam)",
+    "ar": "إنشاء نموذج التركيب (Bond Cam)"
+   },
+   "duration": 56.5,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "keys": {
+    "fr": [
+     "Create Model : se clique deux fois — attendre le message de réussite.",
+     "Threshold : trop haut, contour incomplet ; trop bas, le grain du support est détecté. Plages d'angle et d'échelle : les garder serrées."
+    ],
+    "ar": [
+     "Create Model: يُنقر مرتين — انتظر رسالة النجاح.",
+     "Threshold: إن ارتفع كثيراً كان الحدّ ناقصاً، وإن انخفض كثيراً التُقطت حبيبات الخلفية. مجالا الزاوية والحجم: يُبقيان ضيّقين."
+    ]
+   },
+   "note": "L'onglet caméra n'est pas lisible à l'écran ; caméra de report (Bond Cam) déduite de l'image et de l'ordre (dépose de colle, puis report).",
+   "confidence": "probable",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_9_1",
+   "order": 33,
+   "step": "9",
+   "main": "9",
+   "title": {
+    "fr": "Introduction : pourquoi aligner",
+    "ar": "مقدمة: لماذا المحاذاة"
+   },
+   "sub": {
+    "fr": "",
+    "ar": ""
+   },
+   "duration": 21.9,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "keys": {
+    "fr": [
+     "Aiguille, flip et buse doivent être parfaitement alignés : un défaut fait tomber ou casser des puces."
+    ],
+    "ar": [
+     "الإبرة والقلّاب والفوهة يجب أن تكون متحاذية تماماً: أي خلل يُسقط الشرائح أو يكسرها."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_9C_1",
+   "order": 34,
+   "step": "9.C",
+   "main": "9",
+   "title": {
+    "fr": "Préparation : dégager le wafer",
+    "ar": "التحضير: إخراج الرقاقة"
+   },
+   "sub": {
+    "fr": "Changer l'aiguille d'éjection et les buses",
+    "ar": "تبديل إبرة الدفع والفوهات"
+   },
+   "duration": 73.7,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "keys": {
+    "fr": [
+     "Avant toute intervention physique (têtes chauffantes, air comprimé, wafer) : machine à l'arrêt, arrêt d'urgence enclenché lorsque la procédure le demande.",
+     "Change Wafer : un clic pour sortir le plateau, un clic pour le recharger."
+    ],
+    "ar": [
+     "قبل أي تدخل مادي (رؤوس التسخين، الهواء المضغوط، الرقاقة): الآلة متوقفة، وزر الطوارئ مفعّل حين يطلب الإجراء ذلك.",
+     "Change Wafer: نقرة لإخراج الحامل، ونقرة لإعادة تحميله."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_9C_2",
+   "order": 35,
+   "step": "9.C",
+   "main": "9",
+   "title": {
+    "fr": "Changer l'aiguille d'éjection",
+    "ar": "تبديل إبرة الدفع"
+   },
+   "sub": {
+    "fr": "Changer l'aiguille d'éjection et les buses",
+    "ar": "تبديل إبرة الدفع والفوهات"
+   },
+   "duration": 154.0,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "keys": {
+    "fr": [
+     "Up / Down / Left / Right, In / Out : déplacements de la table du wafer — utiliser les boutons de l'image.",
+     "Course de l'aiguille : trop peu, la puce ne se décolle pas ; trop, on risque de l'abîmer."
+    ],
+    "ar": [
+     "Up / Down / Left / Right و In / Out: تحريك طاولة الرقاقة — باستخدام أزرار الصورة.",
+     "شوط الإبرة: إن كان قليلاً لا تنفصل الشريحة، وإن زاد قد تتلف."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_9C_3",
+   "order": 36,
+   "step": "9.C",
+   "main": "9",
+   "title": {
+    "fr": "Changer les buses (flip et report)",
+    "ar": "تبديل الفوهات (القلّاب والتركيب)"
+   },
+   "sub": {
+    "fr": "Changer l'aiguille d'éjection et les buses",
+    "ar": "تبديل إبرة الدفع والفوهات"
+   },
+   "duration": 125.5,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "keys": {
+    "fr": [
+     "Positions A1 / B1 / A2 / B2 : les valeurs ne doivent jamais être mélangées entre positions.",
+     "Flip Motor Ax6 : rotation du flip (retournement) — onglet Manual Bonding.",
+     "Standby : position d'attente entre deux cycles — doit dégager le passage des autres organes."
+    ],
+    "ar": [
+     "المواضع A1 / B1 / A2 / B2: لا تُخلط قيمها بين المواضع أبداً.",
+     "Flip Motor Ax6: تدوير القلّاب — تبويب Manual Bonding.",
+     "Standby: موضع الانتظار بين دورتين — يجب أن يُفسح الطريق لبقية الأجزاء."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_9C_4",
+   "order": 37,
+   "step": "9.C",
+   "main": "9",
+   "title": {
+    "fr": "Changer les buses de report (tête en croix)",
+    "ar": "تبديل فوهات التركيب (الرأس الصليبي)"
+   },
+   "sub": {
+    "fr": "Changer l'aiguille d'éjection et les buses",
+    "ar": "تبديل إبرة الدفع والفوهات"
+   },
+   "duration": 187.2,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "keys": {
+    "fr": [
+     "Quatre positions de travail A1, B1, A2, B2 — deux voies, deux positions chacune. Elles reviennent partout dans le logiciel."
+    ],
+    "ar": [
+     "أربعة مواضع عمل A1 وB1 وA2 وB2 — مساران، لكل منهما موضعان. تتكرر في كل البرنامج."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_9C_5",
+   "order": 38,
+   "step": "9.C",
+   "main": "9",
+   "title": {
+    "fr": "Quand changer l'aiguille et les buses",
+    "ar": "متى تُبدَّل الإبرة والفوهات"
+   },
+   "sub": {
+    "fr": "Changer l'aiguille d'éjection et les buses",
+    "ar": "تبديل إبرة الدفع والفوهات"
+   },
+   "duration": 62.5,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "keys": {
+    "fr": [
+     "Un changement de produit touche presque tous les modules."
+    ],
+    "ar": [
+     "تغيير المنتج يمسّ تقريباً كل الوحدات."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_9C_6",
+   "order": 39,
+   "step": "9.C",
+   "main": "9",
+   "title": {
+    "fr": "Pratique : retirer le capuchon de l'aiguille",
+    "ar": "تطبيق: نزع غطاء الإبرة"
+   },
+   "sub": {
+    "fr": "Changer l'aiguille d'éjection et les buses",
+    "ar": "تبديل إبرة الدفع والفوهات"
+   },
+   "duration": 83.6,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "keys": {
+    "fr": [
+     "Avant toute intervention physique : machine à l'arrêt, arrêt d'urgence enclenché lorsque la procédure le demande."
+    ],
+    "ar": [
+     "قبل أي تدخل مادي: الآلة متوقفة، وزر الطوارئ مفعّل حين يطلب الإجراء ذلك."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_9C_7",
+   "order": 40,
+   "step": "9.C",
+   "main": "9",
+   "title": {
+    "fr": "Pratique : monter l'aiguille, contrôler le ressort",
+    "ar": "تطبيق: تركيب الإبرة وفحص النابض"
+   },
+   "sub": {
+    "fr": "Changer l'aiguille d'éjection et les buses",
+    "ar": "تبديل إبرة الدفع والفوهات"
+   },
+   "duration": 196.5,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "keys": {
+    "fr": [
+     "Course de l'aiguille : trop peu, la puce ne se décolle pas ; trop, on risque de l'abîmer."
+    ],
+    "ar": [
+     "شوط الإبرة: إن كان قليلاً لا تنفصل الشريحة، وإن زاد قد تتلف."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_9C_8",
+   "order": 41,
+   "step": "9.C",
+   "main": "9",
+   "title": {
+    "fr": "Pratique : buses du flip et rotation de 180°",
+    "ar": "تطبيق: فوهات القلّاب والدوران 180 درجة"
+   },
+   "sub": {
+    "fr": "Changer l'aiguille d'éjection et les buses",
+    "ar": "تبديل إبرة الدفع والفوهات"
+   },
+   "duration": 343.5,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "keys": {
+    "fr": [
+     "Flip Motor Ax6 : rotation du flip (retournement) — onglet Manual Bonding.",
+     "Standby : position d'attente de l'axe entre deux cycles.",
+     "Un seul changement à la fois, et on note la valeur d'avant."
+    ],
+    "ar": [
+     "Flip Motor Ax6: تدوير القلّاب — تبويب Manual Bonding.",
+     "Standby: موضع انتظار المحور بين دورتين.",
+     "تغيير واحد في كل مرة، مع تدوين القيمة السابقة."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_9C_9",
+   "order": 42,
+   "step": "9.C",
+   "main": "9",
+   "title": {
+    "fr": "Pratique : têtes de report — serrer à fond",
+    "ar": "تطبيق: رؤوس التركيب — الشد الكامل"
+   },
+   "sub": {
+    "fr": "Changer l'aiguille d'éjection et les buses",
+    "ar": "تبديل إبرة الدفع والفوهات"
+   },
+   "duration": 223.0,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "keys": {
+    "fr": [
+     "Die Blow Time : durée du souffle de décollement de la puce au moment de la pose.",
+     "En cas de doute, on arrête. Les organes chauds, sous pression ou sous vide ne pardonnent pas l'improvisation."
+    ],
+    "ar": [
+     "Die Blow Time: مدة نفخة فصل الشريحة لحظة وضعها.",
+     "عند الشك نتوقف. الأجزاء الساخنة أو المضغوطة أو تحت التفريغ لا تغفر الارتجال."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_9_2",
+   "order": 43,
+   "step": "9",
+   "main": "9",
+   "title": {
+    "fr": "Préparer l'alignement : Linkage, caméras, hauteur",
+    "ar": "التحضير للمحاذاة: Linkage، الكاميرات، الارتفاع"
+   },
+   "sub": {
+    "fr": "",
+    "ar": ""
+   },
+   "duration": 243.9,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "keys": {
+    "fr": [
+     "Linkage : doit être coché avant de commencer l'alignement des buses.",
+     "Combined Op : on choisit d'abord A1, B1, A2 ou B2, puis on clique — l'ensemble des axes rejoint la position."
+    ],
+    "ar": [
+     "Linkage: يجب تفعيله قبل البدء بمحاذاة الفوهات.",
+     "Combined Op: نختار أولاً A1 أو B1 أو A2 أو B2 ثم ننقر — فتنتقل كل المحاور إلى الموضع."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_9_3",
+   "order": 44,
+   "step": "9",
+   "main": "9",
+   "title": {
+    "fr": "Aligner la position A1 : axe Y, puis axe X",
+    "ar": "محاذاة الموضع A1: المحور Y ثم X"
+   },
+   "sub": {
+    "fr": "",
+    "ar": ""
+   },
+   "duration": 150.0,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "keys": {
+    "fr": [
+     "Ordre imposé : de haut en bas pour l'axe Y, de bas en haut pour l'axe X. Ne jamais mélanger les valeurs entre positions.",
+     "Cur Pos : position actuelle — c'est cette valeur que l'on relève puis que l'on recopie dans un champ de position."
+    ],
+    "ar": [
+     "ترتيب مفروض: من الأعلى إلى الأسفل للمحور Y، ومن الأسفل إلى الأعلى للمحور X. لا تُخلط القيم بين المواضع أبداً.",
+     "Cur Pos: الموضع الحالي — هذه القيمة نقرؤها ثم ننسخها في حقل الموضع."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_9_4",
+   "order": 45,
+   "step": "9",
+   "main": "9",
+   "title": {
+    "fr": "Positions B1, A2 et B2",
+    "ar": "المواضع B1 وA2 وB2"
+   },
+   "sub": {
+    "fr": "",
+    "ar": ""
+   },
+   "duration": 103.1,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "keys": {
+    "fr": [
+     "L'alignement est refait pour chacune des quatre positions A1, B1, A2, B2."
+    ],
+    "ar": [
+     "تُعاد المحاذاة لكل موضع من المواضع الأربعة A1 وB1 وA2 وB2."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_9_5",
+   "order": 46,
+   "step": "9",
+   "main": "9",
+   "title": {
+    "fr": "La règle des axes et la fin de l'alignement",
+    "ar": "قاعدة المحاور ونهاية المحاذاة"
+   },
+   "sub": {
+    "fr": "",
+    "ar": ""
+   },
+   "duration": 155.8,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "keys": {
+    "fr": [
+     "Chaque axe mémorise une valeur pour chacune des positions A1, B1, A2, B2.",
+     "Linkage : lie les axes entre eux pendant l'alignement — à décocher à la fin."
+    ],
+    "ar": [
+     "كل محور يحفظ قيمة لكل موضع من A1 وB1 وA2 وB2.",
+     "Linkage: يربط المحاور أثناء المحاذاة — يُلغى في النهاية."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_9_6",
+   "order": 47,
+   "step": "9",
+   "main": "9",
+   "title": {
+    "fr": "Exercice : refaire l'alignement",
+    "ar": "تمرين: إعادة المحاذاة"
+   },
+   "sub": {
+    "fr": "",
+    "ar": ""
+   },
+   "duration": 73.8,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "keys": {
+    "fr": [
+     "Aiguille, flip et buse doivent être parfaitement alignés, pour chacune des positions A1, B1, A2, B2.",
+     "Un seul changement à la fois, et on note la valeur d'avant."
+    ],
+    "ar": [
+     "الإبرة والقلّاب والفوهة يجب أن تكون متحاذية تماماً، لكل من المواضع A1 وB1 وA2 وB2.",
+     "تغيير واحد في كل مرة، مع تدوين القيمة السابقة."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_9_7",
+   "order": 48,
+   "step": "9",
+   "main": "9",
+   "title": {
+    "fr": "Pratique : lancer l'alignement",
+    "ar": "تطبيق: بدء المحاذاة"
+   },
+   "sub": {
+    "fr": "",
+    "ar": ""
+   },
+   "duration": 109.9,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "keys": {
+    "fr": [
+     "Linkage : doit être coché avant de commencer l'alignement des buses.",
+     "Combined Op : on choisit d'abord A1, B1, A2 ou B2, puis on clique."
+    ],
+    "ar": [
+     "Linkage: يجب تفعيله قبل البدء بمحاذاة الفوهات.",
+     "Combined Op: نختار أولاً A1 أو B1 أو A2 أو B2 ثم ننقر."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_10A_1",
+   "order": 49,
+   "step": "10.A",
+   "main": "10",
+   "title": {
+    "fr": "Charger le wafer (pratique)",
+    "ar": "تحميل الرقاقة (تطبيق عملي)"
+   },
+   "sub": {
+    "fr": "Changer le wafer (Change Wafer)",
+    "ar": "تغيير الرقاقة (Change Wafer)"
+   },
+   "duration": 287.5,
+   "drive": {
+    "fr": "",
+    "ar": "1LsRgxaEG3LtvyF1RutGs6fqHL8YgIR3W"
+   },
+   "keys": {
+    "fr": [
+     "Change Wafer : un clic pour sortir le plateau, un clic pour le recharger.",
+     "La direction réelle de pose de la puce est tournée de 90° dans le sens antihoraire par rapport à la vue wafer — l'erreur classique du débutant.",
+     "Le wafer est collé sur un film souple tendu sur un cadre, posé sur un plateau motorisé en X et Y."
+    ],
+    "ar": [
+     "Change Wafer: نقرة لإخراج الحامل، ونقرة لإعادة تحميله.",
+     "اتجاه وضع الشريحة الفعلي مُدار 90 درجة عكس عقارب الساعة مقارنة بعرض الرقاقة — الخطأ الكلاسيكي للمبتدئ.",
+     "الرقاقة ملصقة على غشاء مرن مشدود على إطار، موضوع على حامل متحرك على X وY."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_10A_2",
+   "order": 50,
+   "step": "10.A",
+   "main": "10",
+   "title": {
+    "fr": "Change Wafer et Wafer Cam : dégager l'espace",
+    "ar": "Change Wafer وWafer Cam: إفساح المكان"
+   },
+   "sub": {
+    "fr": "Changer le wafer (Change Wafer)",
+    "ar": "تغيير الرقاقة (Change Wafer)"
+   },
+   "duration": 108.0,
+   "drive": {
+    "fr": "",
+    "ar": "1cL4F-Bx36abMWz6s9T5eQ4lWprkFl5pU"
+   },
+   "keys": {
+    "fr": [
+     "Change Wafer : sort ou rentre le plateau porte-wafer.",
+     "Up / Down / Left / Right, In / Out : déplacements de la table du wafer."
+    ],
+    "ar": [
+     "Change Wafer: يُخرج حامل الرقاقة أو يُدخله.",
+     "Up / Down / Left / Right و In / Out: تحريك طاولة الرقاقة."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_11A_1",
+   "order": 51,
+   "step": "11.A",
+   "main": "11",
+   "title": {
+    "fr": "Têtes et gabarits selon la taille d'antenne",
+    "ar": "الرؤوس والقوالب حسب حجم الهوائي"
+   },
+   "sub": {
+    "fr": "Disposer et raccorder les têtes chauffantes",
+    "ar": "ترتيب رؤوس التسخين وتوصيلها"
+   },
+   "duration": 81.5,
+   "drive": {
+    "fr": "",
+    "ar": "15EGDArMDH05d4nSP3a4IlQGhkv7yI_w4"
+   },
+   "keys": {
+    "fr": [
+     "On n'utilise que les têtes qui correspondent à la longueur d'étiquette du produit, et on désactive les autres.",
+     "Têtes supérieures et inférieures en vis-à-vis ; chaque tête raccordée à son numéro électrique et pneumatique."
+    ],
+    "ar": [
+     "لا تُستخدم إلا الرؤوس المطابقة لطول ملصق المنتج، وتُعطَّل الأخرى.",
+     "الرؤوس العلوية والسفلية متقابلة؛ وكل رأس موصول برقمه الكهربائي والهوائي."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_11B_1",
+   "order": 52,
+   "step": "11.B",
+   "main": "11",
+   "title": {
+    "fr": "Mise en chauffe : alarmes, consigne, copie",
+    "ar": "التسخين: الإنذارات، القيمة المستهدفة، النسخ"
+   },
+   "sub": {
+    "fr": "Régler les consignes de température",
+    "ar": "ضبط درجات الحرارة المستهدفة"
+   },
+   "duration": 124.5,
+   "drive": {
+    "fr": "",
+    "ar": "1u4Xco0RMIZVyX5vE5I1Ir5QOt-_s3LPk"
+   },
+   "keys": {
+    "fr": [
+     "Upper Alarm Set : le manuel demande d'ouvrir ce réglage avant le démarrage global.",
+     "OneClickCopy : copie une consigne sur tout un groupe de têtes.",
+     "On n'utilise que les têtes qui correspondent à la longueur d'étiquette ; après le démarrage global, les têtes en rouge se désactivent (non utilisées ou en défaut)."
+    ],
+    "ar": [
+     "Upper Alarm Set: يطلب الدليل فتح هذا الإعداد قبل التشغيل الشامل.",
+     "OneClickCopy: ينسخ القيمة المستهدفة على مجموعة كاملة من الرؤوس.",
+     "لا تُستخدم إلا الرؤوس المطابقة لطول الملصق؛ وبعد التشغيل الشامل تُعطَّل الرؤوس الحمراء (غير المستخدمة أو المعطوبة)."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_11B_2",
+   "order": 53,
+   "step": "11.B",
+   "main": "11",
+   "title": {
+    "fr": "Quelle température ? Selon la colle",
+    "ar": "أي حرارة؟ حسب الغراء"
+   },
+   "sub": {
+    "fr": "Régler les consignes de température",
+    "ar": "ضبط درجات الحرارة المستهدفة"
+   },
+   "duration": 90.0,
+   "drive": {
+    "fr": "",
+    "ar": "1Yh7ozHQx1HKivv2AWQnARck5b9Qj9aGs"
+   },
+   "keys": {
+    "fr": [
+     "Exemples relevés : 190 °C en haut, 180 °C en bas ; 160 °C sur une autre machine.",
+     "Les valeurs relevées ne sont pas des consignes : chaque chiffre dépend du produit — à faire confirmer par le service méthodes."
+    ],
+    "ar": [
+     "أمثلة مُسجّلة: 190 درجة في الأعلى، 180 في الأسفل؛ 160 درجة على آلة أخرى.",
+     "القيم المُسجّلة ليست قيماً مفروضة: كل رقم يتوقف على المنتج — يؤكده قسم الطرق."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_11B_3",
+   "order": 54,
+   "step": "11.B",
+   "main": "11",
+   "title": {
+    "fr": "Température atteinte : feu vert",
+    "ar": "بلوغ الحرارة: الضوء الأخضر"
+   },
+   "sub": {
+    "fr": "Régler les consignes de température",
+    "ar": "ضبط درجات الحرارة المستهدفة"
+   },
+   "duration": 26.0,
+   "drive": {
+    "fr": "",
+    "ar": "1wvDlYfpesXtq1S0Wbi2L2StJ4UWn2zsS"
+   },
+   "keys": {
+    "fr": [
+     "Up temperature monitoring : c'est ici qu'on vérifie la stabilité avant de produire."
+    ],
+    "ar": [
+     "Up temperature monitoring: هنا نتحقق من الاستقرار قبل الإنتاج."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_11D_1",
+   "order": 55,
+   "step": "11.D",
+   "main": "11",
+   "title": {
+    "fr": "Papier siliconé : isolation, tension, vitesse",
+    "ar": "الورق السيليكوني: العزل، الشد، السرعة"
+   },
+   "sub": {
+    "fr": "Papier siliconé : tension et vitesse",
+    "ar": "الورق السيليكوني: الشد والسرعة"
+   },
+   "duration": 68.5,
+   "drive": {
+    "fr": "",
+    "ar": "1jzwv-rrdy9IDsZ6r5oZD2OwV9ecnpYOO"
+   },
+   "keys": {
+    "fr": [
+     "Un papier siliconé passe entre les têtes et l'étiquette pour éviter que la colle ne colle aux têtes ; il se consomme et se remplace.",
+     "Tape Feed / Tape Tension : une tension insuffisante fait plisser le papier ; trop forte, elle le déchire."
+    ],
+    "ar": [
+     "يمرّ ورق سيليكوني بين الرؤوس والملصق كي لا يلتصق الغراء بالرؤوس؛ يُستهلك ويُستبدل.",
+     "Tape Feed / Tape Tension: الشد الضعيف يجعّد الورق، والشد القوي يمزّقه."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_13_1",
+   "order": 56,
+   "step": "13",
+   "main": "13",
+   "title": {
+    "fr": "Arbre expansible et tension d'enroulement",
+    "ar": "المحور القابل للتمدد وشدّ اللف"
+   },
+   "sub": {
+    "fr": "",
+    "ar": ""
+   },
+   "duration": 98.4,
+   "drive": {
+    "fr": "",
+    "ar": "1IKydHutJyRfFE_3QSAitqb6I5gJXz5e1"
+   },
+   "keys": {
+    "fr": [
+     "Au rembobinage, variateurs et système de tension compensent en permanence pour que la bande reste tendue de façon régulière."
+    ],
+    "ar": [
+     "عند إعادة اللف، يعوّض المتحكّمون ونظام الشد باستمرار ليبقى الشريط مشدوداً بانتظام."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_13_2",
+   "order": 57,
+   "step": "13",
+   "main": "13",
+   "title": {
+    "fr": "Arbre expansible : le principe",
+    "ar": "المحور القابل للتمدد: المبدأ"
+   },
+   "sub": {
+    "fr": "",
+    "ar": ""
+   },
+   "duration": 43.5,
+   "drive": {
+    "fr": "",
+    "ar": "1Xp0Cn0WM22ebjUQUS58CZn96DwdAnWYb"
+   },
+   "keys": {
+    "fr": [],
+    "ar": []
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_13_3",
+   "order": 58,
+   "step": "13",
+   "main": "13",
+   "title": {
+    "fr": "Pratique : mettre l'enroulement en route",
+    "ar": "تطبيق: تشغيل وحدة اللف"
+   },
+   "sub": {
+    "fr": "",
+    "ar": ""
+   },
+   "duration": 36.3,
+   "drive": {
+    "fr": "",
+    "ar": "1_BhMIzyTAmj_TLGWTCXt0yvNDr2R_rtK"
+   },
+   "keys": {
+    "fr": [
+     "Use Take-up : doit rester coché quand l'enrouleur est utilisé — ne jamais le décocher."
+    ],
+    "ar": [
+     "Use Take-up: يجب أن يبقى مفعّلاً عند استخدام أداة اللف، ولا يُلغى أبداً."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_14C_6",
+   "order": 59,
+   "step": "14.C",
+   "main": "14",
+   "title": {
+    "fr": "Démonter la valve de dépose : logiciel, air, module",
+    "ar": "فكّ صمّام الغراء: البرنامج، الهواء، الوحدة"
+   },
+   "sub": {
+    "fr": "Entretien de la valve de dépose : démontage, nettoyage, remontage",
+    "ar": "صيانة صمّام الغراء: الفكّ والتنظيف وإعادة التركيب"
+   },
+   "duration": 190.0,
+   "drive": {
+    "fr": "",
+    "ar": "1aCCb_MvPpjXK5WmT05gOEGO2UhHtAMdi"
+   },
+   "keys": {
+    "fr": [
+     "Dans l'ordre : position « Changer » dans le logiciel, puis couper l'air, puis débrancher — jamais l'inverse.",
+     "Dépose strictement verticale : l'aiguille de dépose est en céramique et casse au moindre effort de travers.",
+     "Unité de dépose : la colle est un consommable sensible — cartouche au froid entre deux postes."
+    ],
+    "ar": [
+     "بالترتيب: وضع «تبديل» في البرنامج، ثم قطع الهواء، ثم فصل الخرطوم — لا العكس أبداً.",
+     "النزع عمودي تماماً: إبرة الوضع من الخزف وتنكسر بأدنى قوّة مائلة.",
+     "وحدة الغراء: الغراء مادة حسّاسة — تُحفظ الخرطوشة في البرد بين ورديتين."
+    ]
+   },
+   "note": "Procédure d'entretien de la valve: elle vient du technicien. Le guide ne cite que « nettoyage de la buse de colle » en fin de poste.",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_14C_1",
+   "order": 60,
+   "step": "14.C",
+   "main": "14",
+   "title": {
+    "fr": "Démonter et remonter le pointeau (céramique)",
+    "ar": "فكّ وتركيب الإبرة (خزفية)"
+   },
+   "sub": {
+    "fr": "Entretien de la valve de dépose : démontage, nettoyage, remontage",
+    "ar": "صيانة صمّام الغراء: الفكّ والتنظيف وإعادة التركيب"
+   },
+   "duration": 190.0,
+   "drive": {
+    "fr": "",
+    "ar": "1rjTXi_qAObv29FK2yXQDXF-NxLryyvO8"
+   },
+   "keys": {
+    "fr": [
+     "Unité de dépose : la colle passe par la valve, le pointeau et la buse — ce sont ces pièces qui s'encrassent.",
+     "Avant toute intervention physique : machine à l'arrêt, arrêt d'urgence enclenché lorsque la procédure le demande."
+    ],
+    "ar": [
+     "وحدة الغراء: يمرّ الغراء عبر الصمّام والإبرة والفوهة — وهذه القطع هي التي تتّسخ.",
+     "قبل أي تدخل مادي: الآلة متوقفة، وزر الطوارئ مفعّل حين يطلب الإجراء ذلك."
+    ]
+   },
+   "note": "Fréquences et gestes de nettoyage: règle du technicien. Le guide ne cite que « nettoyage de la buse de colle » en fin de poste, sans décrire la procédure.",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_14C_2",
+   "order": 61,
+   "step": "14.C",
+   "main": "14",
+   "title": {
+    "fr": "Démontage complet et bain à ultrasons",
+    "ar": "الفكّ الكامل وحمّام الموجات فوق الصوتية"
+   },
+   "sub": {
+    "fr": "Entretien de la valve de dépose : démontage, nettoyage, remontage",
+    "ar": "صيانة صمّام الغراء: الفكّ والتنظيف وإعادة التركيب"
+   },
+   "duration": 430.0,
+   "drive": {
+    "fr": "",
+    "ar": "1JOxARyngTSiyvfUAuqISlxyXEzDmrmOr"
+   },
+   "keys": {
+    "fr": [
+     "Démontage et remontage strictement verticaux : la céramique ne supporte aucun effort de travers.",
+     "Le bac contient de l'alcool : le joint d'étanchéité, en plastique, ne doit jamais y être trempé."
+    ],
+    "ar": [
+     "الفكّ والتركيب عمودياً تماماً: الخزف لا يتحمّل أي قوّة مائلة.",
+     "الحوض يحوي كحولاً: والحلقة البلاستيكية المانعة للتسرّب لا تُغمر فيه أبداً."
+    ]
+   },
+   "note": "Fréquences et gestes de nettoyage: règle du technicien. Le guide ne cite que « nettoyage de la buse de colle » en fin de poste, sans décrire la procédure.",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_14C_3",
+   "order": 62,
+   "step": "14.C",
+   "main": "14",
+   "title": {
+    "fr": "Contrôle après nettoyage et fréquences",
+    "ar": "الفحص بعد التنظيف ودوريّة التنظيف"
+   },
+   "sub": {
+    "fr": "Entretien de la valve de dépose : démontage, nettoyage, remontage",
+    "ar": "صيانة صمّام الغراء: الفكّ والتنظيف وإعادة التركيب"
+   },
+   "duration": 201.0,
+   "drive": {
+    "fr": "",
+    "ar": "1TyMTruJuNAEFrEtMsYQwH-dMX1TrPm6L"
+   },
+   "keys": {
+    "fr": [
+     "Buse et pointeau tous les 3 jours, corps de passage une fois par semaine. Le guide ne cite que le nettoyage de la buse en fin de poste.",
+     "Une cause, un poste : un point de colle irrégulier peut venir d'ici, pas des réglages."
+    ],
+    "ar": [
+     "الفوهة والإبرة كل 3 أيام، وجسم المجرى مرّة في الأسبوع. والدليل يذكر تنظيف الفوهة في نهاية الوردية فقط.",
+     "لكل سبب موضعه: نقطة الغراء غير المنتظمة قد تأتي من هنا، لا من الإعدادات."
+    ]
+   },
+   "note": "Fréquences et gestes de nettoyage: règle du technicien. Le guide ne cite que « nettoyage de la buse de colle » en fin de poste, sans décrire la procédure.",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_14C_4",
+   "order": 63,
+   "step": "14.C",
+   "main": "14",
+   "title": {
+    "fr": "Remontage : joint, buse, lubrifiant, contrôle du passage",
+    "ar": "إعادة التركيب: الحلقة، الفوهة، التشحيم، وفحص المجرى"
+   },
+   "sub": {
+    "fr": "Entretien de la valve de dépose : démontage, nettoyage, remontage",
+    "ar": "صيانة صمّام الغراء: الفكّ والتنظيف وإعادة التركيب"
+   },
+   "duration": 442.0,
+   "drive": {
+    "fr": "",
+    "ar": "1lO6lBmU-LmZqpG0xLImgfOCuMtlhhJSm"
+   },
+   "keys": {
+    "fr": [
+     "Joint torique et buse sont des consommables : on les remplace quand ils sont marqués, on ne les récupère pas.",
+     "Contrôle avant remontage : goutte d'alcool + soufflette, la buse doit laisser passer l'air.",
+     "Lubrifiant sur le filetage extérieur seulement — jamais à l'intérieur, où il se mêlerait à la colle."
+    ],
+    "ar": [
+     "الحلقة والفوهة قطع استهلاكية: تُستبدل عند تضرّرها ولا تُرمَّم.",
+     "فحص قبل التركيب: قطرة كحول ونفخة هواء، ويجب أن تمرّ من الفوهة.",
+     "الشحم على السنّ الخارجي فقط — ولا شيء في الداخل حيث يختلط بالغراء."
+    ]
+   },
+   "note": "Fréquences et gestes de nettoyage: règle du technicien. Le guide ne cite que « nettoyage de la buse de colle » en fin de poste, sans décrire la procédure.",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_14C_7",
+   "order": 64,
+   "step": "14.C",
+   "main": "14",
+   "title": {
+    "fr": "Remonter la valve : toujours à la verticale",
+    "ar": "إعادة تركيب الصمّام: عمودياً دائماً"
+   },
+   "sub": {
+    "fr": "Entretien de la valve de dépose : démontage, nettoyage, remontage",
+    "ar": "صيانة صمّام الغراء: الفكّ والتنظيف وإعادة التركيب"
+   },
+   "duration": 115.0,
+   "drive": {
+    "fr": "",
+    "ar": "1FKj4-xk9whKy_DWPxW9NFs9xS1o8WZGk"
+   },
+   "keys": {
+    "fr": [
+     "Même règle qu'au démontage : verticalement, sans effort latéral, sinon la céramique casse.",
+     "Serrage modéré : les vis maintiennent, elles ne bloquent pas — le réglage de hauteur vient après."
+    ],
+    "ar": [
+     "القاعدة نفسها كما في الفكّ: عمودياً وبلا قوّة جانبية، وإلّا انكسر الخزف.",
+     "شدّ معتدل: البراغي تُثبّت ولا تُقفل — فضبط الارتفاع يأتي بعدها."
+    ]
+   },
+   "note": "Procédure d'entretien de la valve: elle vient du technicien. Le guide ne cite que « nettoyage de la buse de colle » en fin de poste.",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_14C_8",
+   "order": 65,
+   "step": "14.C",
+   "main": "14",
+   "title": {
+    "fr": "Mesure de hauteur (ADG), puis air et cartouche",
+    "ar": "قياس الارتفاع (ADG)، ثم الهواء والخرطوشة"
+   },
+   "sub": {
+    "fr": "Entretien de la valve de dépose : démontage, nettoyage, remontage",
+    "ar": "صيانة صمّام الغراء: الفكّ والتنظيف وإعادة التركيب"
+   },
+   "duration": 175.0,
+   "drive": {
+    "fr": "",
+    "ar": "16IehrtjNmjPa12OIHv5i7VLBB9Ez21Qx"
+   },
+   "keys": {
+    "fr": [
+     "Les valeurs relevées ne sont pas des consignes : 1030 est la valeur lue ce jour-là, sur ce produit.",
+     "Régler la hauteur d'abord, rebrancher l'air ensuite : sous pression, le réglage se fait mal."
+    ],
+    "ar": [
+     "القيم المسجّلة ليست قيماً مفروضة: 1030 هي القراءة في ذلك اليوم، لهذا المنتج.",
+     "اضبط الارتفاع أولاً، ثم أعد وصل الهواء: فالضبط تحت الضغط رديء."
+    ]
+   },
+   "note": "1030 est la valeur lue ce jour-là; la procédure vient du technicien.",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  },
+  {
+   "name": "Etape_14C_5",
+   "order": 66,
+   "step": "14.C",
+   "main": "14",
+   "title": {
+    "fr": "Remonter une pièce nettoyée : soutenir et serrer à fond",
+    "ar": "إعادة تركيب قطعة مُنظَّفة: إسنادها والشدّ الكامل"
+   },
+   "sub": {
+    "fr": "Entretien de la valve de dépose : démontage, nettoyage, remontage",
+    "ar": "صيانة صمّام الغراء: الفكّ والتنظيف وإعادة التركيب"
+   },
+   "duration": 70.5,
+   "drive": {
+    "fr": "",
+    "ar": "1zPRO6yKFq4psrkstz-J6olb2uGNTKQz5"
+   },
+   "keys": {
+    "fr": [
+     "Serrer à fond : une pièce mal serrée est éjectée au premier souffle d'air (voir les vidéos précédentes de l'étape 14.C). Cette règle vient du technicien, pas du guide.",
+     "Fin de poste : arrêt des chauffes, rembobinage, nettoyage — les pièces nettoyées sont remontées maintenant ou gardées pour le lendemain."
+    ],
+    "ar": [
+     "الشدّ الكامل: القطعة غير المشدودة تُقذف مع أول نفخة هواء (انظر الفيديوهات السابقة للخطوة 14.C). هذه قاعدة الفنّي، وليست من الدليل.",
+     "نهاية الوردية: إطفاء التسخين، وإعادة اللفّ، والتنظيف — والقطع المنظَّفة تُركَّب الآن أو تُترك للغد."
+    ]
+   },
+   "note": "Le guide ne mentionne le nettoyage de la buse qu'en une ligne: la procédure montrée vient du technicien.",
+   "confidence": "confirmed",
+   "added": "2026-09-23"
+  }
+ ],
+ "steps": [
+  {
+   "id": "0",
+   "main": "0",
+   "is_main": true,
+   "fr": "Mise en route",
+   "ar": "التشغيل وبدء العمل",
+   "has_video": false,
+   "note": ""
+  },
+  {
+   "id": "0.A",
+   "main": "0",
+   "is_main": false,
+   "fr": "Démarrage et initialisation (EmergencyStop → Initialization → Init Done)",
+   "ar": "التشغيل والتهيئة (EmergencyStop ← Initialization ← Init Done)",
+   "has_video": true,
+   "note": ""
+  },
+  {
+   "id": "0.B",
+   "main": "0",
+   "is_main": false,
+   "fr": "Mise en chauffe des têtes de pressage",
+   "ar": "تسخين رؤوس الكبس",
+   "has_video": false,
+   "note": ""
+  },
+  {
+   "id": "0.C",
+   "main": "0",
+   "is_main": false,
+   "fr": "Vérification des pressions d'air et du vide",
+   "ar": "التحقق من ضغط الهواء والتفريغ",
+   "has_video": false,
+   "note": ""
+  },
+  {
+   "id": "0.D",
+   "main": "0",
+   "is_main": false,
+   "fr": "Contrôle des consommables (antennes, wafer, colle, papier siliconé, encre)",
+   "ar": "فحص المواد المستهلكة (الهوائيات، الرقاقة، الغراء، الورق السيليكوني، الحبر)",
+   "has_video": false,
+   "note": ""
+  },
+  {
+   "id": "0.E",
+   "main": "0",
+   "is_main": false,
+   "fr": "Découvrir l'interface : fenêtre des paramètres et niveaux de vitesse",
+   "ar": "التعرّف على الواجهة: نافذة الإعدادات ومستويات السرعة",
+   "has_video": true,
+   "note": ""
+  },
+  {
+   "id": "0.F",
+   "main": "0",
+   "is_main": false,
+   "fr": "Identifier les caméras de la machine",
+   "ar": "التعرّف على كاميرات الآلة",
+   "has_video": true,
+   "note": ""
+  },
+  {
+   "id": "1",
+   "main": "1",
+   "is_main": true,
+   "fr": "Enfiler la bande et désactiver les fonctions non utilisées",
+   "ar": "تمرير الشريط وتعطيل الوظائف غير المستخدمة",
+   "has_video": false,
+   "note": ""
+  },
+  {
+   "id": "1.A",
+   "main": "1",
+   "is_main": false,
+   "fr": "Enfiler la bande (bande guide) et raccorder l'antenne",
+   "ar": "تمرير الشريط (الشريط الدليل) وتوصيل الهوائي",
+   "has_video": true,
+   "note": ""
+  },
+  {
+   "id": "1.B",
+   "main": "1",
+   "is_main": false,
+   "fr": "Désactiver les fonctions non utilisées (Skip Disp, Skip Bond, Skip Hot Press)",
+   "ar": "تعطيل الوظائف غير المستخدمة (Skip Disp، Skip Bond، Skip Hot Press)",
+   "has_video": true,
+   "note": ""
+  },
+  {
+   "id": "2",
+   "main": "2",
+   "is_main": true,
+   "fr": "Pas d'antenne, distances de tirage et longueur d'étiquette",
+   "ar": "خطوة الهوائي ومسافات السحب وطول الملصق",
+   "has_video": false,
+   "note": ""
+  },
+  {
+   "id": "2.A",
+   "main": "2",
+   "is_main": false,
+   "fr": "Saisir le pas d'antenne (Antenna Pitch)",
+   "ar": "إدخال خطوة الهوائي (Antenna Pitch)",
+   "has_video": true,
+   "note": ""
+  },
+  {
+   "id": "2.B",
+   "main": "2",
+   "is_main": false,
+   "fr": "Régler la distance de tirage",
+   "ar": "ضبط مسافة السحب",
+   "has_video": false,
+   "note": ""
+  },
+  {
+   "id": "2.C",
+   "main": "2",
+   "is_main": false,
+   "fr": "Saisir la longueur d'étiquette (Tag length, axe X1)",
+   "ar": "إدخال طول الملصق (Tag length، المحور X1)",
+   "has_video": false,
+   "note": ""
+  },
+  {
+   "id": "3",
+   "main": "3",
+   "is_main": true,
+   "fr": "Vérifier les distances mécaniques et la rainure de pressage",
+   "ar": "التحقق من المسافات الميكانيكية ومجرى الكبس",
+   "has_video": true,
+   "note": ""
+  },
+  {
+   "id": "4",
+   "main": "4",
+   "is_main": true,
+   "fr": "Centrer les caméras de contrôle",
+   "ar": "توسيط كاميرات المراقبة",
+   "has_video": true,
+   "note": ""
+  },
+  {
+   "id": "5",
+   "main": "5",
+   "is_main": true,
+   "fr": "Dépose de colle : position, puis modèle de vision",
+   "ar": "وضع الغراء: الموضع، ثم نموذج الرؤية",
+   "has_video": false,
+   "note": ""
+  },
+  {
+   "id": "5.A",
+   "main": "5",
+   "is_main": false,
+   "fr": "Régler la position de dépose de colle",
+   "ar": "ضبط موضع وضع الغراء",
+   "has_video": true,
+   "note": ""
+  },
+  {
+   "id": "5.B",
+   "main": "5",
+   "is_main": false,
+   "fr": "Créer le modèle de vision de dépose (Disp Cam)",
+   "ar": "إنشاء نموذج رؤية وضع الغراء (Disp Cam)",
+   "has_video": true,
+   "note": ""
+  },
+  {
+   "id": "5.C",
+   "main": "5",
+   "is_main": false,
+   "fr": "Paramètres de dépose et contrôle du point de colle",
+   "ar": "إعدادات وضع الغراء وفحص نقطة الغراء",
+   "has_video": true,
+   "note": ""
+  },
+  {
+   "id": "6",
+   "main": "6",
+   "is_main": true,
+   "fr": "Report : position, puis modèles de report et de contrôle",
+   "ar": "التركيب (Bonding): الموضع، ثم نموذجا التركيب والمراقبة",
+   "has_video": false,
+   "note": ""
+  },
+  {
+   "id": "6.A",
+   "main": "6",
+   "is_main": false,
+   "fr": "Régler la position de report",
+   "ar": "ضبط موضع التركيب",
+   "has_video": true,
+   "note": ""
+  },
+  {
+   "id": "6.B",
+   "main": "6",
+   "is_main": false,
+   "fr": "Créer le modèle de report (Bond Cam)",
+   "ar": "إنشاء نموذج التركيب (Bond Cam)",
+   "has_video": true,
+   "note": ""
+  },
+  {
+   "id": "6.C",
+   "main": "6",
+   "is_main": false,
+   "fr": "Créer le modèle de contrôle du report (Bond Review) et ses tolérances",
+   "ar": "إنشاء نموذج مراقبة التركيب (Bond Review) وحدود السماح",
+   "has_video": false,
+   "note": ""
+  },
+  {
+   "id": "7",
+   "main": "7",
+   "is_main": true,
+   "fr": "Saisir les intervalles",
+   "ar": "إدخال الفواصل",
+   "has_video": false,
+   "note": ""
+  },
+  {
+   "id": "8",
+   "main": "8",
+   "is_main": true,
+   "fr": "Vérifier le vide et les pressions",
+   "ar": "التحقق من التفريغ والضغوط",
+   "has_video": false,
+   "note": ""
+  },
+  {
+   "id": "9",
+   "main": "9",
+   "is_main": true,
+   "fr": "Aligner aiguille, flip et buse (axes Y puis X)",
+   "ar": "محاذاة الإبرة والقلّاب والفوهة (المحور Y ثم X)",
+   "has_video": true,
+   "note": ""
+  },
+  {
+   "id": "9.A",
+   "main": "9",
+   "is_main": false,
+   "fr": "Axe Y — de haut en bas (positions A1 / B1 / A2 / B2)",
+   "ar": "المحور Y — من الأعلى إلى الأسفل (المواضع A1 / B1 / A2 / B2)",
+   "has_video": false,
+   "note": "Pas de vidéo dédiée par axe : les vidéos de l'étape 9 règlent Y puis X, position par position (A1, B1, A2, B2)."
+  },
+  {
+   "id": "9.B",
+   "main": "9",
+   "is_main": false,
+   "fr": "Axe X — de bas en haut",
+   "ar": "المحور X — من الأسفل إلى الأعلى",
+   "has_video": false,
+   "note": "Idem 9.A — l'axe X est traité avec l'axe Y dans les vidéos d'alignement de l'étape 9."
+  },
+  {
+   "id": "9.C",
+   "main": "9",
+   "is_main": false,
+   "fr": "Changer l'aiguille d'éjection et les buses",
+   "ar": "تبديل إبرة الدفع والفوهات",
+   "has_video": true,
+   "note": ""
+  },
+  {
+   "id": "10",
+   "main": "10",
+   "is_main": true,
+   "fr": "Changer le wafer, orienter la cartographie, calculer le pas des puces",
+   "ar": "تغيير الرقاقة، توجيه الخريطة، حساب خطوة الشرائح",
+   "has_video": false,
+   "note": ""
+  },
+  {
+   "id": "10.A",
+   "main": "10",
+   "is_main": false,
+   "fr": "Changer le wafer (Change Wafer)",
+   "ar": "تغيير الرقاقة (Change Wafer)",
+   "has_video": true,
+   "note": ""
+  },
+  {
+   "id": "10.B",
+   "main": "10",
+   "is_main": false,
+   "fr": "Charger et orienter la cartographie du wafer",
+   "ar": "تحميل خريطة الرقاقة وتوجيهها",
+   "has_video": false,
+   "note": ""
+  },
+  {
+   "id": "10.C",
+   "main": "10",
+   "is_main": false,
+   "fr": "Modèle de puce et calcul du pas des puces",
+   "ar": "نموذج الشريحة وحساب خطوة الشرائح",
+   "has_video": false,
+   "note": ""
+  },
+  {
+   "id": "11",
+   "main": "11",
+   "is_main": true,
+   "fr": "Disposer les têtes chauffantes, régler températures et pression",
+   "ar": "ترتيب رؤوس التسخين، ضبط درجات الحرارة والضغط",
+   "has_video": false,
+   "note": ""
+  },
+  {
+   "id": "11.A",
+   "main": "11",
+   "is_main": false,
+   "fr": "Disposer et raccorder les têtes chauffantes",
+   "ar": "ترتيب رؤوس التسخين وتوصيلها",
+   "has_video": true,
+   "note": ""
+  },
+  {
+   "id": "11.B",
+   "main": "11",
+   "is_main": false,
+   "fr": "Régler les consignes de température",
+   "ar": "ضبط درجات الحرارة المستهدفة",
+   "has_video": true,
+   "note": ""
+  },
+  {
+   "id": "11.C",
+   "main": "11",
+   "is_main": false,
+   "fr": "Régler la pression et la durée de pressage (Dwell Time)",
+   "ar": "ضبط ضغط الكبس ومدته (Dwell Time)",
+   "has_video": false,
+   "note": ""
+  },
+  {
+   "id": "11.D",
+   "main": "11",
+   "is_main": false,
+   "fr": "Papier siliconé : tension et vitesse",
+   "ar": "الورق السيليكوني: الشد والسرعة",
+   "has_video": true,
+   "note": ""
+  },
+  {
+   "id": "12",
+   "main": "12",
+   "is_main": true,
+   "fr": "Régler la carte de test, les seuils, EPC / TID et le marquage",
+   "ar": "ضبط بطاقة الاختبار والعتبات وEPC / TID والوسم",
+   "has_video": false,
+   "note": ""
+  },
+  {
+   "id": "12.A",
+   "main": "12",
+   "is_main": false,
+   "fr": "Carte de test et capteur de détection",
+   "ar": "بطاقة الاختبار وحساس الكشف",
+   "has_video": false,
+   "note": ""
+  },
+  {
+   "id": "12.B",
+   "main": "12",
+   "is_main": false,
+   "fr": "Cas de test Voyantic : référence, points, EPC / TID",
+   "ar": "حالة اختبار Voyantic: المرجع، النقاط، EPC / TID",
+   "has_video": false,
+   "note": ""
+  },
+  {
+   "id": "12.C",
+   "main": "12",
+   "is_main": false,
+   "fr": "Système d'inspection TTA20000",
+   "ar": "نظام الفحص TTA20000",
+   "has_video": false,
+   "note": ""
+  },
+  {
+   "id": "12.D",
+   "main": "12",
+   "is_main": false,
+   "fr": "Marquage des étiquettes mauvaises",
+   "ar": "وسم الملصقات المعيبة",
+   "has_video": false,
+   "note": ""
+  },
+  {
+   "id": "13",
+   "main": "13",
+   "is_main": true,
+   "fr": "Régler le rembobinage",
+   "ar": "ضبط إعادة اللف",
+   "has_video": true,
+   "note": ""
+  },
+  {
+   "id": "14",
+   "main": "14",
+   "is_main": true,
+   "fr": "Production et fin de poste",
+   "ar": "الإنتاج ونهاية الوردية",
+   "has_video": false,
+   "note": ""
+  },
+  {
+   "id": "14.A",
+   "main": "14",
+   "is_main": false,
+   "fr": "Surveiller les compteurs et le journal d'événements",
+   "ar": "مراقبة العدادات وسجل الأحداث",
+   "has_video": false,
+   "note": ""
+  },
+  {
+   "id": "14.B",
+   "main": "14",
+   "is_main": false,
+   "fr": "Fin de poste : arrêt des chauffes, rembobinage, nettoyage de la buse de colle",
+   "ar": "نهاية الوردية: إيقاف التسخين، إعادة اللف، تنظيف فوهة الغراء",
+   "has_video": false,
+   "note": ""
+  },
+  {
+   "id": "14.C",
+   "main": "14",
+   "is_main": false,
+   "fr": "Entretien de la valve de dépose : démontage, nettoyage, remontage",
+   "ar": "صيانة صمّام الغراء: الفكّ والتنظيف وإعادة التركيب",
+   "has_video": true,
+   "note": ""
+  }
+ ],
+ "glossary": [
+  {
+   "fr": "puce",
+   "ar": "الشريحة",
+   "zh": "芯片",
+   "en": "chip / die"
+  },
+  {
+   "fr": "wafer",
+   "ar": "الرقاقة (wafer)",
+   "zh": "晶圆",
+   "en": "wafer"
+  },
+  {
+   "fr": "antenne",
+   "ar": "الهوائي",
+   "zh": "天线",
+   "en": "antenna"
+  },
+  {
+   "fr": "inlay / étiquette",
+   "ar": "الملصق (inlay)",
+   "zh": "标签",
+   "en": "inlay / tag"
+  },
+  {
+   "fr": "report (bonding)",
+   "ar": "التركيب (bonding)",
+   "zh": "邦定",
+   "en": "bonding"
+  },
+  {
+   "fr": "flip (retournement)",
+   "ar": "القلّاب (flip)",
+   "zh": "翻转",
+   "en": "flip"
+  },
+  {
+   "fr": "buse",
+   "ar": "الفوهة",
+   "zh": "吸嘴",
+   "en": "nozzle"
+  },
+  {
+   "fr": "aiguille d'éjection",
+   "ar": "إبرة الدفع",
+   "zh": "顶针",
+   "en": "ejector pin"
+  },
+  {
+   "fr": "dépose de colle",
+   "ar": "وضع الغراء",
+   "zh": "点胶",
+   "en": "glue dispensing"
+  },
+  {
+   "fr": "point de colle",
+   "ar": "نقطة الغراء",
+   "zh": "胶点",
+   "en": "glue dot"
+  },
+  {
+   "fr": "pressage à chaud",
+   "ar": "الكبس الحراري",
+   "zh": "热压",
+   "en": "hot pressing"
+  },
+  {
+   "fr": "tête chauffante",
+   "ar": "رأس التسخين",
+   "zh": "热压头",
+   "en": "heating head"
+  },
+  {
+   "fr": "papier siliconé",
+   "ar": "الورق السيليكوني",
+   "zh": "硅油纸",
+   "en": "silicone paper"
+  },
+  {
+   "fr": "test radiofréquence",
+   "ar": "اختبار الترددات الراديوية",
+   "zh": "射频测试",
+   "en": "RF test"
+  },
+  {
+   "fr": "marquage",
+   "ar": "الوسم",
+   "zh": "打点",
+   "en": "marking"
+  },
+  {
+   "fr": "rembobinage",
+   "ar": "إعادة اللف",
+   "zh": "收卷",
+   "en": "rewinding"
+  },
+  {
+   "fr": "bande guide",
+   "ar": "الشريط الدليل",
+   "zh": "引带",
+   "en": "guiding belt"
+  },
+  {
+   "fr": "pas d'antenne",
+   "ar": "خطوة الهوائي",
+   "zh": "天线间距",
+   "en": "antenna pitch"
+  },
+  {
+   "fr": "distance de tirage",
+   "ar": "مسافة السحب",
+   "zh": "拉料距离",
+   "en": "pull distance"
+  },
+  {
+   "fr": "modèle de vision",
+   "ar": "نموذج الرؤية",
+   "zh": "模板",
+   "en": "vision template"
+  },
+  {
+   "fr": "caméra avant",
+   "ar": "الكاميرا الأمامية",
+   "zh": "相机",
+   "en": "front camera"
+  },
+  {
+   "fr": "caméra de contrôle",
+   "ar": "كاميرا المراقبة",
+   "zh": "复检相机",
+   "en": "review camera"
+  },
+  {
+   "fr": "cartographie du wafer",
+   "ar": "خريطة الرقاقة",
+   "zh": "晶圆图",
+   "en": "wafer map"
+  },
+  {
+   "fr": "pas des puces",
+   "ar": "خطوة الشرائح",
+   "zh": "芯片间距",
+   "en": "chip spacing"
+  },
+  {
+   "fr": "intervalle",
+   "ar": "الفاصل",
+   "zh": "间隔",
+   "en": "interval"
+  },
+  {
+   "fr": "vide",
+   "ar": "التفريغ",
+   "zh": "真空",
+   "en": "vacuum"
+  },
+  {
+   "fr": "air comprimé",
+   "ar": "الهواء المضغوط",
+   "zh": "气压",
+   "en": "compressed air"
+  },
+  {
+   "fr": "arrêt d'urgence",
+   "ar": "إيقاف الطوارئ",
+   "zh": "急停",
+   "en": "emergency stop"
+  },
+  {
+   "fr": "alarme",
+   "ar": "إنذار",
+   "zh": "报警",
+   "en": "alarm"
+  },
+  {
+   "fr": "taux de bons",
+   "ar": "نسبة الملصقات السليمة",
+   "zh": "良率",
+   "en": "yield"
+  }
+ ]
+}

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Formation Machine RFID Flip-Chip TTA</title>
+<style>
+  :root{
+    --navy:#14213D; --teal:#2EC4B6; --bg:#F4F6FA; --card:#FFFFFF; --text:#1B2233;
+    --muted:#6B7385; --faint:#9AA1B1; --line:#E3E7EF; --green:#1E8E5A; --green-bg:#E6F5EE;
+    --amber:#A66A00; --amber-bg:#FDF3DF; --red:#B3261E; --red-bg:#FDECEA;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);
+       font-family:"Segoe UI",Roboto,Arial,sans-serif;font-size:16px;line-height:1.5}
+  body.rtl{direction:rtl}
+  header{background:var(--navy);color:#fff;padding:14px 20px;position:sticky;top:0;z-index:10}
+  .bar{max-width:1100px;margin:0 auto;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+  .brand{font-weight:600;font-size:18px;margin-inline-end:auto}
+  .bar button{background:rgba(255,255,255,.12);color:#fff;border:0;border-radius:8px;
+              padding:8px 14px;font-size:14px;cursor:pointer;font-family:inherit}
+  .bar button:hover{background:rgba(255,255,255,.22)}
+  .bar button.on{background:var(--teal);color:#06282B;font-weight:600}
+  main{max-width:1100px;margin:0 auto;padding:22px 20px 60px}
+  .crumb{color:var(--muted);font-size:14px;margin-bottom:14px}
+  .crumb a{color:var(--muted);cursor:pointer;text-decoration:none}
+  .crumb a:hover{text-decoration:underline}
+  h1{font-size:26px;margin:0 0 6px}
+  h2{font-size:19px;margin:0 0 4px}
+  .sub{color:var(--muted);margin:0 0 20px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;
+        padding:18px 20px;margin-bottom:14px;cursor:pointer;display:flex;gap:16px;align-items:center}
+  .card.flat{cursor:default}
+  .card:hover{border-color:var(--teal)}
+  .num{background:#EEF1F7;color:var(--navy);font-weight:700;border-radius:10px;
+       min-width:54px;height:46px;display:flex;align-items:center;justify-content:center}
+  .grow{flex:1;min-width:0}
+  .meta{color:var(--muted);font-size:14px;margin-top:3px}
+  .chip{display:inline-block;border-radius:999px;padding:3px 11px;font-size:13px;font-weight:600;white-space:nowrap}
+  .todo{background:#EEF1F7;color:var(--muted)} .doing{background:var(--amber-bg);color:var(--amber)}
+  .done{background:var(--green-bg);color:var(--green)} .off{background:var(--red-bg);color:var(--red)}
+  .new{background:var(--amber-bg);color:var(--amber)}
+  .keys{background:#FAFBFE;border:1px solid var(--line);border-radius:10px;padding:12px 16px;margin-top:10px}
+  .keys li{margin:4px 0}
+  .note{color:var(--amber);font-size:14px;margin-top:8px}
+  .bar2{height:8px;background:#E7EAF1;border-radius:99px;overflow:hidden;margin-top:8px}
+  .bar2 span{display:block;height:100%;background:var(--teal)}
+  .actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+  .btn{border:0;border-radius:9px;padding:11px 18px;font-size:15px;cursor:pointer;font-family:inherit}
+  .primary{background:var(--navy);color:#fff} .ghost{background:#EEF1F7;color:var(--navy)}
+  .ok{background:var(--green);color:#fff}
+  .player{position:relative;padding-top:56.25%;background:#000;border-radius:12px;overflow:hidden}
+  .player iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+  .empty{color:var(--muted);font-style:italic}
+  footer{max-width:1100px;margin:0 auto;padding:0 20px 40px;color:var(--faint);font-size:13px}
+  @media (max-width:560px){ .card{padding:14px} h1{font-size:22px} .num{min-width:44px} }
+</style>
+</head>
+<body>
+<header><div class="bar">
+  <span class="brand" id="brand">Formation Machine RFID Flip-Chip TTA</span>
+  <button id="bFR" class="on" onclick="setLang('fr')">Français</button>
+  <button id="bAR" onclick="setLang('ar')">العربية</button>
+  <button onclick="go('home')" id="bHome">Accueil</button>
+</div></header>
+<main id="app"></main>
+<footer id="foot"></footer>
+
+<script>
+const T = {
+  fr:{home:"Accueil",steps:"Étapes",videos:"Vidéos",back:"Retour",progress:"Avancement",
+      title:"Formation Machine RFID Flip-Chip TTA",
+      sub:"Parcours vidéo en français et en arabe, dans l'ordre de la formation.",
+      start:"Commencer",resume:"Reprendre",done:"Terminé",doing:"En cours",todo:"À faire",
+      nvideos:n=>n+" vidéo"+(n>1?"s":""),novideo:"Pas encore filmé",
+      keys:"Points clés",note:"À savoir",open:"Ouvrir la vidéo",again:"Revoir",
+      mark:"Marquer comme terminé",unmark:"Remettre à « À faire »",
+      offline:"Pas encore en ligne",neu:"Nouveau",duration:"Durée",
+      stepsdone:(a,b)=>a+" vidéo(s) terminée(s) sur "+b,
+      pick:"Choisissez une étape",picksub:"Choisissez une sous-étape",
+      drive:"La vidéo s'ouvre depuis Google Drive."},
+  ar:{home:"الرئيسية",steps:"الخطوات",videos:"الفيديوهات",back:"رجوع",progress:"التقدّم",
+      title:"تدريب آلة RFID Flip-Chip TTA",
+      sub:"مسار فيديو بالفرنسية والعربية، بترتيب التدريب.",
+      start:"ابدأ",resume:"متابعة",done:"منتهٍ",doing:"جارٍ",todo:"للإنجاز",
+      nvideos:n=>n+" فيديو",novideo:"لم يُصوَّر بعد",
+      keys:"النقاط الأساسية",note:"للعلم",open:"افتح الفيديو",again:"إعادة المشاهدة",
+      mark:"وضع علامة: منتهٍ",unmark:"إرجاع إلى «للإنجاز»",
+      offline:"غير متاح على الإنترنت بعد",neu:"جديد",duration:"المدة",
+      stepsdone:(a,b)=>a+" من "+b+" فيديو منتهية",
+      pick:"اختر خطوة",picksub:"اختر خطوة فرعية",
+      drive:"يُفتح الفيديو من Google Drive."}
+};
+let DATA=null, lang="fr", view={p:"home"}, prog={};
+const t = k => T[lang][k];
+const KEY = "tta_training_progress_v1";
+
+function load(){ try{ prog = JSON.parse(localStorage.getItem(KEY)||"{}"); }catch(e){ prog={}; } }
+function save(){ try{ localStorage.setItem(KEY, JSON.stringify(prog)); }catch(e){} }
+function st(n){ return (prog[n]&&prog[n].status)||"todo"; }
+function setSt(n,s){ prog[n]=Object.assign(prog[n]||{},{status:s,at:new Date().toISOString()}); save(); }
+function mmss(s){ s=Math.round(s); return Math.floor(s/60)+":"+String(s%60).padStart(2,"0"); }
+function esc(s){ return (s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
+function clipsOf(step){ return DATA.clips.filter(c=>c.step===step); }
+function mains(){ return DATA.steps.filter(s=>s.is_main); }
+function subsOf(id){ return DATA.steps.filter(s=>s.main===id && (!s.is_main || !DATA.steps.some(x=>x.main===id&&!x.is_main))); }
+
+function setLang(l){
+  lang=l; document.body.classList.toggle("rtl", l==="ar");
+  document.documentElement.lang=l;
+  bFR.classList.toggle("on",l==="fr"); bAR.classList.toggle("on",l==="ar");
+  bHome.textContent=t("home"); brand.textContent=t("title");
+  render();
+}
+function go(p,a,b){ view={p:p,a:a,b:b}; window.scrollTo(0,0); render(); }
+
+function chip(s){ return `<span class="chip ${s}">${t(s)}</span>`; }
+function overall(){
+  const tot=DATA.clips.length, d=DATA.clips.filter(c=>st(c.name)==="done").length;
+  return {tot,d,pc: tot? Math.round(100*d/tot):0};
+}
+function render(){
+  const o=overall();
+  foot.innerHTML = `${esc(DATA.generated.replace("T"," ").slice(0,16))} · ${o.d}/${o.tot}`;
+  if(view.p==="home") return renderHome(o);
+  if(view.p==="step") return renderStep(view.a);
+  if(view.p==="sub")  return renderSub(view.a,view.b);
+  if(view.p==="clip") return renderClip(view.a);
+}
+function renderHome(o){
+  const next = DATA.clips.find(c=>st(c.name)!=="done");
+  app.innerHTML = `<h1>${t("title")}</h1><p class="sub">${t("sub")}</p>
+    <div class="card flat"><div class="grow"><b>${t("progress")}</b>
+      <div class="meta">${t("stepsdone")(o.d,o.tot)}</div>
+      <div class="bar2"><span style="width:${o.pc}%"></span></div></div>
+      <div class="num">${o.pc}%</div></div>
+    ${next?`<div class="card" onclick="go('clip','${next.name}')"><div class="num">▶</div>
+      <div class="grow"><b>${o.d?t("resume"):t("start")}</b>
+      <div class="meta">${esc(next.title[lang])}</div></div></div>`:""}
+    <h2 style="margin-top:24px">${t("steps")}</h2><p class="sub">${t("pick")}</p>
+    ${mains().map(m=>{
+      const cs=DATA.clips.filter(c=>c.main===m.id);
+      const d=cs.filter(c=>st(c.name)==="done").length;
+      return `<div class="card" onclick="go('step','${m.id}')">
+        <div class="num">${esc(m.id)}</div><div class="grow"><b>${esc(m[lang])}</b>
+        <div class="meta">${cs.length?t("nvideos")(cs.length)+" · "+d+"/"+cs.length:t("novideo")}</div></div>
+        ${cs.length?chip(d===cs.length?"done":(d?"doing":"todo")):""}</div>`;}).join("")}`;
+}
+function renderStep(id){
+  const m=DATA.steps.find(s=>s.id===id&&s.is_main);
+  const subs=DATA.steps.filter(s=>s.main===id&&!s.is_main);
+  const list = subs.length?subs:[m];
+  app.innerHTML = `<div class="crumb"><a onclick="go('home')">${t("home")}</a> › ${esc(m.id)}</div>
+    <h1>${esc(m[lang])}</h1><p class="sub">${t("picksub")}</p>
+    ${list.map(s=>{
+      const cs=clipsOf(s.id), d=cs.filter(c=>st(c.name)==="done").length;
+      return `<div class="card" ${cs.length?`onclick="go('sub','${id}','${s.id}')"`:'style="cursor:default;opacity:.75"'}>
+        <div class="num">${esc(s.id)}</div><div class="grow"><b>${esc(s[lang])}</b>
+        <div class="meta">${cs.length?t("nvideos")(cs.length)+" · "+d+"/"+cs.length
+          :(s.note?esc(s.note):t("novideo"))}</div></div>
+        ${cs.length?chip(d===cs.length?"done":(d?"doing":"todo")):`<span class="chip off">${t("novideo")}</span>`}</div>`;
+    }).join("")}`;
+}
+function renderSub(mid,sid){
+  const m=DATA.steps.find(s=>s.id===mid&&s.is_main), s=DATA.steps.find(x=>x.id===sid);
+  app.innerHTML = `<div class="crumb"><a onclick="go('home')">${t("home")}</a> ›
+      <a onclick="go('step','${mid}')">${esc(m.id)}</a> › ${esc(sid)}</div>
+    <h1>${esc(s[lang])}</h1>
+    ${clipsOf(sid).map((c,i)=>`<div class="card" onclick="go('clip','${c.name}')">
+      <div class="num">${String(i+1).padStart(2,"0")}</div>
+      <div class="grow"><b>${esc(c.title[lang])}</b>
+        <div class="meta">${t("duration")} ${mmss(c.duration)}</div></div>
+      ${chip(st(c.name))}${c.added>="2026-09-23"?`<span class="chip new">★ ${t("neu")}</span>`:""}
+      ${c.drive[lang]?"":`<span class="chip off">${t("offline")}</span>`}</div>`).join("")}`;
+}
+function renderClip(name){
+  const c=DATA.clips.find(x=>x.name===name), id=c.drive[lang];
+  const done=st(name)==="done";
+  if(st(name)==="todo") setSt(name,"doing");
+  app.innerHTML = `<div class="crumb"><a onclick="go('home')">${t("home")}</a> ›
+      <a onclick="go('step','${c.main}')">${esc(c.main)}</a> ›
+      <a onclick="go('sub','${c.main}','${c.step}')">${esc(c.step)}</a></div>
+    <h1>${esc(c.title[lang])}</h1>
+    <p class="sub">${t("duration")} ${mmss(c.duration)} · ${esc(c.step)}</p>
+    ${id?`<div class="player"><iframe src="https://drive.google.com/file/d/${id}/preview"
+         allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+       <p class="sub" style="margin-top:8px;font-size:13px">${t("drive")}</p>`
+      :`<div class="card flat"><div class="grow empty">${t("offline")}</div></div>`}
+    <div class="actions">
+      <button class="btn ${done?"ghost":"ok"}" onclick="setSt('${name}','${done?"doing":"done"}');render()">
+        ${done?t("unmark"):t("mark")}</button>
+      ${id?`<a class="btn ghost" style="text-decoration:none"
+            href="https://drive.google.com/file/d/${id}/view" target="_blank" rel="noopener">Drive ↗</a>`:""}
+      <button class="btn ghost" onclick="go('sub','${c.main}','${c.step}')">${t("back")}</button>
+    </div>
+    ${c.keys[lang]&&c.keys[lang].length?`<div class="keys"><b>${t("keys")}</b>
+      <ul>${c.keys[lang].map(k=>`<li>${esc(k)}</li>`).join("")}</ul>
+      ${c.note?`<div class="note">⚠ ${t("note")} : ${esc(c.note)}</div>`:""}</div>`:""}`;
+}
+if (typeof EMBEDDED !== "undefined") { DATA=EMBEDDED; load(); setLang("fr"); }
+else fetch("data.json").then(r=>r.json()).then(d=>{ DATA=d; load(); setLang("fr"); })
+  .catch(e=>{ app.innerHTML='<div class="card flat"><div class="grow">data.json introuvable — '
+    +'ouvrez la page via un serveur local, ou utilisez le fichier unique '
+    +'Formation_TTA_web.html.</div></div>'; });
+</script>
+</body>
+</html>

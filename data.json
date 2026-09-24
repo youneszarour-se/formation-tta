@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-24T11:56:35",
+ "generated": "2026-09-24T13:46:04",
  "folder": "10Lzy14Ghzarc_bY_zEfOxgHMdVjaYVsk",
  "clips": [
   {
@@ -567,8 +567,40 @@
    "added": "2026-09-23"
   },
   {
-   "name": "Etape_3_1",
+   "name": "Etape_2A_2",
    "order": 19,
+   "step": "2.A",
+   "main": "2",
+   "title": {
+    "fr": "Le pas d'antenne se saisit à trois endroits",
+    "ar": "خطوة الهوائي تُدخَل في ثلاثة مواضع"
+   },
+   "sub": {
+    "fr": "Saisir le pas d'antenne (Antenna Pitch)",
+    "ar": "إدخال خطوة الهوائي (Antenna Pitch)"
+   },
+   "duration": 77.0,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "keys": {
+    "fr": [
+     "Antenna Pitch : la distance d'une antenne à la suivante. Elle commande l'avance de bande à chaque poste.",
+     "Le pas se relève sur la bobine avant tout réglage : c'est la première donnée du produit."
+    ],
+    "ar": [
+     "Antenna Pitch: المسافة من هوائي إلى آخر. وهي تحكم تقدّم الشريط في كل محطة.",
+     "تُقاس الخطوة على البكرة قبل أي ضبط: فهي أول معطى للمنتج."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-24"
+  },
+  {
+   "name": "Etape_3_1",
+   "order": 20,
    "step": "3",
    "main": "3",
    "title": {
@@ -600,7 +632,7 @@
   },
   {
    "name": "Etape_3_2",
-   "order": 20,
+   "order": 21,
    "step": "3",
    "main": "3",
    "title": {
@@ -632,7 +664,7 @@
   },
   {
    "name": "Etape_3_3",
-   "order": 21,
+   "order": 22,
    "step": "3",
    "main": "3",
    "title": {
@@ -664,7 +696,7 @@
   },
   {
    "name": "Etape_3_4",
-   "order": 22,
+   "order": 23,
    "step": "3",
    "main": "3",
    "title": {
@@ -698,7 +730,7 @@
   },
   {
    "name": "Etape_3_5",
-   "order": 23,
+   "order": 24,
    "step": "3",
    "main": "3",
    "title": {
@@ -729,8 +761,40 @@
    "added": "2026-09-24"
   },
   {
+   "name": "Etape_3_6",
+   "order": 25,
+   "step": "3",
+   "main": "3",
+   "title": {
+    "fr": "Rainure d'appui : dégager la puce, puis bloquer",
+    "ar": "مجرى الإسناد: إخلاء موضع الشريحة ثم التثبيت"
+   },
+   "sub": {
+    "fr": "",
+    "ar": ""
+   },
+   "duration": 181.0,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "keys": {
+    "fr": [
+     "Rainure de pressage : l'étiquette doit y reposer à plat et centrée avant tout réglage de report.",
+     "La rainure de dégagement doit tomber à côté de la puce : sous la puce, le pressage l'écrase."
+    ],
+    "ar": [
+     "مجرى الكبس: يجب أن يستقرّ الملصق فيه مستوياً وموسّطاً قبل أي ضبط للتركيب.",
+     "يجب أن يقع مجرى الإخلاء بجانب الشريحة: فتحتها يسحقها الكبس."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-24"
+  },
+  {
    "name": "Etape_4_1",
-   "order": 24,
+   "order": 26,
    "step": "4",
    "main": "4",
    "title": {
@@ -763,8 +827,74 @@
    "added": "2026-09-23"
   },
   {
+   "name": "Etape_4_2",
+   "order": 27,
+   "step": "4",
+   "main": "4",
+   "title": {
+    "fr": "La caméra de contrôle ne voit pas : la ramener",
+    "ar": "كاميرا المراجعة لا ترى: إعادتها"
+   },
+   "sub": {
+    "fr": "",
+    "ar": ""
+   },
+   "duration": 80.0,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "keys": {
+    "fr": [
+     "Centrer les caméras : chaque caméra doit voir l'endroit dont elle répond, avant tout réglage de position.",
+     "Le premier cycle après un déplacement de caméra sort faux : on l'acquitte et on repart."
+    ],
+    "ar": [
+     "توسيط الكاميرات: على كل كاميرا أن ترى الموضع المسؤولة عنه، قبل أي ضبط للموضع.",
+     "الدورة الأولى بعد تحريك الكاميرا تخرج خاطئة: نمسحها ونتابع."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-24"
+  },
+  {
+   "name": "Etape_4_3",
+   "order": 28,
+   "step": "4",
+   "main": "4",
+   "title": {
+    "fr": "Recentrage fin : tout l'écran fait trois millimètres",
+    "ar": "توسيط دقيق: الشاشة كلّها ثلاثة مليمترات"
+   },
+   "sub": {
+    "fr": "",
+    "ar": ""
+   },
+   "duration": 277.0,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "keys": {
+    "fr": [
+     "Les deux caméras de contrôle se centrent l'une après l'autre : dépose d'abord, report ensuite.",
+     "Un seul changement à la fois, et on vérifie sur plusieurs cycles avant de conclure.",
+     "Tout le champ de la caméra vaut environ trois millimètres : ce qui semble énorme à l'écran est minuscule sur la machine."
+    ],
+    "ar": [
+     "تُوسَّط كاميرتا المراقبة واحدة تلو الأخرى: الوضع أولاً ثم التركيب.",
+     "تغيير واحد في كل مرّة، مع التحقّق عبر عدّة دورات قبل الحكم.",
+     "مجال الكاميرا كلّه نحو ثلاثة مليمترات: وما يبدو ضخماً على الشاشة ضئيل على الآلة."
+    ]
+   },
+   "note": "Les 3 mm de champ sont la valeur donnée par le technicien sur cette machine.",
+   "confidence": "confirmed",
+   "added": "2026-09-24"
+  },
+  {
    "name": "Etape_5A_1",
-   "order": 25,
+   "order": 29,
    "step": "5.A",
    "main": "5",
    "title": {
@@ -796,7 +926,7 @@
   },
   {
    "name": "Etape_5A_2",
-   "order": 26,
+   "order": 30,
    "step": "5.A",
    "main": "5",
    "title": {
@@ -828,7 +958,7 @@
   },
   {
    "name": "Etape_5B_1",
-   "order": 27,
+   "order": 31,
    "step": "5.B",
    "main": "5",
    "title": {
@@ -862,7 +992,7 @@
   },
   {
    "name": "Etape_5B_2",
-   "order": 28,
+   "order": 32,
    "step": "5.B",
    "main": "5",
    "title": {
@@ -894,7 +1024,7 @@
   },
   {
    "name": "Etape_5B_3",
-   "order": 29,
+   "order": 33,
    "step": "5.B",
    "main": "5",
    "title": {
@@ -926,7 +1056,7 @@
   },
   {
    "name": "Etape_5B_4",
-   "order": 30,
+   "order": 34,
    "step": "5.B",
    "main": "5",
    "title": {
@@ -958,7 +1088,7 @@
   },
   {
    "name": "Etape_5C_1",
-   "order": 31,
+   "order": 35,
    "step": "5.C",
    "main": "5",
    "title": {
@@ -990,7 +1120,7 @@
   },
   {
    "name": "Etape_5C_2",
-   "order": 32,
+   "order": 36,
    "step": "5.C",
    "main": "5",
    "title": {
@@ -1022,7 +1152,7 @@
   },
   {
    "name": "Etape_5C_3",
-   "order": 33,
+   "order": 37,
    "step": "5.C",
    "main": "5",
    "title": {
@@ -1052,7 +1182,7 @@
   },
   {
    "name": "Etape_5C_4",
-   "order": 34,
+   "order": 38,
    "step": "5.C",
    "main": "5",
    "title": {
@@ -1084,7 +1214,7 @@
   },
   {
    "name": "Etape_6A_1",
-   "order": 35,
+   "order": 39,
    "step": "6.A",
    "main": "6",
    "title": {
@@ -1116,7 +1246,7 @@
   },
   {
    "name": "Etape_6B_1",
-   "order": 36,
+   "order": 40,
    "step": "6.B",
    "main": "6",
    "title": {
@@ -1148,7 +1278,7 @@
   },
   {
    "name": "Etape_9_1",
-   "order": 37,
+   "order": 41,
    "step": "9",
    "main": "9",
    "title": {
@@ -1178,7 +1308,7 @@
   },
   {
    "name": "Etape_9C_1",
-   "order": 38,
+   "order": 42,
    "step": "9.C",
    "main": "9",
    "title": {
@@ -1210,7 +1340,7 @@
   },
   {
    "name": "Etape_9C_2",
-   "order": 39,
+   "order": 43,
    "step": "9.C",
    "main": "9",
    "title": {
@@ -1242,7 +1372,7 @@
   },
   {
    "name": "Etape_9C_3",
-   "order": 40,
+   "order": 44,
    "step": "9.C",
    "main": "9",
    "title": {
@@ -1276,7 +1406,7 @@
   },
   {
    "name": "Etape_9C_4",
-   "order": 41,
+   "order": 45,
    "step": "9.C",
    "main": "9",
    "title": {
@@ -1306,7 +1436,7 @@
   },
   {
    "name": "Etape_9C_5",
-   "order": 42,
+   "order": 46,
    "step": "9.C",
    "main": "9",
    "title": {
@@ -1336,7 +1466,7 @@
   },
   {
    "name": "Etape_9C_6",
-   "order": 43,
+   "order": 47,
    "step": "9.C",
    "main": "9",
    "title": {
@@ -1366,7 +1496,7 @@
   },
   {
    "name": "Etape_9C_7",
-   "order": 44,
+   "order": 48,
    "step": "9.C",
    "main": "9",
    "title": {
@@ -1396,7 +1526,7 @@
   },
   {
    "name": "Etape_9C_8",
-   "order": 45,
+   "order": 49,
    "step": "9.C",
    "main": "9",
    "title": {
@@ -1430,7 +1560,7 @@
   },
   {
    "name": "Etape_9C_9",
-   "order": 46,
+   "order": 50,
    "step": "9.C",
    "main": "9",
    "title": {
@@ -1462,7 +1592,7 @@
   },
   {
    "name": "Etape_9_2",
-   "order": 47,
+   "order": 51,
    "step": "9",
    "main": "9",
    "title": {
@@ -1494,7 +1624,7 @@
   },
   {
    "name": "Etape_9_3",
-   "order": 48,
+   "order": 52,
    "step": "9",
    "main": "9",
    "title": {
@@ -1526,7 +1656,7 @@
   },
   {
    "name": "Etape_9_4",
-   "order": 49,
+   "order": 53,
    "step": "9",
    "main": "9",
    "title": {
@@ -1556,7 +1686,7 @@
   },
   {
    "name": "Etape_9_5",
-   "order": 50,
+   "order": 54,
    "step": "9",
    "main": "9",
    "title": {
@@ -1588,7 +1718,7 @@
   },
   {
    "name": "Etape_9_6",
-   "order": 51,
+   "order": 55,
    "step": "9",
    "main": "9",
    "title": {
@@ -1620,7 +1750,7 @@
   },
   {
    "name": "Etape_9_7",
-   "order": 52,
+   "order": 56,
    "step": "9",
    "main": "9",
    "title": {
@@ -1652,7 +1782,7 @@
   },
   {
    "name": "Etape_9_8",
-   "order": 53,
+   "order": 57,
    "step": "9",
    "main": "9",
    "title": {
@@ -1684,7 +1814,7 @@
   },
   {
    "name": "Etape_10A_1",
-   "order": 54,
+   "order": 58,
    "step": "10.A",
    "main": "10",
    "title": {
@@ -1718,7 +1848,7 @@
   },
   {
    "name": "Etape_10A_2",
-   "order": 55,
+   "order": 59,
    "step": "10.A",
    "main": "10",
    "title": {
@@ -1749,8 +1879,38 @@
    "added": "2026-09-23"
   },
   {
+   "name": "Etape_11A_2",
+   "order": 60,
+   "step": "11.A",
+   "main": "11",
+   "title": {
+    "fr": "La bande défile : place aux têtes chauffantes",
+    "ar": "الشريط يمرّ: ننتقل إلى رؤوس التسخين"
+   },
+   "sub": {
+    "fr": "Disposer et raccorder les têtes chauffantes",
+    "ar": "ترتيب رؤوس التسخين وتوصيلها"
+   },
+   "duration": 23.0,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "keys": {
+    "fr": [
+     "Chaque étape suppose la précédente faite : la bande passe, puis on dispose les têtes chauffantes."
+    ],
+    "ar": [
+     "كل خطوة تفترض إنجاز سابقتها: يمرّ الشريط أولاً، ثم تُرتَّب رؤوس التسخين."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-24"
+  },
+  {
    "name": "Etape_11A_1",
-   "order": 56,
+   "order": 61,
    "step": "11.A",
    "main": "11",
    "title": {
@@ -1782,7 +1942,7 @@
   },
   {
    "name": "Etape_11B_1",
-   "order": 57,
+   "order": 62,
    "step": "11.B",
    "main": "11",
    "title": {
@@ -1816,7 +1976,7 @@
   },
   {
    "name": "Etape_11B_2",
-   "order": 58,
+   "order": 63,
    "step": "11.B",
    "main": "11",
    "title": {
@@ -1848,7 +2008,7 @@
   },
   {
    "name": "Etape_11B_3",
-   "order": 59,
+   "order": 64,
    "step": "11.B",
    "main": "11",
    "title": {
@@ -1878,7 +2038,7 @@
   },
   {
    "name": "Etape_11D_1",
-   "order": 60,
+   "order": 65,
    "step": "11.D",
    "main": "11",
    "title": {
@@ -1910,7 +2070,7 @@
   },
   {
    "name": "Etape_13_1",
-   "order": 61,
+   "order": 66,
    "step": "13",
    "main": "13",
    "title": {
@@ -1940,7 +2100,7 @@
   },
   {
    "name": "Etape_13_2",
-   "order": 62,
+   "order": 67,
    "step": "13",
    "main": "13",
    "title": {
@@ -1966,7 +2126,7 @@
   },
   {
    "name": "Etape_13_3",
-   "order": 63,
+   "order": 68,
    "step": "13",
    "main": "13",
    "title": {
@@ -1996,7 +2156,7 @@
   },
   {
    "name": "Etape_14C_6",
-   "order": 64,
+   "order": 69,
    "step": "14.C",
    "main": "14",
    "title": {
@@ -2030,7 +2190,7 @@
   },
   {
    "name": "Etape_14C_1",
-   "order": 65,
+   "order": 70,
    "step": "14.C",
    "main": "14",
    "title": {
@@ -2062,7 +2222,7 @@
   },
   {
    "name": "Etape_14C_2",
-   "order": 66,
+   "order": 71,
    "step": "14.C",
    "main": "14",
    "title": {
@@ -2094,7 +2254,7 @@
   },
   {
    "name": "Etape_14C_3",
-   "order": 67,
+   "order": 72,
    "step": "14.C",
    "main": "14",
    "title": {
@@ -2126,7 +2286,7 @@
   },
   {
    "name": "Etape_14C_4",
-   "order": 68,
+   "order": 73,
    "step": "14.C",
    "main": "14",
    "title": {
@@ -2160,7 +2320,7 @@
   },
   {
    "name": "Etape_14C_7",
-   "order": 69,
+   "order": 74,
    "step": "14.C",
    "main": "14",
    "title": {
@@ -2192,7 +2352,7 @@
   },
   {
    "name": "Etape_14C_8",
-   "order": 70,
+   "order": 75,
    "step": "14.C",
    "main": "14",
    "title": {
@@ -2224,7 +2384,7 @@
   },
   {
    "name": "Etape_14C_5",
-   "order": 71,
+   "order": 76,
    "step": "14.C",
    "main": "14",
    "title": {

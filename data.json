@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-24T20:18:53",
+ "generated": "2026-09-24T21:48:06",
  "folder": "10Lzy14Ghzarc_bY_zEfOxgHMdVjaYVsk",
  "clips": [
   {
@@ -2235,8 +2235,517 @@
    "added": "2026-09-23"
   },
   {
-   "name": "Etape_11A_2",
+   "name": "Etape_10A_3",
    "order": 69,
+   "step": "10.A",
+   "main": "10",
+   "title": {
+    "fr": "Monter le wafer : les deux méplats, le plateau, puis Load",
+    "ar": "تركيب الرقاقة: السطحان، الحامل، ثم التحميل"
+   },
+   "sub": {
+    "fr": "Changer le wafer (Change Wafer)",
+    "ar": "تغيير الرقاقة (Change Wafer)"
+   },
+   "duration": 119.0,
+   "portrait": false,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "keys": {
+    "fr": [
+     "Le cadre du wafer porte des coins coupés : ils ne laissent qu'un seul sens de montage, et ce sens est l'inverse de celui qui vient naturellement.",
+     "Le plateau se soulève avant d'être engagé, puis se serre à la main. Un wafer coincé ou écrasé est un wafer perdu."
+    ],
+    "ar": [
+     "إطار الرقاقة له أركان مقطوعة: لا تسمح إلّا باتّجاه تركيب واحد، وهو عكس الاتّجاه الذي يتبادر إلى الذهن.",
+     "يُرفع الحامل قبل إدخاله، ثم يُشدّ باليد. والرقاقة المحشورة أو المسحوقة رقاقةٌ ضائعة."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-24"
+  },
+  {
+   "name": "Etape_10A_4",
+   "order": 70,
+   "step": "10.A",
+   "main": "10",
+   "title": {
+    "fr": "Recharger le plateau à zéro degré : encoche vers l'intérieur",
+    "ar": "إعادة تحميل الحامل عند صفر درجة: السنّ نحو الداخل"
+   },
+   "sub": {
+    "fr": "Changer le wafer (Change Wafer)",
+    "ar": "تغيير الرقاقة (Change Wafer)"
+   },
+   "duration": 128.0,
+   "portrait": false,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "keys": {
+    "fr": [
+     "Encoche vers l'intérieur, c'est zéro degré ; encoche vers l'extérieur, c'est 180°. Le repère en haut de la carte correspond à la gauche de l'objet.",
+     "On soulève le plateau à la main avant de l'engager. Sans ce geste, il force et le wafer peut être abîmé."
+    ],
+    "ar": [
+     "السنّ نحو الداخل يعني صفر درجة؛ ونحو الخارج يعني 180 درجة. والعلامة في أعلى الخريطة توافق يسار الجسم.",
+     "نرفع الحامل باليد قبل إدخاله. وبدون هذه الحركة يتعثّر وقد تتلف الرقاقة."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-24"
+  },
+  {
+   "name": "Etape_10B_1",
+   "order": 71,
+   "step": "10.B",
+   "main": "10",
+   "title": {
+    "fr": "Le sens du wafer : comparer ses coins avec l'antenne",
+    "ar": "اتّجاه الرقاقة: مقارنة أركانها بالهوائي"
+   },
+   "sub": {
+    "fr": "Charger et orienter la cartographie du wafer",
+    "ar": "تحميل خريطة الرقاقة وتوجيهها"
+   },
+   "duration": 157.0,
+   "portrait": false,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "keys": {
+    "fr": [
+     "La bande arrive toujours dans le même sens, quel que soit le produit : c'est elle qui sert de référence pour juger le sens du wafer.",
+     "Couper un bout d'antenne et le poser à côté du wafer : si les coins coïncident, le sens est bon. Pas besoin de raisonner sur la rotation de 90°."
+    ],
+    "ar": [
+     "يأتي الشريط دائماً بالاتّجاه نفسه أيّاً كان المنتج: فهو المرجع للحكم على اتّجاه الرقاقة.",
+     "قصّ قطعة من الهوائي ووضعها بجانب الرقاقة: فإن انطبقت الأركان فالاتّجاه صحيح. ولا حاجة للتفكير في دوران التسعين درجة."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-24"
+  },
+  {
+   "name": "Etape_10B_2",
+   "order": 72,
+   "step": "10.B",
+   "main": "10",
+   "title": {
+    "fr": "Importer la cartographie : le numéro de plateau, puis la première ligne",
+    "ar": "استيراد الخريطة: رقم الحامل، ثم السطر الأول"
+   },
+   "sub": {
+    "fr": "Charger et orienter la cartographie du wafer",
+    "ar": "تحميل خريطة الرقاقة وتوجيهها"
+   },
+   "duration": 118.0,
+   "portrait": false,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "keys": {
+    "fr": [
+     "La carte se choisit par le numéro du plateau monté, lu sur son étiquette. Une carte qui ne porte pas ce numéro n'est pas la bonne.",
+     "Curseur sur la première ligne à virgule, clic droit, démarrer, puis répondre oui et saisir 4 à la question sur l'axe Y. Toujours 4."
+    ],
+    "ar": [
+     "تُختار الخريطة برقم الحامل المركَّب، المقروء على بطاقته. والخريطة التي لا تحمل هذا الرقم ليست الصحيحة.",
+     "المؤشّر على أوّل سطر فيه فاصلة، نقرة يمنى، البدء، ثم الإجابة بنعم وإدخال 4 في سؤال المحور Y. وهي 4 دائماً."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-24"
+  },
+  {
+   "name": "Etape_10B_3",
+   "order": 73,
+   "step": "10.B",
+   "main": "10",
+   "title": {
+    "fr": "Tourner la carte de 90°, puis vérifier qu'elle est modifiable",
+    "ar": "إدارة الخريطة تسعين درجة، ثم التأكّد من قابليتها للتعديل"
+   },
+   "sub": {
+    "fr": "Charger et orienter la cartographie du wafer",
+    "ar": "تحميل خريطة الرقاقة وتوجيهها"
+   },
+   "duration": 123.0,
+   "portrait": false,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "keys": {
+    "fr": [
+     "La carte s'affiche à 90° du réel : on la tourne dans le sens antihoraire jusqu'à ce que son repère tombe à droite, comme sur la machine.",
+     "Tracer un cadre et le remettre à zéro vérifie que la carte accepte les modifications. Sans cela, la machine ne pourra pas y noter les puces prises."
+    ],
+    "ar": [
+     "تُعرَض الخريطة على تسعين درجة من الواقع: فنُديرها عكس عقارب الساعة حتى تقع علامتها يميناً، كما على الآلة.",
+     "رسم إطار ثم إعادته يتحقّق من قبول الخريطة للتعديل. وبدون ذلك لن تستطيع الآلة تدوين الشرائح المأخوذة فيها."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-24"
+  },
+  {
+   "name": "Etape_10B_4",
+   "order": 74,
+   "step": "10.B",
+   "main": "10",
+   "title": {
+    "fr": "Retrouver la zone sur le wafer, et reconnaître une puce bonne",
+    "ar": "العثور على المنطقة على الرقاقة، وتمييز الشريحة السليمة"
+   },
+   "sub": {
+    "fr": "Charger et orienter la cartographie du wafer",
+    "ar": "تحميل خريطة الرقاقة وتوجيهها"
+   },
+   "duration": 130.0,
+   "portrait": false,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "keys": {
+    "fr": [
+     "Quand on ne sait plus où l'on est sur le wafer, on s'accroupit et on suit le point lumineux : il montre la position réelle.",
+     "Une puce bonne et un rebut ne se ressemblent pas du tout à l'image : c'est ce qui permet de se repérer sans compter les cases.",
+     "Dans la vue, on suit la flèche, pas le texte : c'est elle qui donne le sens de déplacement."
+    ],
+    "ar": [
+     "متى ضاع موضعك على الرقاقة فانحنِ وتابع النقطة المضيئة: فهي تدلّ على الموضع الحقيقي.",
+     "الشريحة السليمة والنفاية لا تتشابهان في الصورة البتّة: وبذلك نستدلّ دون عدّ الخانات.",
+     "في العرض نتبع السهم لا النصّ: فهو الذي يعطي اتّجاه الحركة."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-24"
+  },
+  {
+   "name": "Etape_10B_5",
+   "order": 75,
+   "step": "10.B",
+   "main": "10",
+   "title": {
+    "fr": "Prouver que la carte colle au wafer, puis fixer le point de départ",
+    "ar": "إثبات مطابقة الخريطة للرقاقة، ثم تثبيت نقطة البدء"
+   },
+   "sub": {
+    "fr": "Charger et orienter la cartographie du wafer",
+    "ar": "تحميل خريطة الرقاقة وتوجيهها"
+   },
+   "duration": 184.0,
+   "portrait": false,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "keys": {
+    "fr": [
+     "On ne compte pas les cases : on cherche des formes reconnaissables — un T, une zone entièrement mauvaise — et on vérifie qu'elles se retrouvent des deux côtés.",
+     "Une fois la correspondance déclarée, on demande un déplacement d'un bout à l'autre : si la machine arrive exactement là où la carte l'annonce, le calage est bon."
+    ],
+    "ar": [
+     "لا نعدّ الخانات: بل نبحث عن أشكال مميّزة — حرف T، منطقة معيبة بأكملها — ونتحقّق من وجودها في الجهتين.",
+     "بعد إعلان المطابقة نطلب انتقالاً من طرف إلى طرف: فإن وصلت الآلة تماماً حيث تُعلن الخريطة فالضبط سليم."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-24"
+  },
+  {
+   "name": "Etape_10B_6",
+   "order": 76,
+   "step": "10.B",
+   "main": "10",
+   "title": {
+    "fr": "Sens de parcours et saut des puces mauvaises",
+    "ar": "اتّجاه المسار وتخطّي الشرائح المعيبة"
+   },
+   "sub": {
+    "fr": "Charger et orienter la cartographie du wafer",
+    "ar": "تحميل خريطة الرقاقة وتوجيهها"
+   },
+   "duration": 182.0,
+   "portrait": false,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "keys": {
+    "fr": [
+     "Depuis le point de départ elle monte, atteint le haut, puis change de ligne du côté choisi. Le sens inverse descend et change de ligne de l'autre côté.",
+     "Un point de départ posé sur une puce mauvaise fait partir la machine dans l'autre sens : le choix du point compte autant que celui du sens.",
+     "Réglé à trois par défaut : la machine saute trois rebuts d'un coup, puis avance une par une pour le reste. Elle ne saute jamais plus que la valeur réglée en une fois."
+    ],
+    "ar": [
+     "من نقطة البدء تصعد حتى الأعلى، ثم تغيّر السطر من الجهة المختارة. والاتّجاه المعاكس ينزل ويغيّر السطر من الجهة الأخرى.",
+     "نقطة بدء على شريحة معيبة تجعل الآلة تنطلق في الاتّجاه الآخر: فاختيار النقطة يهمّ بقدر اختيار الاتّجاه.",
+     "مضبوطٌ على ثلاث افتراضياً: تقفز الآلة ثلاث نفايات دفعةً، ثم تتقدّم واحدةً واحدة للباقي. ولا تقفز أكثر من القيمة المضبوطة في المرّة."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-24"
+  },
+  {
+   "name": "Etape_10B_7",
+   "order": 77,
+   "step": "10.B",
+   "main": "10",
+   "title": {
+    "fr": "Couleurs, case « mode carte », et qui commande la caméra",
+    "ar": "الألوان، وخانة «وضع الخريطة»، ومن يأمر الكاميرا"
+   },
+   "sub": {
+    "fr": "Charger et orienter la cartographie du wafer",
+    "ar": "تحميل خريطة الرقاقة وتوجيهها"
+   },
+   "duration": 136.0,
+   "portrait": false,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "keys": {
+    "fr": [
+     "En mode carte, une case doit être cochée : sans elle, la cartographie est chargée mais sans aucun effet, et la machine prend les puces comme si elle n'existait pas.",
+     "La carte commande, la caméra répond. Mauvaise selon la carte : la caméra ne photographie même pas. Bonne : elle photographie, compare au modèle, et marque la puce si elle ne la reconnaît pas."
+    ],
+    "ar": [
+     "في وضع الخريطة يجب تأشير خانة: وبدونها تُحمَّل الخريطة بلا أثر، وتلتقط الآلة الشرائح كأنّها غير موجودة.",
+     "الخريطة تأمر والكاميرا تردّ. فالمعيبة حسب الخريطة لا تصوّرها الكاميرا أصلاً. والسليمة تصوّرها وتقارنها بالنموذج، وتضع علامة إن لم تتعرّف عليها."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-24"
+  },
+  {
+   "name": "Etape_10B_8",
+   "order": 78,
+   "step": "10.B",
+   "main": "10",
+   "title": {
+    "fr": "Trois échecs et la machine s'arrête : modèle, lumière, masquage",
+    "ar": "ثلاثة إخفاقات فتتوقّف الآلة: النموذج، الإضاءة، الحجب"
+   },
+   "sub": {
+    "fr": "Charger et orienter la cartographie du wafer",
+    "ar": "تحميل خريطة الرقاقة وتوجيهها"
+   },
+   "duration": 121.0,
+   "portrait": false,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "keys": {
+    "fr": [
+     "Trois échecs cumulés et la machine s'arrête en alarme. Ce n'est pas une panne : c'est elle qui demande qu'on regarde le modèle.",
+     "Un modèle trop exigeant, ou un écart de lumière entre l'apprentissage et la production. Un modèle appris sur une image trop riche ne se retrouve plus en marche normale.",
+     "Les traits verts sont les repères comparés. Masquer une zone instable, puis relancer l'apprentissage, vaut mieux que baisser le seuil pour tout le monde."
+    ],
+    "ar": [
+     "ثلاثة إخفاقات متراكمة فتتوقّف الآلة مُنذِرة. وليس ذلك عطلاً: بل هي تطلب النظر في النموذج.",
+     "نموذجٌ شديد التطلّب، أو فارق ضوء بين التعلّم والإنتاج. فالنموذج المُتعلَّم على صورة غنيّة جداً لا يُوجَد في التشغيل العادي.",
+     "الخطوط الخضراء هي العلامات المقارَنة. وحجب منطقة غير مستقرّة ثم إعادة التعلّم خيرٌ من خفض العتبة للجميع."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-24"
+  },
+  {
+   "name": "Etape_10B_9",
+   "order": 79,
+   "step": "10.B",
+   "main": "10",
+   "title": {
+    "fr": "Se relocaliser après un changement, et refixer le point de départ",
+    "ar": "إعادة تحديد الموضع بعد تغيير، وإعادة تثبيت نقطة البدء"
+   },
+   "sub": {
+    "fr": "Charger et orienter la cartographie du wafer",
+    "ar": "تحميل خريطة الرقاقة وتوجيهها"
+   },
+   "duration": 177.0,
+   "portrait": false,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "keys": {
+    "fr": [
+     "On se déplace en ne regardant que l'image et le point lumineux : les bords du wafer et les zones mauvaises suffisent à savoir où l'on est.",
+     "Deux bonnes, une mauvaise, un T au-dessus : c'est cette combinaison qui identifie la zone à coup sûr, dans la carte comme sur le wafer.",
+     "Si la position mesurée reste légèrement décalée, ce n'est pas la mécanique : c'est la similarité du modèle, à ajuster d'un rien."
+    ],
+    "ar": [
+     "نتحرّك ولا ننظر إلّا إلى الصورة والنقطة المضيئة: فحوافّ الرقاقة والمناطق المعيبة تكفي لمعرفة الموضع.",
+     "سليمتان ومعيبة وشكل T فوقها: هذا التركيب يحدّد المنطقة يقيناً، في الخريطة كما على الرقاقة.",
+     "إن بقي الموضع المقيس منزاحاً قليلاً فليست الميكانيك السبب: بل تشابه النموذج، ويُضبط قليلاً جداً."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-24"
+  },
+  {
+   "name": "Etape_10B_10",
+   "order": 80,
+   "step": "10.B",
+   "main": "10",
+   "title": {
+    "fr": "Reprendre une carte entamée : enregistrer, puis le miroir en Y",
+    "ar": "استئناف خريطة مستعمَلة: الحفظ، ثم المرآة في المحور Y"
+   },
+   "sub": {
+    "fr": "Charger et orienter la cartographie du wafer",
+    "ar": "تحميل خريطة الرقاقة وتوجيهها"
+   },
+   "duration": 157.0,
+   "portrait": false,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "keys": {
+    "fr": [
+     "Enregistrer, puis Enregistrer sous, avec un nom qui dit qu'elle est entamée. Le fichier ainsi créé n'a plus les lignes d'en-tête de la carte d'origine.",
+     "Une carte entamée rouverte est inversée en Y : les repères passent à droite. Un clic sur « miroir Y » la remet d'aplomb, puis on enregistre. Sans ce geste, toutes les positions sont fausses."
+    ],
+    "ar": [
+     "الحفظ، ثم الحفظ باسم، باسمٍ يدلّ على أنّها مستعمَلة. والملف الناتج لم تعد فيه أسطر عنوان الخريطة الأصلية.",
+     "الخريطة المستعمَلة المُعاد فتحها منعكسة في المحور Y: فتنتقل العلامات إلى اليمين. ونقرةٌ على «انعكاس Y» تُعيدها، ثم نحفظ. وبدون هذه الحركة تكون كل المواضع خاطئة."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-24"
+  },
+  {
+   "name": "Etape_10C_1",
+   "order": 81,
+   "step": "10.C",
+   "main": "10",
+   "title": {
+    "fr": "Le modèle de puce et le neuf-cases : le construire, le tester, le refaire",
+    "ar": "نموذج الشريحة والشبكة التساعية: بناؤه واختباره وإعادته"
+   },
+   "sub": {
+    "fr": "Modèle de puce et calcul du pas des puces",
+    "ar": "نموذج الشريحة وحساب خطوة الشرائح"
+   },
+   "duration": 233.0,
+   "portrait": false,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "keys": {
+    "fr": [
+     "Un rien plus grand que la puce, mais sans mordre sur la voisine : c'est tout l'art du modèle.",
+     "Quand huit puces sur neuf sont reconnues, on refait le modèle sur celle qui manquait : elle devient la référence, et les neuf passent.",
+     "Trois puces à la verticale, nombre de recherche à 3, angle ±2°, échelle 99 à 100."
+    ],
+    "ar": [
+     "أكبر قليلاً جداً من الشريحة، دون أن يمسّ المجاورة: وهذا كل فنّ النموذج.",
+     "حين تُعرَف ثماني شرائح من تسع، نعيد النموذج على التي نقصت: فتصير المرجع، وتمرّ التسع.",
+     "ثلاث شرائح عمودياً، وعدد البحث ثلاثة، وزاوية ±2 درجة، ومقياس من 99 إلى 100."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-24"
+  },
+  {
+   "name": "Etape_10C_2",
+   "order": 82,
+   "step": "10.C",
+   "main": "10",
+   "title": {
+    "fr": "Page deux : remettre le nombre à trois, les compteurs, l'angle du plateau",
+    "ar": "الصفحة الثانية: إعادة العدد إلى ثلاثة، العدّادات، زاوية الحامل"
+   },
+   "sub": {
+    "fr": "Modèle de puce et calcul du pas des puces",
+    "ar": "نموذج الشريحة وحساب خطوة الشرائح"
+   },
+   "duration": 169.0,
+   "portrait": false,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "keys": {
+    "fr": [
+     "Chaque calcul remet le nombre de recherche à neuf. En production il vaut trois : on le remet systématiquement, sinon la machine cherche neuf puces là où il n'en faut que trois.",
+     "La page indique combien de bonnes puces contient le plateau, combien ont été prises et combien restent : c'est là qu'on suit la consommation du wafer.",
+     "Soit on déclare l'angle du plateau — 180° ici — soit on tourne physiquement le plateau de 180° avant de l'engager. Les deux marchent, mais il faut choisir."
+    ],
+    "ar": [
+     "كل حساب يعيد عدد البحث إلى تسعة. وفي الإنتاج هو ثلاثة: فنعيده دائماً، وإلّا بحثت الآلة عن تسع شرائح حيث لا يلزم إلّا ثلاث.",
+     "تبيّن الصفحة كم شريحة سليمة في الحامل، وكم أُخذ وكم بقي: وهنا نتابع استهلاك الرقاقة.",
+     "إمّا أن نُعلن زاوية الحامل — 180 درجة هنا — وإمّا أن ندير الحامل نفسه 180 درجة قبل إدخاله. وكلاهما يصحّ، لكن لا بدّ من الاختيار."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-24"
+  },
+  {
+   "name": "Etape_10C_3",
+   "order": 83,
+   "step": "10.C",
+   "main": "10",
+   "title": {
+    "fr": "Les plots de la puce, et pourquoi tourner le plateau oblige à refaire le modèle",
+    "ar": "وصلات الشريحة، ولماذا تُلزم إدارةُ الحامل بإعادة النموذج"
+   },
+   "sub": {
+    "fr": "Modèle de puce et calcul du pas des puces",
+    "ar": "نموذج الشريحة وحساب خطوة الشرائح"
+   },
+   "duration": 250.0,
+   "portrait": false,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "keys": {
+    "fr": [
+     "Les plots utiles de la puce sont ceux de gauche et de droite. Une rotation du plateau change l'aspect sans forcément gêner — sauf si le produit impose un sens précis.",
+     "Tourner le plateau rend le modèle faux : il trouve encore la puce, mais le centre calculé est décalé. Deux issues seulement — remettre le plateau, ou refaire le modèle.",
+     "Enregistrer après le calcul. Sans cela, tout le travail de modèle est perdu au prochain arrêt."
+    ],
+    "ar": [
+     "وصلات الشريحة المفيدة هي اليسرى واليمنى. ودورانُ الحامل يغيّر المظهر دون أن يضرّ بالضرورة — إلّا إذا اقتضى المنتج اتّجاهاً بعينه.",
+     "إدارة الحامل تُفسد النموذج: فهو يجد الشريحة لكنّ المركز المحسوب منزاح. ولا مخرج إلّا اثنان — إعادة الحامل، أو إعادة النموذج.",
+     "الحفظ بعد الحساب. وبدونه يضيع عمل النموذج كلّه عند أول توقّف."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-24"
+  },
+  {
+   "name": "Etape_11A_2",
+   "order": 84,
    "step": "11.A",
    "main": "11",
    "title": {
@@ -2267,7 +2776,7 @@
   },
   {
    "name": "Etape_11A_3",
-   "order": 70,
+   "order": 85,
    "step": "11.A",
    "main": "11",
    "title": {
@@ -2302,7 +2811,7 @@
   },
   {
    "name": "Etape_11A_4",
-   "order": 71,
+   "order": 86,
    "step": "11.A",
    "main": "11",
    "title": {
@@ -2337,7 +2846,7 @@
   },
   {
    "name": "Etape_11A_5",
-   "order": 72,
+   "order": 87,
    "step": "11.A",
    "main": "11",
    "title": {
@@ -2372,7 +2881,7 @@
   },
   {
    "name": "Etape_11A_6",
-   "order": 73,
+   "order": 88,
    "step": "11.A",
    "main": "11",
    "title": {
@@ -2405,7 +2914,7 @@
   },
   {
    "name": "Etape_11A_1",
-   "order": 74,
+   "order": 89,
    "step": "11.A",
    "main": "11",
    "title": {
@@ -2438,7 +2947,7 @@
   },
   {
    "name": "Etape_11B_1",
-   "order": 75,
+   "order": 90,
    "step": "11.B",
    "main": "11",
    "title": {
@@ -2473,7 +2982,7 @@
   },
   {
    "name": "Etape_11B_2",
-   "order": 76,
+   "order": 91,
    "step": "11.B",
    "main": "11",
    "title": {
@@ -2506,7 +3015,7 @@
   },
   {
    "name": "Etape_11B_3",
-   "order": 77,
+   "order": 92,
    "step": "11.B",
    "main": "11",
    "title": {
@@ -2537,7 +3046,7 @@
   },
   {
    "name": "Etape_11D_1",
-   "order": 78,
+   "order": 93,
    "step": "11.D",
    "main": "11",
    "title": {
@@ -2570,7 +3079,7 @@
   },
   {
    "name": "Etape_11D_2",
-   "order": 79,
+   "order": 94,
    "step": "11.D",
    "main": "11",
    "title": {
@@ -2603,7 +3112,7 @@
   },
   {
    "name": "Etape_13_1",
-   "order": 80,
+   "order": 95,
    "step": "13",
    "main": "13",
    "title": {
@@ -2634,7 +3143,7 @@
   },
   {
    "name": "Etape_13_2",
-   "order": 81,
+   "order": 96,
    "step": "13",
    "main": "13",
    "title": {
@@ -2661,7 +3170,7 @@
   },
   {
    "name": "Etape_13_3",
-   "order": 82,
+   "order": 97,
    "step": "13",
    "main": "13",
    "title": {
@@ -2692,7 +3201,7 @@
   },
   {
    "name": "Etape_14C_6",
-   "order": 83,
+   "order": 98,
    "step": "14.C",
    "main": "14",
    "title": {
@@ -2727,7 +3236,7 @@
   },
   {
    "name": "Etape_14C_1",
-   "order": 84,
+   "order": 99,
    "step": "14.C",
    "main": "14",
    "title": {
@@ -2760,7 +3269,7 @@
   },
   {
    "name": "Etape_14C_2",
-   "order": 85,
+   "order": 100,
    "step": "14.C",
    "main": "14",
    "title": {
@@ -2793,7 +3302,7 @@
   },
   {
    "name": "Etape_14C_3",
-   "order": 86,
+   "order": 101,
    "step": "14.C",
    "main": "14",
    "title": {
@@ -2826,7 +3335,7 @@
   },
   {
    "name": "Etape_14C_4",
-   "order": 87,
+   "order": 102,
    "step": "14.C",
    "main": "14",
    "title": {
@@ -2861,7 +3370,7 @@
   },
   {
    "name": "Etape_14C_7",
-   "order": 88,
+   "order": 103,
    "step": "14.C",
    "main": "14",
    "title": {
@@ -2894,7 +3403,7 @@
   },
   {
    "name": "Etape_14C_8",
-   "order": 89,
+   "order": 104,
    "step": "14.C",
    "main": "14",
    "title": {
@@ -2927,7 +3436,7 @@
   },
   {
    "name": "Etape_14C_9",
-   "order": 90,
+   "order": 105,
    "step": "14.C",
    "main": "14",
    "title": {
@@ -2960,7 +3469,7 @@
   },
   {
    "name": "Etape_14C_10",
-   "order": 91,
+   "order": 106,
    "step": "14.C",
    "main": "14",
    "title": {
@@ -2997,7 +3506,7 @@
   },
   {
    "name": "Etape_14C_11",
-   "order": 92,
+   "order": 107,
    "step": "14.C",
    "main": "14",
    "title": {
@@ -3028,7 +3537,7 @@
   },
   {
    "name": "Etape_14C_5",
-   "order": 93,
+   "order": 108,
    "step": "14.C",
    "main": "14",
    "title": {
@@ -3355,7 +3864,7 @@
    "is_main": false,
    "fr": "Charger et orienter la cartographie du wafer",
    "ar": "تحميل خريطة الرقاقة وتوجيهها",
-   "has_video": false,
+   "has_video": true,
    "note": ""
   },
   {
@@ -3364,7 +3873,7 @@
    "is_main": false,
    "fr": "Modèle de puce et calcul du pas des puces",
    "ar": "نموذج الشريحة وحساب خطوة الشرائح",
-   "has_video": false,
+   "has_video": true,
    "note": ""
   },
   {

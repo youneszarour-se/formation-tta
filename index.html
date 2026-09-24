@@ -66,7 +66,8 @@
     main{padding:16px 14px 60px} .card{padding:14px} h1{font-size:21px} h2{font-size:17px}
     .num{min-width:42px;height:40px} td,th{padding:8px 6px} .bar{gap:7px}
     .bar button{padding:7px 10px;font-size:13px} .brand{font-size:15px;width:100%}
-    .player.portrait{padding-top:150%}
+    .player{padding-top:0;height:min(58vh,330px)}
+    .player.portrait{padding-top:0;height:min(78vh,540px)}
   }
 </style>
 </head>
@@ -85,7 +86,7 @@
 
 <script>
 const T = {
-  fr:{home:"Accueil",steps:"Étapes",back:"Retour",progress:"Avancement",
+  fr:{fiche:"Fiche de révision (PDF)",home:"Accueil",steps:"Étapes",back:"Retour",progress:"Avancement",
       title:"Formation Machine RFID Flip-Chip TTA",
       sub:"Parcours vidéo en français et en arabe, dans l'ordre de la formation.",
       start:"Commencer",resume:"Reprendre",done:"Terminé",doing:"En cours",todo:"À faire",
@@ -135,7 +136,7 @@ const T = {
       w6:"L'examen final se débloque quand la formation est presque terminée.",
       gotit:"Commencer la formation",
       search:"Rechercher une vidéo…",results:n=>n+" résultat(s)",noresult:"Aucun résultat"},
-  ar:{home:"الرئيسية",steps:"الخطوات",back:"رجوع",progress:"التقدّم",
+  ar:{fiche:"بطاقة المراجعة (PDF)",home:"الرئيسية",steps:"الخطوات",back:"رجوع",progress:"التقدّم",
       title:"تدريب آلة RFID Flip-Chip TTA",
       sub:"مسار فيديو بالفرنسية والعربية، بترتيب التدريب.",
       start:"ابدأ",resume:"متابعة",done:"منتهٍ",doing:"جارٍ",todo:"للإنجاز",
@@ -442,6 +443,8 @@ function renderClip(name){
         : `<button class="btn ok" onclick="markDone('${name}')">${t("donenext")} ▸</button>
            ${nx?`<button class="btn ghost" onclick="go('clip','${nx.name}')">${t("skip")}</button>`:""}`}
       <button class="btn ghost" onclick="go('sub','${c.main}','${c.step}')">${t("back")}</button>
+      <a class="btn ghost" target="_blank" rel="noopener"
+         href="fiches/${lang.toUpperCase()}/${name}.pdf">${t("fiche")}</a>
     </div>
     ${!nx?`<p class="sub" style="margin-top:12px">${t("lastone")}</p>`:""}
     ${c.keys[lang]&&c.keys[lang].length?`<div class="keys"><b>${t("keys")}</b>

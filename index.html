@@ -15,150 +15,389 @@
        font-family:"Segoe UI",Roboto,Arial,sans-serif;font-size:16px;line-height:1.5}
   body.rtl{direction:rtl}
   header{background:var(--navy);color:#fff;padding:14px 20px;position:sticky;top:0;z-index:10}
-  .bar{max-width:1100px;margin:0 auto;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+  .bar{max-width:1100px;margin:0 auto;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
   .brand{font-weight:600;font-size:18px;margin-inline-end:auto}
   .bar button{background:rgba(255,255,255,.12);color:#fff;border:0;border-radius:8px;
-              padding:8px 14px;font-size:14px;cursor:pointer;font-family:inherit}
+              padding:8px 13px;font-size:14px;cursor:pointer;font-family:inherit}
   .bar button:hover{background:rgba(255,255,255,.22)}
   .bar button.on{background:var(--teal);color:#06282B;font-weight:600}
-  main{max-width:1100px;margin:0 auto;padding:22px 20px 60px}
+  .who{font-size:14px;opacity:.85}
+  main{max-width:1100px;margin:0 auto;padding:22px 20px 70px}
   .crumb{color:var(--muted);font-size:14px;margin-bottom:14px}
   .crumb a{color:var(--muted);cursor:pointer;text-decoration:none}
   .crumb a:hover{text-decoration:underline}
-  h1{font-size:26px;margin:0 0 6px}
-  h2{font-size:19px;margin:0 0 4px}
+  h1{font-size:26px;margin:0 0 6px} h2{font-size:19px;margin:0 0 4px}
   .sub{color:var(--muted);margin:0 0 20px}
   .card{background:var(--card);border:1px solid var(--line);border-radius:14px;
         padding:18px 20px;margin-bottom:14px;cursor:pointer;display:flex;gap:16px;align-items:center}
-  .card.flat{cursor:default}
-  .card:hover{border-color:var(--teal)}
+  .card.flat{cursor:default} .card:hover{border-color:var(--teal)}
+  .card.locked{opacity:.72;cursor:default} .card.locked:hover{border-color:var(--line)}
   .num{background:#EEF1F7;color:var(--navy);font-weight:700;border-radius:10px;
-       min-width:54px;height:46px;display:flex;align-items:center;justify-content:center}
-  .grow{flex:1;min-width:0}
-  .meta{color:var(--muted);font-size:14px;margin-top:3px}
+       min-width:54px;height:46px;display:flex;align-items:center;justify-content:center;flex:none}
+  .grow{flex:1;min-width:0} .meta{color:var(--muted);font-size:14px;margin-top:3px}
   .chip{display:inline-block;border-radius:999px;padding:3px 11px;font-size:13px;font-weight:600;white-space:nowrap}
   .todo{background:#EEF1F7;color:var(--muted)} .doing{background:var(--amber-bg);color:var(--amber)}
   .done{background:var(--green-bg);color:var(--green)} .off{background:var(--red-bg);color:var(--red)}
-  .new{background:var(--amber-bg);color:var(--amber)}
-  .keys{background:#FAFBFE;border:1px solid var(--line);border-radius:10px;padding:12px 16px;margin-top:10px}
-  .keys li{margin:4px 0}
-  .note{color:var(--amber);font-size:14px;margin-top:8px}
+  .new{background:var(--amber-bg);color:var(--amber)} .soon{background:#EEF1F7;color:var(--faint)}
+  .keys{background:#FAFBFE;border:1px solid var(--line);border-radius:10px;padding:12px 16px;margin-top:14px}
+  .keys li{margin:4px 0} .note{color:var(--amber);font-size:14px;margin-top:8px}
   .bar2{height:8px;background:#E7EAF1;border-radius:99px;overflow:hidden;margin-top:8px}
-  .bar2 span{display:block;height:100%;background:var(--teal)}
+  .bar2 span{display:block;height:100%;background:var(--teal);transition:width .3s}
   .actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
   .btn{border:0;border-radius:9px;padding:11px 18px;font-size:15px;cursor:pointer;font-family:inherit}
   .primary{background:var(--navy);color:#fff} .ghost{background:#EEF1F7;color:var(--navy)}
-  .ok{background:var(--green);color:#fff}
+  .ok{background:var(--green);color:#fff} .danger{background:var(--red-bg);color:var(--red)}
   .player{position:relative;padding-top:56.25%;background:#000;border-radius:12px;overflow:hidden}
+  .player.portrait{padding-top:min(130%,80vh)}
   .player iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+  .ask{background:var(--amber-bg);border:1px solid #F2DFB0;border-radius:12px;
+       padding:14px 18px;margin-top:14px;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
   .empty{color:var(--muted);font-style:italic}
+  input{font-family:inherit;font-size:15px;padding:11px 14px;border:1px solid var(--line);
+        border-radius:9px;background:#fff;color:var(--text);min-width:0}
+  label.inline{font-size:14px;color:var(--muted);display:flex;align-items:center;gap:7px;margin-top:10px;cursor:pointer}
+  table{width:100%;border-collapse:collapse;font-size:14px}
+  th,td{text-align:start;padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:middle}
+  th{color:var(--muted);font-weight:600}
+  .center{max-width:460px;margin:7vh auto}
+  .steps-intro li{margin:6px 0}
   footer{max-width:1100px;margin:0 auto;padding:0 20px 40px;color:var(--faint);font-size:13px}
-  @media (max-width:560px){ .card{padding:14px} h1{font-size:22px} .num{min-width:44px} }
+  @media (max-width:560px){
+    main{padding:16px 14px 60px} .card{padding:14px} h1{font-size:21px} h2{font-size:17px}
+    .num{min-width:42px;height:40px} td,th{padding:8px 6px} .bar{gap:7px}
+    .bar button{padding:7px 10px;font-size:13px} .brand{font-size:15px;width:100%}
+    .player.portrait{padding-top:150%}
+  }
 </style>
 </head>
 <body>
 <header><div class="bar">
   <span class="brand" id="brand">Formation Machine RFID Flip-Chip TTA</span>
+  <span class="who" id="who"></span>
   <button id="bFR" class="on" onclick="setLang('fr')">Français</button>
   <button id="bAR" onclick="setLang('ar')">العربية</button>
   <button onclick="go('home')" id="bHome">Accueil</button>
+  <button id="bHelp" onclick="go('intro')" style="display:none">?</button>
+  <button id="bOut" onclick="logout()" style="display:none">Quitter</button>
 </div></header>
 <main id="app"></main>
 <footer id="foot"></footer>
 
 <script>
 const T = {
-  fr:{home:"Accueil",steps:"Étapes",videos:"Vidéos",back:"Retour",progress:"Avancement",
+  fr:{home:"Accueil",steps:"Étapes",back:"Retour",progress:"Avancement",
       title:"Formation Machine RFID Flip-Chip TTA",
       sub:"Parcours vidéo en français et en arabe, dans l'ordre de la formation.",
       start:"Commencer",resume:"Reprendre",done:"Terminé",doing:"En cours",todo:"À faire",
-      nvideos:n=>n+" vidéo"+(n>1?"s":""),novideo:"Pas encore filmé",
-      keys:"Points clés",note:"À savoir",open:"Ouvrir la vidéo",again:"Revoir",
+      nvideos:n=>n+(n>1?" vidéos":" vidéo"),novideo:"Bientôt disponible",
+      keys:"Points clés",note:"À savoir",
       mark:"Marquer comme terminé",unmark:"Remettre à « À faire »",
-      offline:"Pas encore en ligne",neu:"Nouveau",duration:"Durée",
-      stepsdone:(a,b)=>a+" vidéo(s) terminée(s) sur "+b,
+      offline:"Bientôt en ligne",
+      offlinelong:"Cette vidéo est en cours de mise en ligne. Prévenez le formateur si elle tarde.",
+      neu:"Nouveau",duration:"Durée",
+      doneof:(a,b)=>a+" sur "+b+" terminées",left:h=>"il reste "+h,
       pick:"Choisissez une étape",picksub:"Choisissez une sous-étape",
-      drive:"La vidéo s'ouvre depuis Google Drive."},
-  ar:{home:"الرئيسية",steps:"الخطوات",videos:"الفيديوهات",back:"رجوع",progress:"التقدّم",
+      posin:(i,n,s)=>"Vidéo "+i+" sur "+n+" · étape "+s,
+      next:"Vidéo suivante",nextstep:"Étape suivante",lastone:"Dernière vidéo du parcours",
+      donenext:"Terminé, vidéo suivante",skip:"Passer sans marquer",
+      finished:"Avez-vous terminé cette vidéo ?",yes:"Oui, terminée",notyet:"Pas encore",
+      login:"Connexion",loginsub:"Identifiant et mot de passe remis par le formateur.",
+      enter:"Entrer",unknown:"Identifiant ou mot de passe incorrect",
+      pass:"Mot de passe",newpass:"Nouveau mot de passe",showpass:"Afficher le mot de passe",
+      forgot:"Mot de passe oublié ? Demandez-en un nouveau à votre formateur.",
+      changetitle:"Choisissez votre mot de passe",
+      changesub:"Le mot de passe provisoire doit être remplacé. 6 caractères minimum.",
+      save:"Enregistrer",short:"6 caractères minimum",reset:"Nouveau mot de passe",
+      creds:(c,p)=>"Identifiant : "+c+"  ·  Mot de passe provisoire : "+p+"  (à noter maintenant)",
+      admin:"Suivi des stagiaires",adminsub:"Créez les identifiants et suivez l'avancement de chacun.",
+      newname:"Nom du stagiaire",add:"Créer l'identifiant",remove:"Retirer",
+      tname:"Stagiaire",tcode:"Identifiant",tdone:"Terminées",tlast:"Dernière vidéo",twhen:"Le",
+      never:"jamais",none:"Aucun stagiaire pour le moment.",goto:"Voir la formation",
+      examcol:"Examen",noexam:"—",
+      exam:"Examen final",examsub:"Questions sur les vidéos : images à identifier et choix multiples.",
+      examgo:"Passer l'examen",
+      examlock:n=>"Débloqué après "+n+" vidéos",
+      examlocksub:(a,b)=>"Terminez d'abord la formation : "+a+" sur "+b+" vidéos vues.",
+      question:(a,b)=>"Question "+a+" sur "+b,
+      prev:"Précédent",nextq:"Suivant",finish:"Remettre la copie",
+      unanswered:n=>n+" question(s) sans réponse",
+      result:"Résultat",passed:"Réussi",failed:"Non acquis",
+      yourscore:(a,b,p)=>a+" bonnes réponses sur "+b+" ("+p+" %)",
+      needed:p=>"Seuil de réussite : "+p+" %",
+      review:"Corrigé",yours:"Votre réponse",good:"Bonne réponse",retry:"Repasser l'examen",
+      welcome:"Bienvenue",
+      welcomesub:"Quelques repères avant de commencer.",
+      w1:"Cette formation couvre la machine RFID Flip-Chip TTA, du démarrage à la fin de poste.",
+      w2:n=>n+" vidéos courtes, environ ${DUR} au total. Vous pouvez vous arrêter et reprendre quand vous voulez.",
+      w3:"Suivez l'ordre proposé : chaque étape suppose la précédente acquise.",
+      w4:"Français ou arabe, au choix, à tout moment dans la barre du haut.",
+      w5:"Votre avancement est enregistré : vous pouvez changer d'appareil.",
+      w6:"L'examen final se débloque quand la formation est presque terminée.",
+      gotit:"Commencer la formation",
+      search:"Rechercher une vidéo…",results:n=>n+" résultat(s)",noresult:"Aucun résultat"},
+  ar:{home:"الرئيسية",steps:"الخطوات",back:"رجوع",progress:"التقدّم",
       title:"تدريب آلة RFID Flip-Chip TTA",
       sub:"مسار فيديو بالفرنسية والعربية، بترتيب التدريب.",
       start:"ابدأ",resume:"متابعة",done:"منتهٍ",doing:"جارٍ",todo:"للإنجاز",
-      nvideos:n=>n+" فيديو",novideo:"لم يُصوَّر بعد",
-      keys:"النقاط الأساسية",note:"للعلم",open:"افتح الفيديو",again:"إعادة المشاهدة",
+      nvideos:n=>n+" فيديو",novideo:"قريباً",
+      keys:"النقاط الأساسية",note:"للعلم",
       mark:"وضع علامة: منتهٍ",unmark:"إرجاع إلى «للإنجاز»",
-      offline:"غير متاح على الإنترنت بعد",neu:"جديد",duration:"المدة",
-      stepsdone:(a,b)=>a+" من "+b+" فيديو منتهية",
+      offline:"قريباً على الإنترنت",
+      offlinelong:"يجري رفع هذا الفيديو. أبلغ المدرّب إن تأخّر.",
+      neu:"جديد",duration:"المدة",
+      doneof:(a,b)=>a+" من "+b+" منتهية",left:h=>"يتبقّى "+h,
       pick:"اختر خطوة",picksub:"اختر خطوة فرعية",
-      drive:"يُفتح الفيديو من Google Drive."}
+      posin:(i,n,s)=>"الفيديو "+i+" من "+n+" · الخطوة "+s,
+      next:"الفيديو التالي",nextstep:"الخطوة التالية",lastone:"آخر فيديو في المسار",
+      donenext:"انتهى، الفيديو التالي",skip:"تخطٍّ دون تعليم",
+      finished:"هل أنهيت هذا الفيديو؟",yes:"نعم، انتهى",notyet:"ليس بعد",
+      login:"تسجيل الدخول",loginsub:"المعرّف وكلمة المرور من المدرّب.",
+      enter:"دخول",unknown:"المعرّف أو كلمة المرور غير صحيحة",
+      pass:"كلمة المرور",newpass:"كلمة مرور جديدة",showpass:"إظهار كلمة المرور",
+      forgot:"نسيت كلمة المرور؟ اطلب واحدة جديدة من المدرّب.",
+      changetitle:"اختر كلمة المرور الخاصة بك",
+      changesub:"يجب تغيير كلمة المرور المؤقتة. 6 أحرف على الأقل.",
+      save:"حفظ",short:"6 أحرف على الأقل",reset:"كلمة مرور جديدة",
+      creds:(c,p)=>"المعرّف: "+c+"  ·  كلمة المرور المؤقتة: "+p+"  (دوّنها الآن)",
+      admin:"متابعة المتدرّبين",adminsub:"أنشئ المعرّفات وتابع تقدّم كل متدرّب.",
+      newname:"اسم المتدرّب",add:"إنشاء المعرّف",remove:"حذف",
+      tname:"المتدرّب",tcode:"المعرّف",tdone:"المنتهية",tlast:"آخر فيديو",twhen:"بتاريخ",
+      never:"أبداً",none:"لا يوجد متدرّبون بعد.",goto:"عرض التدريب",
+      examcol:"الامتحان",noexam:"—",
+      exam:"الامتحان النهائي",examsub:"أسئلة عن الفيديوهات: صور للتعرّف واختيار من متعدّد.",
+      examgo:"خوض الامتحان",
+      examlock:n=>"يُفتح بعد "+n+" فيديو",
+      examlocksub:(a,b)=>"أكمل التدريب أولاً: شاهدت "+a+" من "+b+" فيديو.",
+      question:(a,b)=>"السؤال "+a+" من "+b,
+      prev:"السابق",nextq:"التالي",finish:"تسليم الورقة",
+      unanswered:n=>n+" سؤال دون إجابة",
+      result:"النتيجة",passed:"ناجح",failed:"غير مُحقّق",
+      yourscore:(a,b,p)=>a+" إجابة صحيحة من "+b+" ("+p+"٪)",
+      needed:p=>"عتبة النجاح: "+p+"٪",
+      review:"التصحيح",yours:"إجابتك",good:"الإجابة الصحيحة",retry:"إعادة الامتحان",
+      welcome:"أهلاً بك",
+      welcomesub:"بعض المعالم قبل البدء.",
+      w1:"يغطّي هذا التدريب آلة RFID Flip-Chip TTA، من التشغيل إلى نهاية الوردية.",
+      w2:n=>n+" فيديو قصير، نحو ${DUR} إجمالاً. يمكنك التوقّف والمتابعة متى شئت.",
+      w3:"اتبع الترتيب المقترح: كل خطوة تفترض إتقان سابقتها.",
+      w4:"بالفرنسية أو العربية، كما تشاء، من الشريط العلوي.",
+      w5:"يُحفظ تقدّمك: ويمكنك تغيير الجهاز.",
+      w6:"يُفتح الامتحان النهائي عندما يوشك التدريب على الانتهاء.",
+      gotit:"ابدأ التدريب",
+      search:"ابحث عن فيديو…",results:n=>n+" نتيجة",noresult:"لا نتائج"}
 };
-let DATA=null, lang="fr", view={p:"home"}, prog={};
+let DATA=null, lang="fr", view={p:"home"}, prog={}, ME=null, ADMIN=null, TOKEN=null;
+let EXAM=null, ANSW=[], QN=0, RESULT=null, TIMER=null, ASK=false, QUERY="";
 const t = k => T[lang][k];
-const KEY = "tta_training_progress_v1";
+const KEY="tta_token_v2", LKEY="tta_lang_v1", SEEN="tta_seen_intro_v1";
+const EXAM_GATE = 0.8;                       // l'examen s'ouvre à 80 % du parcours
+const api = (path, body) => fetch("/api/"+path, {method:"POST", headers:{"Content-Type":"application/json"},
+                                                body:JSON.stringify(body)}).then(r=>r.json());
 
-function load(){ try{ prog = JSON.parse(localStorage.getItem(KEY)||"{}"); }catch(e){ prog={}; } }
-function save(){ try{ localStorage.setItem(KEY, JSON.stringify(prog)); }catch(e){} }
+function saveSession(){ try{ localStorage.setItem(KEY, TOKEN||""); }catch(e){} }
 function st(n){ return (prog[n]&&prog[n].status)||"todo"; }
-function setSt(n,s){ prog[n]=Object.assign(prog[n]||{},{status:s,at:new Date().toISOString()}); save(); }
+function setSt(n,s){
+  prog[n]=Object.assign(prog[n]||{},{status:s});
+  if (TOKEN) api("progress", {token:TOKEN, clip:n, status:s, lang:lang}).catch(()=>{});
+}
 function mmss(s){ s=Math.round(s); return Math.floor(s/60)+":"+String(s%60).padStart(2,"0"); }
+function hhmm(sec){ const h=Math.floor(sec/3600), m=Math.round((sec%3600)/60);
+  return h ? h+" h "+String(m).padStart(2,"0") : m+" min"; }
 function esc(s){ return (s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
+function when(iso){ return iso ? new Date(iso).toLocaleString(lang==="ar"?"ar":"fr-FR",{dateStyle:"short",timeStyle:"short"}) : t("never"); }
 function clipsOf(step){ return DATA.clips.filter(c=>c.step===step); }
 function mains(){ return DATA.steps.filter(s=>s.is_main); }
-function subsOf(id){ return DATA.steps.filter(s=>s.main===id && (!s.is_main || !DATA.steps.some(x=>x.main===id&&!x.is_main))); }
-
-function setLang(l){
-  lang=l; document.body.classList.toggle("rtl", l==="ar");
-  document.documentElement.lang=l;
-  bFR.classList.toggle("on",l==="fr"); bAR.classList.toggle("on",l==="ar");
-  bHome.textContent=t("home"); brand.textContent=t("title");
-  render();
-}
-function go(p,a,b){ view={p:p,a:a,b:b}; window.scrollTo(0,0); render(); }
-
-function chip(s){ return `<span class="chip ${s}">${t(s)}</span>`; }
+function idx(name){ return DATA.clips.findIndex(c=>c.name===name); }
+function nextOf(name){ const i=idx(name); return i>=0 && i<DATA.clips.length-1 ? DATA.clips[i+1] : null; }
 function overall(){
   const tot=DATA.clips.length, d=DATA.clips.filter(c=>st(c.name)==="done").length;
-  return {tot,d,pc: tot? Math.round(100*d/tot):0};
+  const left=DATA.clips.filter(c=>st(c.name)!=="done").reduce((s,c)=>s+c.duration,0);
+  return {tot, d, left, pc: tot?Math.round(100*d/tot):0};
 }
+function examOpen(){ const o=overall(); return o.d >= Math.ceil(o.tot*EXAM_GATE); }
+
+function setLang(l){
+  lang=l; document.body.classList.toggle("rtl", l==="ar"); document.documentElement.lang=l;
+  bFR.classList.toggle("on",l==="fr"); bAR.classList.toggle("on",l==="ar");
+  bHome.textContent=t("home"); brand.textContent=t("title");
+  try{ localStorage.setItem(LKEY, l); }catch(e){}
+  render();
+}
+function go(p,a,b){ clearTimeout(TIMER); ASK=false; view={p:p,a:a,b:b}; window.scrollTo(0,0); render(); }
+function logout(){ if(TOKEN) api("session",{token:TOKEN,action:"logout"}).catch(()=>{});
+  ME=null; TOKEN=null; prog={}; ADMIN=null; try{localStorage.removeItem(KEY);}catch(e){} view={p:"home"}; render(); }
+function chip(s){ return `<span class="chip ${s}">${t(s)}</span>`; }
+
+async function login(){
+  const code = document.getElementById("code").value.trim();
+  const password = document.getElementById("pass").value;
+  const msg = document.getElementById("msg");
+  if(!code || !password) return;
+  msg.textContent = "…";
+  const r = await api("session", {code, password}).catch(()=>({error:"réseau"}));
+  if(r.error){ msg.textContent = t("unknown"); return; }
+  adopt(r);
+}
+function adopt(r){
+  TOKEN = r.token; ME = {code:r.code, name:r.name, role:r.role}; saveSession();
+  prog = {}; Object.entries(r.items||{}).forEach(([k,v])=>prog[k]={status:v.status});
+  let seen=false; try{ seen = localStorage.getItem(SEEN)==="1"; }catch(e){}
+  view = {p: r.must_change ? "password"
+            : (r.role==="admin" ? "admin" : (seen ? "home" : "intro"))};
+  render();
+}
+async function changePassword(){
+  const pw = document.getElementById("np").value, msg = document.getElementById("msg");
+  if(pw.length < 6){ msg.textContent = t("short"); return; }
+  const r = await api("session", {token:TOKEN, action:"password", new:pw});
+  if(r.error){ msg.textContent = r.error; return; }
+  let seen=false; try{ seen = localStorage.getItem(SEEN)==="1"; }catch(e){}
+  view = {p: ME.role==="admin" ? "admin" : (seen ? "home" : "intro")}; render();
+}
+function seenIntro(){ try{ localStorage.setItem(SEEN,"1"); }catch(e){} go("home"); }
+async function loadAdmin(){ ADMIN = await api("admin", {token:TOKEN}).catch(e=>({error:String(e)})); render(); }
+async function addTrainee(){
+  const el=document.getElementById("newname"), name=el.value.trim(); if(!name) return;
+  const r = await api("trainees", {token:TOKEN, action:"add", name});
+  document.getElementById("amsg").textContent = r.error ? r.error : t("creds")(r.code, r.password);
+  el.value=""; if(!r.error) loadAdmin();
+}
+async function removeTrainee(target){ await api("trainees", {token:TOKEN, action:"remove", target}); loadAdmin(); }
+async function resetPassword(target){
+  const r = await api("trainees", {token:TOKEN, action:"reset", target});
+  document.getElementById("amsg").textContent = r.error ? r.error : t("creds")(r.code, r.password);
+}
+async function startExam(){
+  if(!examOpen() && ME.role!=="admin") return;
+  RESULT=null; ANSW=[]; QN=0;
+  EXAM = await api("exam", {token:TOKEN, action:"start"}).catch(e=>({error:String(e)}));
+  go("exam");
+}
+function answer(i){ ANSW[QN]=i; render(); }
+function moveQ(d){ QN=Math.max(0, Math.min(EXAM.questions.length-1, QN+d)); window.scrollTo(0,0); render(); }
+async function submitExam(){
+  RESULT = await api("exam", {token:TOKEN, action:"submit", attempt:EXAM.attempt, answers:ANSW})
+             .catch(e=>({error:String(e)}));
+  go("result");
+}
+function markDone(name){                      // marque puis enchaîne sur la vidéo suivante
+  setSt(name,"done");
+  const nx = nextOf(name);
+  if(nx) go("clip", nx.name); else go("home");
+}
+
 function render(){
-  const o=overall();
-  foot.innerHTML = `${esc(DATA.generated.replace("T"," ").slice(0,16))} · ${o.d}/${o.tot}`;
-  if(view.p==="home") return renderHome(o);
-  if(view.p==="step") return renderStep(view.a);
-  if(view.p==="sub")  return renderSub(view.a,view.b);
-  if(view.p==="clip") return renderClip(view.a);
+  const logged = !!ME;
+  bOut.style.display = logged ? "" : "none";
+  bHelp.style.display = logged && ME.role!=="admin" ? "" : "none";
+  bHome.style.display = logged ? "" : "none";
+  who.textContent = logged ? (ME.name + " · " + ME.code) : "";
+  if(!logged) return renderLogin();
+  const o = overall();
+  foot.innerHTML = `${esc((DATA.generated||"").replace("T"," ").slice(0,16))} · ${o.d}/${o.tot}`;
+  if(view.p==="password") return renderPassword();
+  if(view.p==="intro")    return renderIntro();
+  if(view.p==="exam")     return renderExam();
+  if(view.p==="result")   return renderResult();
+  if(view.p==="admin")    return renderAdmin();
+  if(view.p==="step")     return renderStep(view.a);
+  if(view.p==="sub")      return renderSub(view.a,view.b);
+  if(view.p==="clip")     return renderClip(view.a);
+  return renderHome(o);
+}
+function renderLogin(){
+  foot.innerHTML="";
+  app.innerHTML = `<div class="center"><h1>${t("login")}</h1><p class="sub">${t("loginsub")}</p>
+    <div class="card flat" style="display:block">
+      <input id="code" placeholder="TTA-XXXXX" style="width:100%" autocomplete="username"
+             onkeydown="if(event.key==='Enter')document.getElementById('pass').focus()">
+      <input id="pass" type="password" placeholder="${t("pass")}" style="width:100%;margin-top:10px"
+             autocomplete="current-password" onkeydown="if(event.key==='Enter')login()">
+      <label class="inline"><input type="checkbox" onchange="pass.type=this.checked?'text':'password'">
+        ${t("showpass")}</label>
+      <div class="actions"><button class="btn primary" onclick="login()">${t("enter")}</button></div>
+      <div class="note" id="msg"></div>
+      <p class="meta">${t("forgot")}</p>
+    </div></div>`;
+  setTimeout(()=>{const c=document.getElementById("code"); c&&c.focus();},50);
+}
+function renderPassword(){
+  foot.innerHTML="";
+  app.innerHTML = `<div class="center"><h1>${t("changetitle")}</h1><p class="sub">${t("changesub")}</p>
+    <div class="card flat" style="display:block">
+      <input id="np" type="password" placeholder="${t("newpass")}" style="width:100%"
+             autocomplete="new-password" onkeydown="if(event.key==='Enter')changePassword()">
+      <label class="inline"><input type="checkbox" onchange="np.type=this.checked?'text':'password'">
+        ${t("showpass")}</label>
+      <div class="actions"><button class="btn primary" onclick="changePassword()">${t("save")}</button></div>
+      <div class="note" id="msg"></div>
+    </div></div>`;
+  setTimeout(()=>{const c=document.getElementById("np"); c&&c.focus();},50);
+}
+function renderIntro(){
+  const o = overall();
+  const dur = hhmm(DATA.clips.reduce((s,c)=>s+c.duration,0));
+  const line = k => `<li>${esc(typeof t(k)==="function" ? t(k)(o.tot) : t(k)).replace("${DUR}", dur)}</li>`;
+  app.innerHTML = `<div class="center" style="max-width:640px">
+    <h1>${t("welcome")}${ME?", "+esc(ME.name.split(" ")[0]):""}</h1>
+    <p class="sub">${t("welcomesub")}</p>
+    <div class="card flat" style="display:block">
+      <ul class="steps-intro">${["w1","w2","w3","w4","w5","w6"].map(line).join("")}</ul>
+      <div class="actions"><button class="btn primary" onclick="seenIntro()">${t("gotit")}</button></div>
+    </div></div>`;
 }
 function renderHome(o){
   const next = DATA.clips.find(c=>st(c.name)!=="done");
+  const open = examOpen();
+  const needed = Math.ceil(o.tot*EXAM_GATE);
+  const q = QUERY.trim().toLowerCase();
+  const hits = q ? DATA.clips.filter(c =>
+      (c.title[lang]||"").toLowerCase().includes(q) ||
+      (c.keys[lang]||[]).join(" ").toLowerCase().includes(q) ||
+      (c.step||"").toLowerCase().includes(q)) : [];
   app.innerHTML = `<h1>${t("title")}</h1><p class="sub">${t("sub")}</p>
+    <input id="q" placeholder="${t("search")}" value="${esc(QUERY)}" style="width:100%;margin-bottom:16px"
+           oninput="QUERY=this.value; render(); const e=document.getElementById('q'); e.focus(); e.setSelectionRange(e.value.length,e.value.length);">
+    ${q ? `<p class="sub">${hits.length?t("results")(hits.length):t("noresult")}</p>
+        ${hits.slice(0,12).map(c=>`<div class="card" onclick="go('clip','${c.name}')">
+          <div class="num">${esc(c.step)}</div><div class="grow"><b>${esc(c.title[lang])}</b>
+          <div class="meta">${t("duration")} ${mmss(c.duration)}</div></div>${chip(st(c.name))}</div>`).join("")}`
+      : `
+    ${ME.role==="admin"?`<div class="card" onclick="go('admin')"><div class="num">☰</div>
+      <div class="grow"><b>${t("admin")}</b><div class="meta">${t("adminsub")}</div></div></div>`:""}
     <div class="card flat"><div class="grow"><b>${t("progress")}</b>
-      <div class="meta">${t("stepsdone")(o.d,o.tot)}</div>
-      <div class="bar2"><span style="width:${o.pc}%"></span></div></div>
-      <div class="num">${o.pc}%</div></div>
+      <div class="meta">${t("doneof")(o.d,o.tot)} · ${t("left")(hhmm(o.left))}</div>
+      <div class="bar2"><span style="width:${o.pc}%"></span></div></div><div class="num">${o.pc}%</div></div>
     ${next?`<div class="card" onclick="go('clip','${next.name}')"><div class="num">▶</div>
       <div class="grow"><b>${o.d?t("resume"):t("start")}</b>
       <div class="meta">${esc(next.title[lang])}</div></div></div>`:""}
     <h2 style="margin-top:24px">${t("steps")}</h2><p class="sub">${t("pick")}</p>
     ${mains().map(m=>{
-      const cs=DATA.clips.filter(c=>c.main===m.id);
-      const d=cs.filter(c=>st(c.name)==="done").length;
-      return `<div class="card" onclick="go('step','${m.id}')">
+      const cs=DATA.clips.filter(c=>c.main===m.id), d=cs.filter(c=>st(c.name)==="done").length;
+      const pc = cs.length?Math.round(100*d/cs.length):0;
+      return `<div class="card${cs.length?"":" locked"}" ${cs.length?`onclick="go('step','${m.id}')"`:""}>
         <div class="num">${esc(m.id)}</div><div class="grow"><b>${esc(m[lang])}</b>
-        <div class="meta">${cs.length?t("nvideos")(cs.length)+" · "+d+"/"+cs.length:t("novideo")}</div></div>
-        ${cs.length?chip(d===cs.length?"done":(d?"doing":"todo")):""}</div>`;}).join("")}`;
+        <div class="meta">${cs.length?t("nvideos")(cs.length)+" · "+d+"/"+cs.length:t("novideo")}</div>
+        ${cs.length?`<div class="bar2"><span style="width:${pc}%"></span></div>`:""}</div>
+        ${cs.length?chip(d===cs.length?"done":(d?"doing":"todo")):`<span class="chip soon">${t("novideo")}</span>`}</div>`;
+    }).join("")}
+    <h2 style="margin-top:26px">${t("exam")}</h2>
+    <div class="card${open?"":" locked"}" ${open?`onclick="startExam()"`:""}>
+      <div class="num">${open?"✓":"🔒"}</div>
+      <div class="grow"><b>${t("exam")}</b>
+        <div class="meta">${open?t("examsub"):t("examlocksub")(o.d,needed)}</div></div>
+      <span class="chip ${open?"todo":"soon"}">${open?t("examgo"):t("examlock")(needed)}</span></div>`}`;
 }
 function renderStep(id){
   const m=DATA.steps.find(s=>s.id===id&&s.is_main);
-  const subs=DATA.steps.filter(s=>s.main===id&&!s.is_main);
-  const list = subs.length?subs:[m];
+  const subs=DATA.steps.filter(s=>s.main===id&&!s.is_main); const list=subs.length?subs:[m];
   app.innerHTML = `<div class="crumb"><a onclick="go('home')">${t("home")}</a> › ${esc(m.id)}</div>
     <h1>${esc(m[lang])}</h1><p class="sub">${t("picksub")}</p>
-    ${list.map(s=>{
-      const cs=clipsOf(s.id), d=cs.filter(c=>st(c.name)==="done").length;
-      return `<div class="card" ${cs.length?`onclick="go('sub','${id}','${s.id}')"`:'style="cursor:default;opacity:.75"'}>
+    ${list.map(s=>{ const cs=clipsOf(s.id), d=cs.filter(c=>st(c.name)==="done").length;
+      return `<div class="card${cs.length?"":" locked"}" ${cs.length?`onclick="go('sub','${id}','${s.id}')"`:""}>
         <div class="num">${esc(s.id)}</div><div class="grow"><b>${esc(s[lang])}</b>
-        <div class="meta">${cs.length?t("nvideos")(cs.length)+" · "+d+"/"+cs.length
-          :(s.note?esc(s.note):t("novideo"))}</div></div>
-        ${cs.length?chip(d===cs.length?"done":(d?"doing":"todo")):`<span class="chip off">${t("novideo")}</span>`}</div>`;
+        <div class="meta">${cs.length?t("nvideos")(cs.length)+" · "+d+"/"+cs.length:(s.note?esc(s.note):t("novideo"))}</div></div>
+        ${cs.length?chip(d===cs.length?"done":(d?"doing":"todo")):`<span class="chip soon">${t("novideo")}</span>`}</div>`;
     }).join("")}`;
 }
 function renderSub(mid,sid){
@@ -171,37 +410,127 @@ function renderSub(mid,sid){
       <div class="grow"><b>${esc(c.title[lang])}</b>
         <div class="meta">${t("duration")} ${mmss(c.duration)}</div></div>
       ${chip(st(c.name))}${c.added>="2026-09-23"?`<span class="chip new">★ ${t("neu")}</span>`:""}
-      ${c.drive[lang]?"":`<span class="chip off">${t("offline")}</span>`}</div>`).join("")}`;
+      ${c.drive[lang]?"":`<span class="chip soon">${t("offline")}</span>`}</div>`).join("")}`;
 }
 function renderClip(name){
-  const c=DATA.clips.find(x=>x.name===name), id=c.drive[lang];
-  const done=st(name)==="done";
+  const c=DATA.clips.find(x=>x.name===name), id=c.drive[lang], done=st(name)==="done";
+  const peers=clipsOf(c.step), pos=peers.findIndex(x=>x.name===name)+1;
+  const nx=nextOf(name);
   if(st(name)==="todo") setSt(name,"doing");
+  clearTimeout(TIMER);
+  if(!done && !ASK){                           // proposer de valider une fois la durée écoulée
+    TIMER = setTimeout(()=>{ if(view.p==="clip" && view.a===name){ ASK=true; render(); } },
+                       Math.max(20, c.duration*0.9)*1000);
+  }
   app.innerHTML = `<div class="crumb"><a onclick="go('home')">${t("home")}</a> ›
       <a onclick="go('step','${c.main}')">${esc(c.main)}</a> ›
       <a onclick="go('sub','${c.main}','${c.step}')">${esc(c.step)}</a></div>
     <h1>${esc(c.title[lang])}</h1>
-    <p class="sub">${t("duration")} ${mmss(c.duration)} · ${esc(c.step)}</p>
-    ${id?`<div class="player"><iframe src="https://drive.google.com/file/d/${id}/preview"
-         allow="autoplay; fullscreen" allowfullscreen></iframe></div>
-       <p class="sub" style="margin-top:8px;font-size:13px">${t("drive")}</p>`
-      :`<div class="card flat"><div class="grow empty">${t("offline")}</div></div>`}
+    <p class="sub">${t("posin")(pos, peers.length, c.step)} · ${t("duration")} ${mmss(c.duration)}</p>
+    ${id?`<div class="player${c.portrait?" portrait":""}">
+        <iframe src="https://drive.google.com/file/d/${id}/preview"
+         allow="autoplay; fullscreen" allowfullscreen></iframe></div>`
+      :`<div class="card flat" style="display:block"><b>${t("offline")}</b>
+         <div class="meta">${t("offlinelong")}</div></div>`}
+    ${ASK && !done ? `<div class="ask"><b class="grow">${t("finished")}</b>
+        <button class="btn ok" onclick="markDone('${name}')">${t("yes")}</button>
+        <button class="btn ghost" onclick="ASK=false;render()">${t("notyet")}</button></div>` : ""}
     <div class="actions">
-      <button class="btn ${done?"ghost":"ok"}" onclick="setSt('${name}','${done?"doing":"done"}');render()">
-        ${done?t("unmark"):t("mark")}</button>
-      ${id?`<a class="btn ghost" style="text-decoration:none"
-            href="https://drive.google.com/file/d/${id}/view" target="_blank" rel="noopener">Drive ↗</a>`:""}
+      ${done
+        ? `${nx?`<button class="btn primary" onclick="go('clip','${nx.name}')">${t("next")} ▸</button>`:""}
+           <button class="btn ghost" onclick="setSt('${name}','doing');render()">${t("unmark")}</button>`
+        : `<button class="btn ok" onclick="markDone('${name}')">${t("donenext")} ▸</button>
+           ${nx?`<button class="btn ghost" onclick="go('clip','${nx.name}')">${t("skip")}</button>`:""}`}
       <button class="btn ghost" onclick="go('sub','${c.main}','${c.step}')">${t("back")}</button>
     </div>
+    ${!nx?`<p class="sub" style="margin-top:12px">${t("lastone")}</p>`:""}
     ${c.keys[lang]&&c.keys[lang].length?`<div class="keys"><b>${t("keys")}</b>
       <ul>${c.keys[lang].map(k=>`<li>${esc(k)}</li>`).join("")}</ul>
       ${c.note?`<div class="note">⚠ ${t("note")} : ${esc(c.note)}</div>`:""}</div>`:""}`;
 }
-if (typeof EMBEDDED !== "undefined") { DATA=EMBEDDED; load(); setLang("fr"); }
-else fetch("data.json").then(r=>r.json()).then(d=>{ DATA=d; load(); setLang("fr"); })
-  .catch(e=>{ app.innerHTML='<div class="card flat"><div class="grow">data.json introuvable — '
-    +'ouvrez la page via un serveur local, ou utilisez le fichier unique '
-    +'Formation_TTA_web.html.</div></div>'; });
+function renderExam(){
+  if(!EXAM){ app.innerHTML=`<p class="sub">…</p>`; return; }
+  if(EXAM.error){ app.innerHTML=`<div class="card flat"><div class="grow">${esc(EXAM.error)}</div></div>`; return; }
+  const q = EXAM.questions[QN], n = EXAM.questions.length;
+  const missing = EXAM.questions.filter((_,i)=>typeof ANSW[i]!=="number").length;
+  foot.innerHTML = "";
+  app.innerHTML = `<div class="crumb">${t("exam")} · ${t("question")(QN+1,n)}</div>
+    <div class="bar2" style="margin-bottom:18px"><span style="width:${Math.round(100*(QN+1)/n)}%"></span></div>
+    <h1 style="font-size:22px">${esc(q.q[lang])}</h1>
+    ${q.img?`<img src="${q.img}" alt="" style="width:100%;border-radius:12px;margin:12px 0;
+             border:1px solid var(--line)">`:""}
+    ${q.a[lang].map((opt,i)=>`<div class="card" style="${ANSW[QN]===i?"border-color:var(--teal);background:#F2FCFB":""}"
+        onclick="answer(${i})"><div class="num">${String.fromCharCode(65+i)}</div>
+        <div class="grow">${esc(opt)}</div></div>`).join("")}
+    <div class="actions">
+      ${QN>0?`<button class="btn ghost" onclick="moveQ(-1)">${t("prev")}</button>`:""}
+      ${QN<n-1?`<button class="btn primary" onclick="moveQ(1)">${t("nextq")}</button>`:""}
+      ${QN===n-1?`<button class="btn ok" onclick="submitExam()">${t("finish")}</button>`:""}
+    </div>
+    ${missing?`<p class="sub" style="margin-top:10px">${t("unanswered")(missing)}</p>`:""}`;
+}
+function renderResult(){
+  if(!RESULT || RESULT.error){ app.innerHTML=`<div class="card flat"><div class="grow">${esc((RESULT&&RESULT.error)||"")}</div></div>`; return; }
+  app.innerHTML = `<h1>${t("result")}</h1>
+    <div class="card flat"><div class="num">${RESULT.percent}%</div>
+      <div class="grow"><b>${t(RESULT.passed?"passed":"failed")}</b>
+        <div class="meta">${t("yourscore")(RESULT.score,RESULT.total,RESULT.percent)} · ${t("needed")(RESULT.pass)}</div>
+      </div><span class="chip ${RESULT.passed?"done":"off"}">${t(RESULT.passed?"passed":"failed")}</span></div>
+    <div class="actions"><button class="btn ghost" onclick="go('home')">${t("home")}</button>
+      <button class="btn primary" onclick="startExam()">${t("retry")}</button></div>
+    <h2 style="margin-top:26px">${t("review")}</h2>
+    ${RESULT.detail.map(d=>`<div class="card flat" style="display:block">
+      <div style="display:flex;gap:12px;align-items:flex-start">
+        <div class="num" style="background:${d.good?"var(--green-bg)":"var(--red-bg)"};color:${d.good?"var(--green)":"var(--red)"}">${d.good?"✓":"✗"}</div>
+        <div class="grow"><b>${esc(d.q[lang])}</b>
+          <div class="meta">${t("good")} : ${esc(d.a[lang][d.right])}</div>
+          ${!d.good&&typeof d.chosen==="number"?`<div class="meta">${t("yours")} : ${esc(d.a[lang][d.chosen])}</div>`:""}
+          <div class="note" style="color:var(--muted)">${esc(d.why[lang])}</div></div></div>
+      ${d.img?`<img src="${d.img}" alt="" style="width:100%;max-width:420px;border-radius:10px;margin-top:10px">`:""}
+    </div>`).join("")}`;
+}
+function renderAdmin(){
+  if(!ADMIN) { app.innerHTML = `<p class="sub">…</p>`; return loadAdmin(); }
+  if(ADMIN.error){ app.innerHTML = `<div class="card flat"><div class="grow">${esc(ADMIN.error)}</div></div>`; return; }
+  const tot = DATA.clips.length;
+  const rows = ADMIN.trainees.map(p=>`<tr>
+      <td><b>${esc(p.name)}</b></td><td>${esc(p.code)}</td>
+      <td>${p.done}/${tot}<div class="bar2" style="width:90px"><span style="width:${tot?Math.round(100*p.done/tot):0}%"></span></div></td>
+      <td>${p.last_clip?esc(p.last_clip):"—"}</td>
+      <td>${when(p.last_at)}</td>
+      <td>${p.exam_percent!=null?`<span class="chip ${p.exam_passed?"done":"off"}">${p.exam_percent}%</span>`
+            :`<span class="meta">${t("noexam")}</span>`}</td>
+      <td><button class="btn ghost" onclick="resetPassword('${esc(p.code)}')">${t("reset")}</button>
+          <button class="btn danger" onclick="removeTrainee('${esc(p.code)}')">${t("remove")}</button></td>
+    </tr>`).join("");
+  app.innerHTML = `<h1>${t("admin")}</h1><p class="sub">${t("adminsub")}</p>
+    <div class="card flat" style="display:block">
+      <div class="actions" style="margin:0">
+        <input id="newname" placeholder="${t("newname")}" style="flex:1"
+               onkeydown="if(event.key==='Enter')addTrainee()">
+        <button class="btn primary" onclick="addTrainee()">${t("add")}</button>
+        <button class="btn ghost" onclick="go('home')">${t("goto")}</button>
+      </div>
+      <div class="note" id="amsg"></div>
+    </div>
+    <div class="card flat" style="display:block;overflow:auto">
+      ${ADMIN.trainees.length ? `<table><tr><th>${t("tname")}</th><th>${t("tcode")}</th><th>${t("tdone")}</th>
+         <th>${t("tlast")}</th><th>${t("twhen")}</th><th>${t("examcol")}</th><th></th></tr>${rows}</table>`
+        : `<div class="empty">${t("none")}</div>`}
+    </div>`;
+}
+
+fetch("data.json").then(r=>r.json()).then(async d=>{
+  DATA=d;
+  try{ lang = localStorage.getItem(LKEY)==="ar" ? "ar" : "fr"; }catch(e){}
+  try{ TOKEN = localStorage.getItem(KEY)||null; }catch(e){ TOKEN=null; }
+  if(TOKEN){
+    const r = await api("session", {token:TOKEN}).catch(()=>null);
+    if(r && !r.error){ setLang(lang); adopt(r); return; }
+    TOKEN=null; try{localStorage.removeItem(KEY);}catch(e){}
+  }
+  setLang(lang);
+}).catch(()=>{ app.innerHTML='<div class="card flat"><div class="grow">data.json introuvable.</div></div>'; });
 </script>
 </body>
 </html>

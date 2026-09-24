@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-24T10:37:19",
+ "generated": "2026-09-24T11:09:32",
  "folder": "10Lzy14Ghzarc_bY_zEfOxgHMdVjaYVsk",
  "clips": [
   {
@@ -375,8 +375,72 @@
    "added": "2026-09-23"
   },
   {
-   "name": "Etape_1B_1",
+   "name": "Etape_1A_9",
    "order": 13,
+   "step": "1.A",
+   "main": "1",
+   "title": {
+    "fr": "Raccorder une nouvelle bobine : recouvrement de 25",
+    "ar": "وصل بكرة جديدة: تراكب 25"
+   },
+   "sub": {
+    "fr": "Enfiler la bande (bande guide) et raccorder l'antenne",
+    "ar": "تمرير الشريط (الشريط الدليل) وتوصيل الهوائي"
+   },
+   "duration": 166.5,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "keys": {
+    "fr": [
+     "On raccorde sur l'ancien point de report : la nouvelle bande est tirée par l'ancienne, sans réenfiler la machine.",
+     "Recouvrement d'au moins 25 de chaque côté : en dessous, le raccord lâche en cours de production."
+    ],
+    "ar": [
+     "نصل عند نقطة التركيب القديمة: فالشريط القديم يسحب الجديد دون إعادة تمرير الآلة.",
+     "تراكب لا يقلّ عن 25 على كل جانب: وأقلّ من ذلك ينفكّ الوصل أثناء الإنتاج."
+    ]
+   },
+   "note": "Le recouvrement de 25 et les largeurs 60 / 110 valent pour ce produit ; règle du technicien.",
+   "confidence": "confirmed",
+   "added": "2026-09-24"
+  },
+  {
+   "name": "Etape_1A_10",
+   "order": 14,
+   "step": "1.A",
+   "main": "1",
+   "title": {
+    "fr": "Faire passer la nouvelle bande : ouvrir chaque guide",
+    "ar": "تمرير الشريط الجديد: فتح كل موجّه"
+   },
+   "sub": {
+    "fr": "Enfiler la bande (bande guide) et raccorder l'antenne",
+    "ar": "تمرير الشريط (الشريط الدليل) وتوصيل الهوائي"
+   },
+   "duration": 331.5,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "keys": {
+    "fr": [
+     "Chaque guide s'ouvre plus large que la bande avant le passage : un guide oublié plie la bande ou l'arrache.",
+     "Chaque étape suppose la précédente faite : la bande passe d'abord d'un bout à l'autre, les réglages viennent ensuite."
+    ],
+    "ar": [
+     "كل موجّه يُفتح أوسع من الشريط قبل المرور: وموجّه منسيّ يثني الشريط أو يمزّقه.",
+     "كل خطوة تفترض إنجاز سابقتها: يمرّ الشريط أولاً من طرف إلى طرف، ثم تأتي الضبطيات."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-24"
+  },
+  {
+   "name": "Etape_1B_1",
+   "order": 15,
    "step": "1.B",
    "main": "1",
    "title": {
@@ -410,7 +474,7 @@
   },
   {
    "name": "Etape_1B_2",
-   "order": 14,
+   "order": 16,
    "step": "1.B",
    "main": "1",
    "title": {
@@ -439,8 +503,40 @@
    "added": "2026-09-23"
   },
   {
+   "name": "Etape_1B_3",
+   "order": 17,
+   "step": "1.B",
+   "main": "1",
+   "title": {
+    "fr": "Changement de produit : tout désactiver, puis acquitter les alarmes",
+    "ar": "تغيير المنتج: تعطيل كل شيء ثم مسح الإنذارات"
+   },
+   "sub": {
+    "fr": "Désactiver les fonctions non utilisées (Skip Disp, Skip Bond, Skip Hot Press)",
+    "ar": "تعطيل الوظائف غير المستخدمة (Skip Disp، Skip Bond، Skip Hot Press)"
+   },
+   "duration": 90.0,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "keys": {
+    "fr": [
+     "Skip Disp / Skip Bond / Skip Hot Press : pendant un changement de produit, la bande traverse la machine sans qu'aucun poste ne travaille.",
+     "Couper une chauffe n'efface pas son alarme : il faut l'acquitter, tête par tête, jusqu'à ce que plus rien ne soit rouge."
+    ],
+    "ar": [
+     "Skip Disp / Skip Bond / Skip Hot Press: أثناء تغيير المنتج يعبر الشريط الآلة دون أن تعمل أي محطة.",
+     "إطفاء التسخين لا يمسح إنذاره: بل يُمسح رأساً رأساً حتى لا يبقى شيء أحمر."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-24"
+  },
+  {
    "name": "Etape_2A_1",
-   "order": 15,
+   "order": 18,
    "step": "2.A",
    "main": "2",
    "title": {
@@ -472,7 +568,7 @@
   },
   {
    "name": "Etape_3_1",
-   "order": 16,
+   "order": 19,
    "step": "3",
    "main": "3",
    "title": {
@@ -504,7 +600,7 @@
   },
   {
    "name": "Etape_3_2",
-   "order": 17,
+   "order": 20,
    "step": "3",
    "main": "3",
    "title": {
@@ -536,7 +632,7 @@
   },
   {
    "name": "Etape_3_3",
-   "order": 18,
+   "order": 21,
    "step": "3",
    "main": "3",
    "title": {
@@ -568,7 +664,7 @@
   },
   {
    "name": "Etape_3_4",
-   "order": 19,
+   "order": 22,
    "step": "3",
    "main": "3",
    "title": {
@@ -601,8 +697,40 @@
    "added": "2026-09-23"
   },
   {
+   "name": "Etape_3_5",
+   "order": 23,
+   "step": "3",
+   "main": "3",
+   "title": {
+    "fr": "Aligner la bande et choisir la zone de lecture du capteur",
+    "ar": "محاذاة الشريط واختيار منطقة قراءة الحسّاس"
+   },
+   "sub": {
+    "fr": "",
+    "ar": ""
+   },
+   "duration": 161.0,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "keys": {
+    "fr": [
+     "Les distances mécaniques se vérifient à la règle : un écart d'un millimètre reste acceptable ici.",
+     "Le capteur doit lire là où le blanc est le plus long : sur un blanc court, il n'a pas le temps de réagir entre le vide et le métal de l'antenne."
+    ],
+    "ar": [
+     "تُتحقَّق المسافات الميكانيكية بالمسطرة: وفارق مليمتر يبقى مقبولاً هنا.",
+     "على الحسّاس أن يقرأ حيث يكون الفراغ أطول: فعلى فراغ قصير لا يجد وقتاً للاستجابة بين الفراغ ومعدن الهوائي."
+    ]
+   },
+   "note": "10,5 et la tolérance d'un millimètre sont les valeurs relevées sur ce produit.",
+   "confidence": "confirmed",
+   "added": "2026-09-24"
+  },
+  {
    "name": "Etape_4_1",
-   "order": 20,
+   "order": 24,
    "step": "4",
    "main": "4",
    "title": {
@@ -636,7 +764,7 @@
   },
   {
    "name": "Etape_5A_1",
-   "order": 21,
+   "order": 25,
    "step": "5.A",
    "main": "5",
    "title": {
@@ -668,7 +796,7 @@
   },
   {
    "name": "Etape_5A_2",
-   "order": 22,
+   "order": 26,
    "step": "5.A",
    "main": "5",
    "title": {
@@ -700,7 +828,7 @@
   },
   {
    "name": "Etape_5B_1",
-   "order": 23,
+   "order": 27,
    "step": "5.B",
    "main": "5",
    "title": {
@@ -734,7 +862,7 @@
   },
   {
    "name": "Etape_5B_2",
-   "order": 24,
+   "order": 28,
    "step": "5.B",
    "main": "5",
    "title": {
@@ -766,7 +894,7 @@
   },
   {
    "name": "Etape_5B_3",
-   "order": 25,
+   "order": 29,
    "step": "5.B",
    "main": "5",
    "title": {
@@ -798,7 +926,7 @@
   },
   {
    "name": "Etape_5B_4",
-   "order": 26,
+   "order": 30,
    "step": "5.B",
    "main": "5",
    "title": {
@@ -830,7 +958,7 @@
   },
   {
    "name": "Etape_5C_1",
-   "order": 27,
+   "order": 31,
    "step": "5.C",
    "main": "5",
    "title": {
@@ -862,7 +990,7 @@
   },
   {
    "name": "Etape_5C_2",
-   "order": 28,
+   "order": 32,
    "step": "5.C",
    "main": "5",
    "title": {
@@ -894,7 +1022,7 @@
   },
   {
    "name": "Etape_5C_3",
-   "order": 29,
+   "order": 33,
    "step": "5.C",
    "main": "5",
    "title": {
@@ -924,7 +1052,7 @@
   },
   {
    "name": "Etape_5C_4",
-   "order": 30,
+   "order": 34,
    "step": "5.C",
    "main": "5",
    "title": {
@@ -956,7 +1084,7 @@
   },
   {
    "name": "Etape_6A_1",
-   "order": 31,
+   "order": 35,
    "step": "6.A",
    "main": "6",
    "title": {
@@ -988,7 +1116,7 @@
   },
   {
    "name": "Etape_6B_1",
-   "order": 32,
+   "order": 36,
    "step": "6.B",
    "main": "6",
    "title": {
@@ -1020,7 +1148,7 @@
   },
   {
    "name": "Etape_9_1",
-   "order": 33,
+   "order": 37,
    "step": "9",
    "main": "9",
    "title": {
@@ -1050,7 +1178,7 @@
   },
   {
    "name": "Etape_9C_1",
-   "order": 34,
+   "order": 38,
    "step": "9.C",
    "main": "9",
    "title": {
@@ -1082,7 +1210,7 @@
   },
   {
    "name": "Etape_9C_2",
-   "order": 35,
+   "order": 39,
    "step": "9.C",
    "main": "9",
    "title": {
@@ -1114,7 +1242,7 @@
   },
   {
    "name": "Etape_9C_3",
-   "order": 36,
+   "order": 40,
    "step": "9.C",
    "main": "9",
    "title": {
@@ -1148,7 +1276,7 @@
   },
   {
    "name": "Etape_9C_4",
-   "order": 37,
+   "order": 41,
    "step": "9.C",
    "main": "9",
    "title": {
@@ -1178,7 +1306,7 @@
   },
   {
    "name": "Etape_9C_5",
-   "order": 38,
+   "order": 42,
    "step": "9.C",
    "main": "9",
    "title": {
@@ -1208,7 +1336,7 @@
   },
   {
    "name": "Etape_9C_6",
-   "order": 39,
+   "order": 43,
    "step": "9.C",
    "main": "9",
    "title": {
@@ -1238,7 +1366,7 @@
   },
   {
    "name": "Etape_9C_7",
-   "order": 40,
+   "order": 44,
    "step": "9.C",
    "main": "9",
    "title": {
@@ -1268,7 +1396,7 @@
   },
   {
    "name": "Etape_9C_8",
-   "order": 41,
+   "order": 45,
    "step": "9.C",
    "main": "9",
    "title": {
@@ -1302,7 +1430,7 @@
   },
   {
    "name": "Etape_9C_9",
-   "order": 42,
+   "order": 46,
    "step": "9.C",
    "main": "9",
    "title": {
@@ -1334,7 +1462,7 @@
   },
   {
    "name": "Etape_9_2",
-   "order": 43,
+   "order": 47,
    "step": "9",
    "main": "9",
    "title": {
@@ -1366,7 +1494,7 @@
   },
   {
    "name": "Etape_9_3",
-   "order": 44,
+   "order": 48,
    "step": "9",
    "main": "9",
    "title": {
@@ -1398,7 +1526,7 @@
   },
   {
    "name": "Etape_9_4",
-   "order": 45,
+   "order": 49,
    "step": "9",
    "main": "9",
    "title": {
@@ -1428,7 +1556,7 @@
   },
   {
    "name": "Etape_9_5",
-   "order": 46,
+   "order": 50,
    "step": "9",
    "main": "9",
    "title": {
@@ -1460,7 +1588,7 @@
   },
   {
    "name": "Etape_9_6",
-   "order": 47,
+   "order": 51,
    "step": "9",
    "main": "9",
    "title": {
@@ -1492,7 +1620,7 @@
   },
   {
    "name": "Etape_9_7",
-   "order": 48,
+   "order": 52,
    "step": "9",
    "main": "9",
    "title": {
@@ -1523,8 +1651,40 @@
    "added": "2026-09-23"
   },
   {
+   "name": "Etape_9_8",
+   "order": 53,
+   "step": "9",
+   "main": "9",
+   "title": {
+    "fr": "Point noir sur la puce : remonter le pointeau",
+    "ar": "نقطة سوداء على الشريحة: رفع إبرة الدفع"
+   },
+   "sub": {
+    "fr": "",
+    "ar": ""
+   },
+   "duration": 104.0,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "keys": {
+    "fr": [
+     "Un point noir sur la puce signale un pointeau trop bas : il marque la puce à chaque pose.",
+     "1700 et 300 sont les valeurs de cette machine, avec la puce U9 : à faire confirmer avant de les reprendre."
+    ],
+    "ar": [
+     "النقطة السوداء على الشريحة تدلّ على إبرة منخفضة: تترك أثراً على الشريحة في كل وضع.",
+     "1700 و300 قيم هذه الآلة مع الشريحة U9: يجب تأكيدها قبل اعتمادها."
+    ]
+   },
+   "note": "1700, 300 et 200 sont les valeurs de cette machine avec la puce U9, pas des consignes.",
+   "confidence": "confirmed",
+   "added": "2026-09-24"
+  },
+  {
    "name": "Etape_10A_1",
-   "order": 49,
+   "order": 54,
    "step": "10.A",
    "main": "10",
    "title": {
@@ -1558,7 +1718,7 @@
   },
   {
    "name": "Etape_10A_2",
-   "order": 50,
+   "order": 55,
    "step": "10.A",
    "main": "10",
    "title": {
@@ -1590,7 +1750,7 @@
   },
   {
    "name": "Etape_11A_1",
-   "order": 51,
+   "order": 56,
    "step": "11.A",
    "main": "11",
    "title": {
@@ -1622,7 +1782,7 @@
   },
   {
    "name": "Etape_11B_1",
-   "order": 52,
+   "order": 57,
    "step": "11.B",
    "main": "11",
    "title": {
@@ -1656,7 +1816,7 @@
   },
   {
    "name": "Etape_11B_2",
-   "order": 53,
+   "order": 58,
    "step": "11.B",
    "main": "11",
    "title": {
@@ -1688,7 +1848,7 @@
   },
   {
    "name": "Etape_11B_3",
-   "order": 54,
+   "order": 59,
    "step": "11.B",
    "main": "11",
    "title": {
@@ -1718,7 +1878,7 @@
   },
   {
    "name": "Etape_11D_1",
-   "order": 55,
+   "order": 60,
    "step": "11.D",
    "main": "11",
    "title": {
@@ -1750,7 +1910,7 @@
   },
   {
    "name": "Etape_13_1",
-   "order": 56,
+   "order": 61,
    "step": "13",
    "main": "13",
    "title": {
@@ -1780,7 +1940,7 @@
   },
   {
    "name": "Etape_13_2",
-   "order": 57,
+   "order": 62,
    "step": "13",
    "main": "13",
    "title": {
@@ -1806,7 +1966,7 @@
   },
   {
    "name": "Etape_13_3",
-   "order": 58,
+   "order": 63,
    "step": "13",
    "main": "13",
    "title": {
@@ -1836,7 +1996,7 @@
   },
   {
    "name": "Etape_14C_6",
-   "order": 59,
+   "order": 64,
    "step": "14.C",
    "main": "14",
    "title": {
@@ -1870,7 +2030,7 @@
   },
   {
    "name": "Etape_14C_1",
-   "order": 60,
+   "order": 65,
    "step": "14.C",
    "main": "14",
    "title": {
@@ -1902,7 +2062,7 @@
   },
   {
    "name": "Etape_14C_2",
-   "order": 61,
+   "order": 66,
    "step": "14.C",
    "main": "14",
    "title": {
@@ -1934,7 +2094,7 @@
   },
   {
    "name": "Etape_14C_3",
-   "order": 62,
+   "order": 67,
    "step": "14.C",
    "main": "14",
    "title": {
@@ -1966,7 +2126,7 @@
   },
   {
    "name": "Etape_14C_4",
-   "order": 63,
+   "order": 68,
    "step": "14.C",
    "main": "14",
    "title": {
@@ -2000,7 +2160,7 @@
   },
   {
    "name": "Etape_14C_7",
-   "order": 64,
+   "order": 69,
    "step": "14.C",
    "main": "14",
    "title": {
@@ -2032,7 +2192,7 @@
   },
   {
    "name": "Etape_14C_8",
-   "order": 65,
+   "order": 70,
    "step": "14.C",
    "main": "14",
    "title": {
@@ -2064,7 +2224,7 @@
   },
   {
    "name": "Etape_14C_5",
-   "order": 66,
+   "order": 71,
    "step": "14.C",
    "main": "14",
    "title": {

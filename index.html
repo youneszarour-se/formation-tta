@@ -443,8 +443,8 @@ function renderClip(name){
         : `<button class="btn ok" onclick="markDone('${name}')">${t("donenext")} ▸</button>
            ${nx?`<button class="btn ghost" onclick="go('clip','${nx.name}')">${t("skip")}</button>`:""}`}
       <button class="btn ghost" onclick="go('sub','${c.main}','${c.step}')">${t("back")}</button>
-      <a class="btn ghost" target="_blank" rel="noopener"
-         href="fiches/${lang.toUpperCase()}/${name}.pdf">${t("fiche")}</a>
+      ${c.fiche===false?"":`<a class="btn ghost" target="_blank" rel="noopener"
+         href="fiches/${lang.toUpperCase()}/${name}.pdf">${t("fiche")}</a>`}
     </div>
     ${!nx?`<p class="sub" style="margin-top:12px">${t("lastone")}</p>`:""}
     ${c.keys[lang]&&c.keys[lang].length?`<div class="keys"><b>${t("keys")}</b>

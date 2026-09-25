@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-24T21:48:06",
+ "generated": "2026-09-25T15:40:32",
  "folder": "10Lzy14Ghzarc_bY_zEfOxgHMdVjaYVsk",
  "clips": [
   {
@@ -21,6 +21,7 @@
     "fr": "19UpVxU8BreoR7jCtX0f-1k7fLTyPbyxJ",
     "ar": "1uT8828CvY25qg9RzclNYfdArFLGl0No7"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Onglets Input1 / Output : état des entrées et des sorties de l'automate (diagnostic).",
@@ -58,6 +59,7 @@
     "fr": "1IBQ8WRueNbWtWvtaPNyYo8eIAnOaSHXo",
     "ar": "1afDS0bG8fWrZ4H0i9EiwnIGzBJZSjOfa"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Onglets de vue : Disp Cam, Bond Cam, Transfer Cam, Wafer Cam, Bond Review, Disp Review, Machine View.",
@@ -91,6 +93,7 @@
     "fr": "1KEgrOFBhuxCyTKjmQEfqTohry7zXfW2S",
     "ar": "1WM3vTAz1vtR_epuSWNFOw5Y7VqIAJjfb"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Séquence d'initialisation : EmergencyStop → Initialization → Init Done.",
@@ -126,6 +129,7 @@
     "fr": "1wh95sTElfmplhi1Ab_tJ8uXFhGI-p2Sk",
     "ar": "14h2hNJseKeZ7hSfCzlDc5Qtp8GRaNKyQ"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Init Done : déclare l'initialisation terminée — la machine est alors prête."
@@ -157,6 +161,7 @@
     "fr": "1cue5d4vR5ygHXyaIdWtbUMZzgIz31UYx",
     "ar": "1lVJOqmtwuGpr4zkea5q0eHoGOsqhhbvn"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Le premier diagnostic se fait à l'oreille : une machine qui démarre avec un bruit inhabituel a un organe éteint. Ici, la soufflerie n'avait pas son alimentation.",
@@ -190,6 +195,7 @@
     "fr": "1dh74vJ5ciB1TPEJYWcPKUpYXkjhe4nM3",
     "ar": "1XetEVKPE7BBBuewxiQfiQzBpc2iwMa2Q"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Chaque produit a sa colle. Avant de lancer un lot, on vérifie que la cartouche montée est bien celle de la gamme en cours — sinon on la change, on ne l'utilise pas « pour cette fois »."
@@ -221,6 +227,7 @@
     "fr": "1HzB_5AINznNFN4FvP1e7Zeq54-yHBA12",
     "ar": "186cSnCKqtyAUvEENOLdb4J5vue9rw6K8"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "À l'enfilage, on coupe la dépose de colle, le report, le pressage et le test : on ne garde que l'entraînement et l'enroulement."
@@ -252,6 +259,7 @@
     "fr": "1N_Vy8zDasbsyAPv8fMXTHJc9jcADm4M5",
     "ar": "1iR39OVoSeemm6FsXrV6i1ZxpWUQ-FSWI"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Étape 1 du changement de produit : enfiler la bande, raccorder l'antenne, désactiver les fonctions non utilisées."
@@ -283,6 +291,7 @@
     "fr": "1OQV7CTJJhbg8xtKxb69ef9fEVld9RQjR",
     "ar": "10m4Zs1MwXTgyf9I_xQYrbieXyiPG84p_"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Correcteur de bande : à passer en manuel pendant un transfert d'antenne, puis à remettre en automatique."
@@ -314,6 +323,7 @@
     "fr": "162rZ6wplLNOCAjzlKHti_6YY8gKFUgqy",
     "ar": "18QskHNqY9t4C_1KgCc8IAM6ll2NnVZwP"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "À l'enfilage : Skip Disp, Skip Bond et Skip Hot Press cochés — seuls l'entraînement et l'enroulement restent actifs.",
@@ -349,6 +359,7 @@
     "fr": "1H7wUDMgSASaaV-Zrhq0s1gy5pOgekJZD",
     "ar": "1IzQ2RxVIe5rGtaLY48vcoXgMWRFUSNo5"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Le vide est produit par une soufflante. Ne jamais fermer les deux vannes d'aspiration en même temps : la soufflante risquerait d'être détruite."
@@ -380,6 +391,7 @@
     "fr": "1ACWQzhCsHsvHLvaCHJlQ_SSVZBOBH65H",
     "ar": "1aTJMJjm-OcDHSdJcbVsHd8yA1YcN-MzO"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Un seul changement à la fois, et on note la valeur d'avant."
@@ -411,6 +423,7 @@
     "fr": "1js2_mpR1650L3ruJRk-EuyzqXxpIfjsp",
     "ar": "1JJlhGNk2OF-yPcHePKAx00tZif-M8rvk"
    },
+   "fiche": true,
    "keys": {
     "fr": [],
     "ar": []
@@ -438,6 +451,7 @@
     "fr": "1zxV0QQfJLLoPLbVNVJ46VP61WVATTDMG",
     "ar": "1Bx0D4xbvr5KhjWZgH-l21JS53pExFjXM"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Une cause, un poste : avant de toucher un réglage, demandez-vous quel module produit le défaut observé."
@@ -469,6 +483,7 @@
     "fr": "11Fg44T_mdZo0RcPJztczQWgWIPiIVk3d",
     "ar": "16Tyy2L0g--Rnj9hcoTItsXsGgP1a9RaJ"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "On raccorde sur l'ancien point de report : la nouvelle bande est tirée par l'ancienne, sans réenfiler la machine.",
@@ -502,6 +517,7 @@
     "fr": "1O4SpVUL9CqQ7JblBTATaW5kN9cYRcWd-",
     "ar": "1bPH-mLMgclzX5NNUxjaSGM9oCIAIkJ_6"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Chaque guide s'ouvre plus large que la bande avant le passage : un guide oublié plie la bande ou l'arrache.",
@@ -535,6 +551,7 @@
     "fr": "1O5108rkF1Vtnfl_taeyFIYaNpgN05TwC",
     "ar": "1YtyPPego-46V8BjGHxhlBk-rNxF25jAt"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Func Enable : active le jeu de fonctions sélectionné.",
@@ -570,6 +587,7 @@
     "fr": "1TVkZWcoWYaZXwh2_P_jHVt6SVpWYBrAB",
     "ar": "1K08BvJYfGtcsLORKTpEVK3qJ4ymWL-Xm"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Skip Disp / Skip Bond / Skip Hot Press : cocher une case, c'est sauter le poste. On n'active que ce dont on se sert, puis on verrouille le mode pour éviter un clic malheureux."
@@ -601,6 +619,7 @@
     "fr": "1qdcOqv6zff-LUR1esBHtEzqOBSbRQw1L",
     "ar": "1IIGKtF7TvlQeAQeMfmCrgKciDMFsVQ3t"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Skip Disp / Skip Bond / Skip Hot Press : pendant un changement de produit, la bande traverse la machine sans qu'aucun poste ne travaille.",
@@ -634,6 +653,7 @@
     "fr": "11Q-mADYFpwrWe_SoggdQwdA3Gi4SnYyR",
     "ar": "1Bu3Rw9jwnm3EJ6SuY3gTeLJzYqtwDXsO"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Deux choses, dans cet ordre : la dépose est réactivée (fin du Skip Disp), et les deux modèles de vision — dépose et report — existent. Lancer sans modèle, c'est produire des rebuts."
@@ -665,6 +685,7 @@
     "fr": "1TvQ35JHAZpmXKUSrovKzpEEmbTnkRT0_",
     "ar": "18U1Wy11GEKbWEOH5eyNoVKoCTYjdHqTi"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Skip Feed Vis : désactive le contrôle visuel de l'alimentation.",
@@ -695,9 +716,10 @@
    "duration": 77.0,
    "portrait": true,
    "drive": {
-    "fr": "1_4m9jl6Czc9edfFDMZGUj_mhvkr7c2Vn",
+    "fr": "10-67JpuxP9LXHqVEhkV63MRryQ_X_PfY",
     "ar": "12Neew1hyawGoHnYQ9Jf1nL9ijEn_scOY"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Antenna Pitch : la distance d'une antenne à la suivante. Elle commande l'avance de bande à chaque poste.",
@@ -731,6 +753,7 @@
     "fr": "1mWIjdRxaYsi7f9oA-WxO7eeZwstDmSck",
     "ar": "1FuoMjT1uZVbqc-W35oKr2aGxa4HtoFYJ"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Align Dis : distance d'alignement avant pressage — positionne l'étiquette sous les têtes.",
@@ -764,6 +787,7 @@
     "fr": "1L0aVHxqBiWZrpmr3R1U0dCj4LgWo6RcG",
     "ar": "1QpQdFn3-UVGWYnZQSsLQbsdzJZSWgMgO"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Align Dis : distance d'alignement avant pressage — positionne l'étiquette sous les têtes.",
@@ -797,6 +821,7 @@
     "fr": "1AFTvcnOO3FlcoZ1pK-SckWqD-6Ckv8VD",
     "ar": "14uJfoOfDp4dYdN6idn28PJQdMYGQqtV1"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Distances mécaniques (règle) : vérifier que les postes sont physiquement à la bonne place le long de la bande.",
@@ -830,6 +855,7 @@
     "fr": "17pLooTPhf3gN5bgaaXl5Nu7UzBxhHUxw",
     "ar": "1nsvfSLRo1bRsqICi73dNFX_zFYztf4kt"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Distances mécaniques : vérifier que les postes sont physiquement à la bonne place le long de la bande.",
@@ -865,6 +891,7 @@
     "fr": "1OUnk5VX8dKGVAsLy-Vy8goCRvk6GfwTE",
     "ar": "1eG6PKFGQ-siRQzyZHmplex-Wnmjv3Bl2"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Les distances mécaniques se vérifient à la règle : un écart d'un millimètre reste acceptable ici.",
@@ -898,6 +925,7 @@
     "fr": "1Onuhi5V4ImkAKZSUXVfzZW2L6BwGN031",
     "ar": "1dvtAcdwikp3_3N7SNGc0tXc19wqfSp25"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Rainure de pressage : l'étiquette doit y reposer à plat et centrée avant tout réglage de report.",
@@ -913,8 +941,42 @@
    "added": "2026-09-24"
   },
   {
-   "name": "Etape_4_1",
+   "name": "Etape_3_7",
    "order": 29,
+   "step": "3",
+   "main": "3",
+   "title": {
+    "fr": "La colle éraflée au poste de report : trouver la cause, régler",
+    "ar": "الغراء المكشوط عند موضع النقل: إيجاد السبب والضبط"
+   },
+   "sub": {
+    "fr": "",
+    "ar": ""
+   },
+   "duration": 132.0,
+   "portrait": false,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "fiche": true,
+   "keys": {
+    "fr": [
+     "Un point de colle qui paraît essuyé n'est pas un défaut de dépose : c'est un organe qui vient le toucher en aval. On remonte à la pièce fautive plutôt que de retoucher les paramètres de colle.",
+     "On desserre la vis et on fait ressortir le galet d'un rien. L'effet ne se voit pas tout de suite : il faut laisser passer quelques pièces avant de conclure."
+    ],
+    "ar": [
+     "نقطة غراء تبدو ممسوحة ليست عيباً في التوزيع: بل ثمّة جزء يلامسها لاحقاً. فنعود إلى الجزء المخطئ بدل تعديل بارامترات الغراء.",
+     "نفكّ اللولب ونُخرج البَكَرة قليلاً جداً. ولا يظهر الأثر فوراً: بل لا بدّ من مرور بضع قطع قبل الحكم."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-25"
+  },
+  {
+   "name": "Etape_4_1",
+   "order": 30,
    "step": "4",
    "main": "4",
    "title": {
@@ -931,6 +993,7 @@
     "fr": "1SAIAOkD-BRbwL5E9CcxbHF8QsLiaUx2h",
     "ar": "1F5JMXPcXEirutLKObhpAuBhDj3o83FM7"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Étape 4 du guide : centrer les caméras de contrôle — chaque caméra doit voir l'endroit dont elle est responsable.",
@@ -949,7 +1012,7 @@
   },
   {
    "name": "Etape_4_2",
-   "order": 30,
+   "order": 31,
    "step": "4",
    "main": "4",
    "title": {
@@ -966,6 +1029,7 @@
     "fr": "1OnV5_QXmy82ylSEQ2cDNrIUyi3WeRrSz",
     "ar": "1Up9LxLvLKBjBf_pEhY-weqscrg3-W01r"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Centrer les caméras : chaque caméra doit voir l'endroit dont elle répond, avant tout réglage de position.",
@@ -982,7 +1046,7 @@
   },
   {
    "name": "Etape_4_3",
-   "order": 31,
+   "order": 32,
    "step": "4",
    "main": "4",
    "title": {
@@ -999,6 +1063,7 @@
     "fr": "1JW3m1OT0BmNIV9fGtVFgnzI5G0X8eL7h",
     "ar": "1y-ULDVohlNWNNhZzofeUVB7vNTAmZJSw"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Les deux caméras de contrôle se centrent l'une après l'autre : dépose d'abord, report ensuite.",
@@ -1017,7 +1082,7 @@
   },
   {
    "name": "Etape_4_4",
-   "order": 32,
+   "order": 33,
    "step": "4",
    "main": "4",
    "title": {
@@ -1034,6 +1099,7 @@
     "fr": "1EPNbQpUNTqLeZ_-Cz9YhaU-NDT8PpHCL",
     "ar": "1H9I0VgBUezQNu5KamnpJmiqoAGocKkCw"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "La machine dépose mais la caméra ne voit rien : ce n'est pas la dépose qui est en cause, c'est le cadrage. On desserre, on pousse, et on cherche la buse en vue en direct.",
@@ -1052,7 +1118,7 @@
   },
   {
    "name": "Etape_5A_1",
-   "order": 33,
+   "order": 34,
    "step": "5.A",
    "main": "5",
    "title": {
@@ -1069,6 +1135,7 @@
     "fr": "1itp-1HMWYN1gaVmCuWYIFCCAfTSCbSkv",
     "ar": "1UjBNVFI9pDVs08RI8re_w34F4fKlyPF4"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Caméras de la machine : une caméra avant la dépose, une caméra de contrôle après — ce sont deux objectifs distincts.",
@@ -1085,7 +1152,7 @@
   },
   {
    "name": "Etape_5A_2",
-   "order": 34,
+   "order": 35,
    "step": "5.A",
    "main": "5",
    "title": {
@@ -1102,6 +1169,7 @@
     "fr": "12QXctXvEUaP5PBFoZUzoIJXLQP31yps1",
     "ar": "1tSqbDsK-9CvjF9zViAtcyCpN2HM2kus1"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Le décalage de dépose se corrige dans la fenêtre Disp, en unités machine — pas en millimètres.",
@@ -1118,7 +1186,7 @@
   },
   {
    "name": "Etape_5A_3",
-   "order": 35,
+   "order": 36,
    "step": "5.A",
    "main": "5",
    "title": {
@@ -1135,6 +1203,7 @@
     "fr": "1rgLuuyaGIZ-RJTHCUKgf6hPG7rqXS6J_",
     "ar": "1D4EPNBPWLvW4g1BpvSN64RzkJU27ocT6"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "La position de dépose se corrige par pas comptés — deux cents, puis cent — et on regarde le résultat entre chaque. On ne saisit jamais une grande valeur d'un coup."
@@ -1149,7 +1218,7 @@
   },
   {
    "name": "Etape_5B_1",
-   "order": 36,
+   "order": 37,
    "step": "5.B",
    "main": "5",
    "title": {
@@ -1166,6 +1235,7 @@
     "fr": "1chevpacRqbzXnF6DdRvhbtcQPX320gwl",
     "ar": "1aFFDJOrn7I3Dn3AZnme3fyxXofoAIlXw"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Disp Mark Rec : reconnaissance du repère imprimé. Dépend du produit : certaines antennes ont un repère, d'autres non.",
@@ -1184,7 +1254,7 @@
   },
   {
    "name": "Etape_5B_2",
-   "order": 37,
+   "order": 38,
    "step": "5.B",
    "main": "5",
    "title": {
@@ -1201,6 +1271,7 @@
     "fr": "1o2lqpkErpIMVqSv8sDfW-C6UUTb8Enp3",
     "ar": "1KInaID7pOEMq1hdw286vvMH_3HKu7Xsy"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Create Model → Edit Model → Find Model → Model Params",
@@ -1217,7 +1288,7 @@
   },
   {
    "name": "Etape_5B_3",
-   "order": 38,
+   "order": 39,
    "step": "5.B",
    "main": "5",
    "title": {
@@ -1234,6 +1305,7 @@
     "fr": "12qbyOJZU0IzDZTRKJ9xVOMwAa74RZXPo",
     "ar": "1XXW56H6py7cxdoQUys5mGn8-L-gD6puW"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Modèle de vision : on apprend une forme unique et stable de l'étiquette, jamais une zone qui change d'un produit à l'autre.",
@@ -1250,7 +1322,7 @@
   },
   {
    "name": "Etape_5B_4",
-   "order": 39,
+   "order": 40,
    "step": "5.B",
    "main": "5",
    "title": {
@@ -1267,6 +1339,7 @@
     "fr": "1Li1xPnMSmUC4qXghnmEenPAU36zk7_cr",
     "ar": "1kRwCjZHeOpKEfyqgnIdlIdrUSifoQ7Mm"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Un modèle n'est valable que pour l'étiquette sur laquelle il a été appris : au raccord de bobine, il est à reprendre.",
@@ -1283,7 +1356,7 @@
   },
   {
    "name": "Etape_5C_1",
-   "order": 40,
+   "order": 41,
    "step": "5.C",
    "main": "5",
    "title": {
@@ -1300,6 +1373,7 @@
     "fr": "1I5g9WgfvKFNeuqP1vNPTaoiAB6HciKcW",
     "ar": "1KSdifPmgVxlseGD4KsdVDCXei5RzXW1b"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Les paramètres de dépose vivent dans la fenêtre Disp : c'est là que se règle le point de colle.",
@@ -1316,7 +1390,7 @@
   },
   {
    "name": "Etape_5C_2",
-   "order": 41,
+   "order": 42,
    "step": "5.C",
    "main": "5",
    "title": {
@@ -1333,6 +1407,7 @@
     "fr": "1Ih1eLtiLOUfYlFRrArS5OGxYlBlC_8sp",
     "ar": "12scDf3Mw_EI4cUey6eE5brCr4aniBC1S"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Disp Time (open time) et course : les deux réglages qui changent la taille du point de colle.",
@@ -1349,7 +1424,7 @@
   },
   {
    "name": "Etape_5C_3",
-   "order": 42,
+   "order": 43,
    "step": "5.C",
    "main": "5",
    "title": {
@@ -1366,6 +1441,7 @@
     "fr": "1CVUECcdcLoj8nuY4U0tbprRtpkRLD0s4",
     "ar": "1kvX5n7HgEov6kNu15pPuLTmkHaZ84IOP"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Point de colle trop gros ou trop petit : pression d'air d'abord, puis Disp Time, puis la course. Un seul réglage à la fois."
@@ -1380,7 +1456,7 @@
   },
   {
    "name": "Etape_5C_4",
-   "order": 43,
+   "order": 44,
    "step": "5.C",
    "main": "5",
    "title": {
@@ -1397,6 +1473,7 @@
     "fr": "1hkHamQysfKR_uEXWOnzMVytQqPAJHtwj",
     "ar": "1-JZNcSxfOxg8STZygU8cOHqlKXS0DCaP"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Disp Time (open time) pour le réglage fin, la course pour un changement franc — l'un des deux à la fois.",
@@ -1413,7 +1490,7 @@
   },
   {
    "name": "Etape_5C_5",
-   "order": 44,
+   "order": 45,
    "step": "5.C",
    "main": "5",
    "title": {
@@ -1430,6 +1507,7 @@
     "fr": "1evFZgXw4ESgouKItS_obsHHVm9Lywg-z",
     "ar": "1XARs5zz3i-vwIF1uzG2QiS6Ioi6jHiwR"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "On essuie la buse avant de purger : la première goutte emporte ce qui traîne, et une buse sale fausse le jugement.",
@@ -1450,7 +1528,7 @@
   },
   {
    "name": "Etape_5C_6",
-   "order": 45,
+   "order": 46,
    "step": "5.C",
    "main": "5",
    "title": {
@@ -1467,6 +1545,7 @@
     "fr": "1PtC_BYau2rpW1_yvkxxAfleBCdLH3nSl",
     "ar": "17ktPutAA1l-IMlx0cIdkSVOXubtu_lVo"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Trois changements, et trois seulement : temps de descente 0,2 → 0,1, admission de colle augmentée, course agrandie. Noter ce qu'on change permet de revenir en arrière quand le résultat se dégrade."
@@ -1481,7 +1560,7 @@
   },
   {
    "name": "Etape_5C_7",
-   "order": 46,
+   "order": 47,
    "step": "5.C",
    "main": "5",
    "title": {
@@ -1498,6 +1577,7 @@
     "fr": "1BEKw3MgoxrQogcknjO6DyaxnM98TXLTc",
     "ar": "1Pmy-Pw4Fgz0FP1kQYE3KCTTV0QuJxump"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Un point mal formé ne veut pas dire que la colle ne sort pas. On reprend les paramètres par petites touches — ici dix pour cent de plus — et on relit le résultat.",
@@ -1513,8 +1593,42 @@
    "added": "2026-09-24"
   },
   {
+   "name": "Etape_5C_8",
+   "order": 48,
+   "step": "5.C",
+   "main": "5",
+   "title": {
+    "fr": "Après tout arrêt : repurger la colle avant de repartir",
+    "ar": "بعد كلّ توقّف: إعادة تصريف الغراء قبل الانطلاق"
+   },
+   "sub": {
+    "fr": "Paramètres de dépose et contrôle du point de colle",
+    "ar": "إعدادات وضع الغراء وفحص نقطة الغراء"
+   },
+   "duration": 91.0,
+   "portrait": false,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "fiche": true,
+   "keys": {
+    "fr": [
+     "On passe en jet continu, on essuie, on purge — et on juge à ce qui sort. De la colle qui sort franchement veut dire que la buse n'est pas bouchée. Ensuite seulement on revient au point unique.",
+     "Tout arrêt de production pour traiter un autre problème expose la colle à sécher dans la buse. Au redémarrage, la vérification n'est pas optionnelle : sans elle, on repart en ne déposant rien, et on le découvre bien plus loin."
+    ],
+    "ar": [
+     "نُحوّل إلى النفث المتّصل، ونمسح، ونُصرّف — ونحكم بما يخرج. فخروج الغراء بوضوح يعني أنّ الفوهة غير مسدودة. وعندها فقط نعود إلى النقطة الواحدة.",
+     "كلّ توقّف في الإنتاج لمعالجة مشكلة أخرى يُعرّض الغراء للجفاف في الفوهة. وعند التشغيل لا يكون الفحص اختيارياً: فبدونه ننطلق ولا نُودِع شيئاً، ولا نكتشف ذلك إلّا بعد حين."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-25"
+  },
+  {
    "name": "Etape_6A_1",
-   "order": 47,
+   "order": 49,
    "step": "6.A",
    "main": "6",
    "title": {
@@ -1531,6 +1645,7 @@
     "fr": "1usBDifeBtMSkdWs9pz4uqBnqzE8RKAJk",
     "ar": "1UHr6dyd3Zt4FXZtU5BFqQF-59HpWoeFg"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Juste avant la pose, une caméra mesure l'écart réel ; la machine corrige la position de pose.",
@@ -1547,7 +1662,7 @@
   },
   {
    "name": "Etape_6B_1",
-   "order": 48,
+   "order": 50,
    "step": "6.B",
    "main": "6",
    "title": {
@@ -1564,6 +1679,7 @@
     "fr": "11su4gm-44UxMCT4ouc4m5BphhiR0gAg1",
     "ar": "17oFeXSc7rXKUD5S6jZXqutFP2HM627Pa"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Create Model : se clique deux fois — attendre le message de réussite.",
@@ -1580,7 +1696,7 @@
   },
   {
    "name": "Etape_7_1",
-   "order": 49,
+   "order": 51,
    "step": "7",
    "main": "7",
    "title": {
@@ -1597,6 +1713,7 @@
     "fr": "1icPs4SwpZz61-Mi131yY48-bUV_1akQn",
     "ar": "1r9hMmKLuzqBv_PN3ctOrhElqPqMnWvtD"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "L'intervalle se compte sur la bande, position par position, en partant de zéro — pas à l'estime.",
@@ -1615,7 +1732,7 @@
   },
   {
    "name": "Etape_9_1",
-   "order": 50,
+   "order": 52,
    "step": "9",
    "main": "9",
    "title": {
@@ -1632,6 +1749,7 @@
     "fr": "1fGZ-B3PAX9e6Oa0I8LDcWdpSY5TyX6Mr",
     "ar": "14cZq9OWtKvMxSvzJTWgVr_ASYR9rTRbU"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Aiguille, flip et buse doivent être parfaitement alignés : un défaut fait tomber ou casser des puces."
@@ -1646,7 +1764,7 @@
   },
   {
    "name": "Etape_9C_1",
-   "order": 51,
+   "order": 53,
    "step": "9.C",
    "main": "9",
    "title": {
@@ -1663,6 +1781,7 @@
     "fr": "15o1XjIDweXLLxYjE_absOjiwCJg_pryF",
     "ar": "1KARIfC4ron9eGOKgF3HKyw_OKkF-JZhe"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Avant toute intervention physique (têtes chauffantes, air comprimé, wafer) : machine à l'arrêt, arrêt d'urgence enclenché lorsque la procédure le demande.",
@@ -1679,7 +1798,7 @@
   },
   {
    "name": "Etape_9C_2",
-   "order": 52,
+   "order": 54,
    "step": "9.C",
    "main": "9",
    "title": {
@@ -1696,6 +1815,7 @@
     "fr": "1cTOc4czDTSllaT647IL6fa1LIq48ckYX",
     "ar": "1vWXZ00sY55eG45cbg48MIGrJ680jDNy4"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Up / Down / Left / Right, In / Out : déplacements de la table du wafer — utiliser les boutons de l'image.",
@@ -1712,7 +1832,7 @@
   },
   {
    "name": "Etape_9C_3",
-   "order": 53,
+   "order": 55,
    "step": "9.C",
    "main": "9",
    "title": {
@@ -1729,6 +1849,7 @@
     "fr": "1MOQalzb95bPMZ9Z4AFku-rmivB6PwlCz",
     "ar": "1A_CikvlCBe_UZVCtqh7a7ihcX4QLCf1C"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Positions A1 / B1 / A2 / B2 : les valeurs ne doivent jamais être mélangées entre positions.",
@@ -1747,7 +1868,7 @@
   },
   {
    "name": "Etape_9C_4",
-   "order": 54,
+   "order": 56,
    "step": "9.C",
    "main": "9",
    "title": {
@@ -1764,6 +1885,7 @@
     "fr": "1-pvU_v1VzHe_z9OQ0FJGiXsXFI1uSe_d",
     "ar": "1WbAYWhxGK_GF4i1eoxHlzxjURqPjdjhm"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Quatre positions de travail A1, B1, A2, B2 — deux voies, deux positions chacune. Elles reviennent partout dans le logiciel."
@@ -1778,7 +1900,7 @@
   },
   {
    "name": "Etape_9C_5",
-   "order": 55,
+   "order": 57,
    "step": "9.C",
    "main": "9",
    "title": {
@@ -1795,6 +1917,7 @@
     "fr": "1dALe_pO-mseComkh-9bdt47Ca0-15imX",
     "ar": "1WAvz2n5wbAu_rBF71RgCDTRPwAstMiF5"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Un changement de produit touche presque tous les modules."
@@ -1809,7 +1932,7 @@
   },
   {
    "name": "Etape_9C_6",
-   "order": 56,
+   "order": 58,
    "step": "9.C",
    "main": "9",
    "title": {
@@ -1826,6 +1949,7 @@
     "fr": "1NEDuT8TYPfaAIUEEXY4C9ovw5AHLEnX6",
     "ar": "1btf4R9jPpMjoyBZd3b8Gy1Ot7snOKYcy"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Avant toute intervention physique : machine à l'arrêt, arrêt d'urgence enclenché lorsque la procédure le demande."
@@ -1840,7 +1964,7 @@
   },
   {
    "name": "Etape_9C_7",
-   "order": 57,
+   "order": 59,
    "step": "9.C",
    "main": "9",
    "title": {
@@ -1857,6 +1981,7 @@
     "fr": "1mm3C7trA9h4gLBvedhEAJH_oMPAYXDp6",
     "ar": "1RXTCKsX6JMOpCbOSHFkPfXopDaQIEo8K"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Course de l'aiguille : trop peu, la puce ne se décolle pas ; trop, on risque de l'abîmer."
@@ -1871,7 +1996,7 @@
   },
   {
    "name": "Etape_9C_8",
-   "order": 58,
+   "order": 60,
    "step": "9.C",
    "main": "9",
    "title": {
@@ -1888,6 +2013,7 @@
     "fr": "1ckYR3DIwAi9Dw1a48hz9WSzavTUDQhBs",
     "ar": "1yk2Yx1Wq3noQZSvi6DW4X0hJua_-UrXo"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Flip Motor Ax6 : rotation du flip (retournement) — onglet Manual Bonding.",
@@ -1906,7 +2032,7 @@
   },
   {
    "name": "Etape_9C_9",
-   "order": 59,
+   "order": 61,
    "step": "9.C",
    "main": "9",
    "title": {
@@ -1923,6 +2049,7 @@
     "fr": "1cK86gveqE18SZRhqmGZu4_iOUn2Sw1S6",
     "ar": "1AFV0QbArSSHrqoBy7SgglvK8fZj9l2i7"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Die Blow Time : durée du souffle de décollement de la puce au moment de la pose.",
@@ -1938,8 +2065,76 @@
    "added": "2026-09-23"
   },
   {
+   "name": "Etape_9C_10",
+   "order": 62,
+   "step": "9.C",
+   "main": "9",
+   "title": {
+    "fr": "Retirer le capuchon : le ressort, la verticalité, l'alarme",
+    "ar": "نزع الغطاء: النابض، والعمودية، والإنذار"
+   },
+   "sub": {
+    "fr": "Changer l'aiguille d'éjection et les buses",
+    "ar": "تبديل إبرة الدفع والفوهات"
+   },
+   "duration": 72.0,
+   "portrait": false,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "fiche": true,
+   "keys": {
+    "fr": [
+     "Une main tient le ressort comprimé, l'autre dévisse. L'alarme qui se déclenche est normale : on la coupe une fois le démontage fini, pas avant.",
+     "Pencher le capuchon en le sortant racle la bague de l'aiguille. Rayée, elle rend l'aiguille inutilisable : ce seul geste décide de la durée de vie de la pièce."
+    ],
+    "ar": [
+     "يدٌ تُمسك النابض مضغوطاً والأخرى تفكّ. والإنذار المنطلق طبيعي: نُسكته بعد انتهاء الفكّ لا قبله.",
+     "إمالة الغطاء عند إخراجه تكشط حلقة الإبرة. وإن كُشطت صارت الإبرة عديمة الفائدة: فهذه الحركة وحدها تقرّر عمر القطعة."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-25"
+  },
+  {
+   "name": "Etape_9C_11",
+   "order": 63,
+   "step": "9.C",
+   "main": "9",
+   "title": {
+    "fr": "Remettre le capuchon : deux mains, pour ne pas perdre le ressort",
+    "ar": "إعادة الغطاء: يدان، كي لا يضيع النابض"
+   },
+   "sub": {
+    "fr": "Changer l'aiguille d'éjection et les buses",
+    "ar": "تبديل إبرة الدفع والفوهات"
+   },
+   "duration": 73.0,
+   "portrait": false,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "fiche": true,
+   "keys": {
+    "fr": [
+     "Rotation du retournement en attente et à zéro, aiguille remontée : le capuchon ne se remonte qu'après, sur une machine au repos.",
+     "Une main pousse le ressort et soutient, l'autre visse. Le ressort lâché saute et se perd — et sur cette machine, une pièce tombée est une pièce qu'on cherche longtemps."
+    ],
+    "ar": [
+     "دوران القلّاب إلى الانتظار وإلى الصفر، والإبرة مرفوعة: ولا يُركَّب الغطاء إلّا بعد ذلك، على آلة ساكنة.",
+     "يدٌ تدفع النابض وتسند، والأخرى تبرم. والنابض المُفلَت يقفز ويضيع — وفي هذه الآلة، القطعة الساقطة يطول البحث عنها."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-25"
+  },
+  {
    "name": "Etape_9_2",
-   "order": 60,
+   "order": 64,
    "step": "9",
    "main": "9",
    "title": {
@@ -1956,6 +2151,7 @@
     "fr": "14yTcvrgw6MBkZyncfOsZUnXtkk1IKEJp",
     "ar": "1Zf8ju1mcaA2EP2Ua4Yb8LnmZJwF1TbQR"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Linkage : doit être coché avant de commencer l'alignement des buses.",
@@ -1972,7 +2168,7 @@
   },
   {
    "name": "Etape_9_3",
-   "order": 61,
+   "order": 65,
    "step": "9",
    "main": "9",
    "title": {
@@ -1989,6 +2185,7 @@
     "fr": "1zHazSdWstbhsV8-uSrEThfCKDhMeBE2Y",
     "ar": "1tz6AeRANEBPArx60UmEaHgJeebD3uDLf"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Ordre imposé : de haut en bas pour l'axe Y, de bas en haut pour l'axe X. Ne jamais mélanger les valeurs entre positions.",
@@ -2005,7 +2202,7 @@
   },
   {
    "name": "Etape_9_4",
-   "order": 62,
+   "order": 66,
    "step": "9",
    "main": "9",
    "title": {
@@ -2022,6 +2219,7 @@
     "fr": "1WeP9Q_R2i6p4CkT7DMnlJFHJ3bOpqh5e",
     "ar": "1A5zLw4GkWZ755OI7ccnyUi0bLIIxiO_b"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "L'alignement est refait pour chacune des quatre positions A1, B1, A2, B2."
@@ -2036,7 +2234,7 @@
   },
   {
    "name": "Etape_9_5",
-   "order": 63,
+   "order": 67,
    "step": "9",
    "main": "9",
    "title": {
@@ -2053,6 +2251,7 @@
     "fr": "1TjrQAb7IzjPgeMiiX3wwh-K-I1tAUOk3",
     "ar": "1h3ldV5kp9o9Mrem89urcv8FQ5mKEiaL5"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Chaque axe mémorise une valeur pour chacune des positions A1, B1, A2, B2.",
@@ -2069,7 +2268,7 @@
   },
   {
    "name": "Etape_9_6",
-   "order": 64,
+   "order": 68,
    "step": "9",
    "main": "9",
    "title": {
@@ -2086,6 +2285,7 @@
     "fr": "1d0ik5rsVHJhTGQ6QHTneoZb28ekZSnW0",
     "ar": "1A9o2PLrB_zTnTYQHq73kGkr6TESamWmf"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Aiguille, flip et buse doivent être parfaitement alignés, pour chacune des positions A1, B1, A2, B2.",
@@ -2102,7 +2302,7 @@
   },
   {
    "name": "Etape_9_7",
-   "order": 65,
+   "order": 69,
    "step": "9",
    "main": "9",
    "title": {
@@ -2119,6 +2319,7 @@
     "fr": "1hpVjE5J4Cnuded2fPJ81--58ijxLdgwY",
     "ar": "1d6hA756XOYtmGeiVsdQLA4Rl9cSaYtFx"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Linkage : doit être coché avant de commencer l'alignement des buses.",
@@ -2135,7 +2336,7 @@
   },
   {
    "name": "Etape_9_8",
-   "order": 66,
+   "order": 70,
    "step": "9",
    "main": "9",
    "title": {
@@ -2152,6 +2353,7 @@
     "fr": "1cdri039DsNnq5dPpIUfJWEqfjkcjE6Cz",
     "ar": "1puXcnP1PB0SbBtg7OozOOb3i4KeOetrU"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Un point noir sur la puce signale un pointeau trop bas : il marque la puce à chaque pose.",
@@ -2167,8 +2369,242 @@
    "added": "2026-09-24"
   },
   {
+   "name": "Etape_9A_1",
+   "order": 71,
+   "step": "9.A",
+   "main": "9",
+   "title": {
+    "fr": "Caméra du flip toute noire : ce n'est pas une panne",
+    "ar": "كاميرا القلّاب سوداء تماماً: وليس ذلك عطلاً"
+   },
+   "sub": {
+    "fr": "Axe Y — de haut en bas (positions A1 / B1 / A2 / B2)",
+    "ar": "المحور Y — من الأعلى إلى الأسفل (المواضع A1 / B1 / A2 / B2)"
+   },
+   "duration": 40.0,
+   "portrait": false,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "fiche": true,
+   "keys": {
+    "fr": [
+     "La caméra du flip ne montre rien tant que la tête est relevée : la buse est juste devant l'objectif. Inutile de chercher un éclairage ou un câble en défaut.",
+     "Buses et aiguille d'éjection doivent se répondre. C'est le contrôle qui ouvre tout le réglage de l'axe Y qui suit."
+    ],
+    "ar": [
+     "لا تُظهر كاميرا القلّاب شيئاً ما دام الرأس مرفوعاً: فالفوهة أمام العدسة مباشرةً. ولا داعي للبحث عن خلل في الإضاءة أو الأسلاك.",
+     "يجب أن تتوافق الفوهات وإبرة الدفع. وهذا الفحص هو ما يفتح ضبط المحور Y كلّه الذي يليه."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-25"
+  },
+  {
+   "name": "Etape_9A_2",
+   "order": 72,
+   "step": "9.A",
+   "main": "9",
+   "title": {
+    "fr": "Descendre le porte-aiguille, passer en mode lié, appeler A1",
+    "ar": "إنزال حامل الإبرة، والانتقال إلى الوضع المتزامن، واستدعاء A1"
+   },
+   "sub": {
+    "fr": "Axe Y — de haut en bas (positions A1 / B1 / A2 / B2)",
+    "ar": "المحور Y — من الأعلى إلى الأسفل (المواضع A1 / B1 / A2 / B2)"
+   },
+   "duration": 98.0,
+   "portrait": false,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "fiche": true,
+   "keys": {
+    "fr": [
+     "Porte-aiguille descendu, puis mode lié activé, puis appel de A1. Dans cet ordre : c'est le mode lié qui fait venir la tête en regard de l'aiguille.",
+     "Le curseur d'une vue commande celle d'en face, et un cadre permet de zoomer. Tant que les quatre vues ne sont pas exploitables, on ne règle rien."
+    ],
+    "ar": [
+     "إنزال حامل الإبرة، ثم تفعيل الوضع المتزامن، ثم استدعاء A1. بهذا الترتيب: فالوضع المتزامن هو ما يُحضر الرأس مقابل الإبرة.",
+     "مؤشّر عرضٍ يتحكّم بالعرض المقابل، والإطار يتيح التقريب. وما لم تصلح العروض الأربعة لا نضبط شيئاً."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-25"
+  },
+  {
+   "name": "Etape_9A_3",
+   "order": 73,
+   "step": "9.A",
+   "main": "9",
+   "title": {
+    "fr": "Les quatre vues, et pourquoi il faut un fond clair",
+    "ar": "العروض الأربعة، ولماذا يلزم خلفية فاتحة"
+   },
+   "sub": {
+    "fr": "Axe Y — de haut en bas (positions A1 / B1 / A2 / B2)",
+    "ar": "المحور Y — من الأعلى إلى الأسفل (المواضع A1 / B1 / A2 / B2)"
+   },
+   "duration": 75.0,
+   "portrait": false,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "fiche": true,
+   "keys": {
+    "fr": [
+     "L'objectif qui regarde vers l'opérateur prend tout ce qui se trouve derrière : un vêtement sombre assombrit l'image et masque le contour de l'aiguille. Un chiffon blanc ou clair tendu en fond suffit à rendre la vue exploitable — c'est un réglage d'éclairage, pas de machine."
+    ],
+    "ar": [
+     "العدسة المتّجهة نحو المشغّل تلتقط كلّ ما خلفه: فثوبٌ داكن يُعتم الصورة ويُخفي حدّ الإبرة. وقطعة قماش بيضاء أو فاتحة تُشدّ خلفيةً تكفي لجعل العرض صالحاً — وهو ضبط إضاءة لا ضبط آلة."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-25"
+  },
+  {
+   "name": "Etape_9A_4",
+   "order": 74,
+   "step": "9.A",
+   "main": "9",
+   "title": {
+    "fr": "Régler les quatre positions de A1, puis copier et enregistrer",
+    "ar": "ضبط مواضع A1 الأربعة، ثم النسخ والحفظ"
+   },
+   "sub": {
+    "fr": "Axe Y — de haut en bas (positions A1 / B1 / A2 / B2)",
+    "ar": "المحور Y — من الأعلى إلى الأسفل (المواضع A1 / B1 / A2 / B2)"
+   },
+   "duration": 170.0,
+   "portrait": false,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "fiche": true,
+   "keys": {
+    "fr": [
+     "On les prend dans l'ordre 1, 2, 3, 4 ; chacune a sa vue. Une position bien en face ne se touche pas, un décalage franc se micro-règle — et un décalage à peine visible se laisse tel quel.",
+     "Les deux gestes sont distincts : copier reporte le réglage, enregistrer le grave. Cliquer deux fois sur copier ne coûte rien ; oublier d'enregistrer coûte tout le travail."
+    ],
+    "ar": [
+     "نأخذها بالترتيب 1 و2 و3 و4؛ ولكلٍّ عرضه. فالموضع المستقيم لا يُمَسّ، والانزياح الواضح يُضبط بدقّة — والانزياح الذي يكاد لا يُرى يُترك كما هو.",
+     "الحركتان منفصلتان: النسخ ينقل الضبط، والحفظ يُثبّته. والنقر مرّتين على النسخ لا يكلّف شيئاً؛ ونسيان الحفظ يُضيّع العمل كلّه."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-25"
+  },
+  {
+   "name": "Etape_9A_5",
+   "order": 75,
+   "step": "9.A",
+   "main": "9",
+   "title": {
+    "fr": "Passer à B1, et chasser une puce restée collée",
+    "ar": "الانتقال إلى B1، وإزاحة شريحة بقيت لاصقة"
+   },
+   "sub": {
+    "fr": "Axe Y — de haut en bas (positions A1 / B1 / A2 / B2)",
+    "ar": "المحور Y — من الأعلى إلى الأسفل (المواضع A1 / B1 / A2 / B2)"
+   },
+   "duration": 77.0,
+   "portrait": false,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "fiche": true,
+   "keys": {
+    "fr": [
+     "On ramène la tête de prise en attente pour la séparer, puis on coupe le vide et on passe en soufflage. C'est la machine qui décolle la puce : y aller aux doigts, c'est risquer la buse et l'aiguille."
+    ],
+    "ar": [
+     "نُعيد رأس الالتقاط إلى الانتظار لفصلها، ثم نقطع التفريغ ونُحوّل إلى النفخ. فالآلة هي التي تفكّها: ومحاولتها بالأصابع تُعرّض الفوهة والإبرة للتلف."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-25"
+  },
+  {
+   "name": "Etape_9A_6",
+   "order": 76,
+   "step": "9.A",
+   "main": "9",
+   "title": {
+    "fr": "Le retournement porte aussi une puce, et B1 se revérifie",
+    "ar": "القلّاب يحمل شريحةً أيضاً، وB1 يُعاد التحقّق منه"
+   },
+   "sub": {
+    "fr": "Axe Y — de haut en bas (positions A1 / B1 / A2 / B2)",
+    "ar": "المحور Y — من الأعلى إلى الأسفل (المواضع A1 / B1 / A2 / B2)"
+   },
+   "duration": 80.0,
+   "portrait": false,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "fiche": true,
+   "keys": {
+    "fr": [
+     "La tête de report n'est pas la seule : le retournement porte lui aussi ses voies A et B, et une puce peut y rester. On vérifie les deux avant de poursuivre.",
+     "On rappelle la position pour qu'elle rejoue, plutôt que de se fier à un seul passage. Ce qui n'a pas bougé n'a pas besoin d'être touché."
+    ],
+    "ar": [
+     "رأس النقل ليس الوحيد: فالقلّاب له أيضاً مساراه A وB، وقد تبقى فيه شريحة. فنفحص الاثنين قبل المتابعة.",
+     "نستدعي الموضع ليُعيد الحركة بدل الاتّكال على مرور واحد. وما لم يتغيّر لا حاجة لمسّه."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-25"
+  },
+  {
+   "name": "Etape_9A_7",
+   "order": 77,
+   "step": "9.A",
+   "main": "9",
+   "title": {
+    "fr": "A2 et B2 : localiser la puce égarée, puis les derniers réglages",
+    "ar": "A2 وB2: تحديد موضع الشريحة الشاردة، ثم آخر الضبط"
+   },
+   "sub": {
+    "fr": "Axe Y — de haut en bas (positions A1 / B1 / A2 / B2)",
+    "ar": "المحور Y — من الأعلى إلى الأسفل (المواضع A1 / B1 / A2 / B2)"
+   },
+   "duration": 100.0,
+   "portrait": false,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "fiche": true,
+   "keys": {
+    "fr": [
+     "Retournement ou report : ce n'est pas la même tête, donc pas le même soufflage. On regarde avant d'agir, sinon on souffle au mauvais endroit et la puce reste.",
+     "A1, B1, A2, B2 se règlent chacune à leur tour, et toutes demandent au moins un coup d'œil. Un micro-décalage sur l'une suffit à fausser le report."
+    ],
+    "ar": [
+     "قلبٌ أم نقل: فليسا الرأس نفسه، ولا النفخ نفسه. ننظر قبل الفعل، وإلّا نفخنا في غير موضعه وبقيت الشريحة.",
+     "A1 وB1 وA2 وB2 تُضبط كلٌّ بدورها، وكلّها تستحقّ نظرةً على الأقلّ. فانزياح دقيق في إحداها يكفي لإفساد النقل."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-25"
+  },
+  {
    "name": "Etape_10A_1",
-   "order": 67,
+   "order": 78,
    "step": "10.A",
    "main": "10",
    "title": {
@@ -2185,6 +2621,7 @@
     "fr": "1GvYslon17bS7KFSoqdW79oFjCrQREYRP",
     "ar": "1LsRgxaEG3LtvyF1RutGs6fqHL8YgIR3W"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Change Wafer : un clic pour sortir le plateau, un clic pour le recharger.",
@@ -2203,7 +2640,7 @@
   },
   {
    "name": "Etape_10A_2",
-   "order": 68,
+   "order": 79,
    "step": "10.A",
    "main": "10",
    "title": {
@@ -2220,6 +2657,7 @@
     "fr": "11AfNVgsAU_jH7QtVHjZt480j5OPsC4x8",
     "ar": "1cL4F-Bx36abMWz6s9T5eQ4lWprkFl5pU"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Change Wafer : sort ou rentre le plateau porte-wafer.",
@@ -2236,7 +2674,7 @@
   },
   {
    "name": "Etape_10A_3",
-   "order": 69,
+   "order": 80,
    "step": "10.A",
    "main": "10",
    "title": {
@@ -2250,9 +2688,10 @@
    "duration": 119.0,
    "portrait": false,
    "drive": {
-    "fr": "",
-    "ar": ""
+    "fr": "1m0PLnSFmj1oChFPyVMU0TOajqKZjn5k7",
+    "ar": "1CE86a7xLXuIT6wc7wploO5Ahu8pmFw1B"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Le cadre du wafer porte des coins coupés : ils ne laissent qu'un seul sens de montage, et ce sens est l'inverse de celui qui vient naturellement.",
@@ -2269,7 +2708,7 @@
   },
   {
    "name": "Etape_10A_4",
-   "order": 70,
+   "order": 81,
    "step": "10.A",
    "main": "10",
    "title": {
@@ -2283,9 +2722,10 @@
    "duration": 128.0,
    "portrait": false,
    "drive": {
-    "fr": "",
-    "ar": ""
+    "fr": "1g96BzePhNgy8ONsW_za0tcEJX6euwZoC",
+    "ar": "1fk8gEHvy31_hq0etVd9Lhza_M3Qqf3Nj"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Encoche vers l'intérieur, c'est zéro degré ; encoche vers l'extérieur, c'est 180°. Le repère en haut de la carte correspond à la gauche de l'objet.",
@@ -2301,8 +2741,76 @@
    "added": "2026-09-24"
   },
   {
+   "name": "Etape_10A_5",
+   "order": 82,
+   "step": "10.A",
+   "main": "10",
+   "title": {
+    "fr": "Sortir le plateau de puces : son numéro, et les gestes qui l'abîment",
+    "ar": "إخراج حامل الشرائح: رقمه، والحركات التي تتلفه"
+   },
+   "sub": {
+    "fr": "Changer le wafer (Change Wafer)",
+    "ar": "تغيير الرقاقة (Change Wafer)"
+   },
+   "duration": 128.0,
+   "portrait": false,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "fiche": true,
+   "keys": {
+    "fr": [
+     "On attend qu'il soit complètement sorti et descendu avant de desserrer, et on le soulève sans le coincer. Un plateau entamé porte des puces déjà prélevées : le brusquer, c'est perdre celles qui restent.",
+     "Il est gravé à deux endroits, dont le dos. C'est lui qui désignera plus tard la bonne cartographie : sans lui, impossible de savoir quelle carte charger."
+    ],
+    "ar": [
+     "ننتظر خروجه ونزوله تماماً قبل فكّ الشدّ، ونرفعه دون حشره. والحامل المستعمَل يحمل شرائح أُخذ بعضها: فالعنف معه يُضيّع ما بقي.",
+     "محفور في موضعين، أحدهما الظهر. وهو الذي سيعيّن لاحقاً الخريطة الصحيحة: وبدونه يستحيل معرفة أيّ خريطة تُحمَّل."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-25"
+  },
+  {
+   "name": "Etape_10A_6",
+   "order": 83,
+   "step": "10.A",
+   "main": "10",
+   "title": {
+    "fr": "Remonter le plateau : son orientation d'origine, les 90°, et le geste qui l'abîme",
+    "ar": "إعادة تركيب الحامل: اتّجاهه الأصلي، والتسعون درجة، والحركة التي تتلفه"
+   },
+   "sub": {
+    "fr": "Changer le wafer (Change Wafer)",
+    "ar": "تغيير الرقاقة (Change Wafer)"
+   },
+   "duration": 128.0,
+   "portrait": false,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "fiche": true,
+   "keys": {
+    "fr": [
+     "Il a déjà servi, donc les puces manquantes sont à un endroit précis : même côté, même face, et les 90° de la machine. Le remettre autrement, c'est rendre la cartographie fausse.",
+     "On soulève le plateau avant de pousser, jamais l'inverse. Et on juge au résultat : si le bord du plateau se voit encore à l'extérieur, c'est mal engagé — correctement posé, il disparaît."
+    ],
+    "ar": [
+     "قد استُعمل، فالشرائح الناقصة في موضع بعينه: الجهة نفسها، والوجه نفسه، وتسعون درجة الآلة. وإعادته على غير ذلك تُفسد الخريطة.",
+     "نرفع الحامل قبل الدفع، لا العكس أبداً. ونحكم بالنتيجة: فإن بقيت حافّة الحامل ظاهرةً من الخارج فالإدخال خاطئ — وإن وُضع صحيحاً اختفت."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-25"
+  },
+  {
    "name": "Etape_10B_1",
-   "order": 71,
+   "order": 84,
    "step": "10.B",
    "main": "10",
    "title": {
@@ -2316,9 +2824,10 @@
    "duration": 157.0,
    "portrait": false,
    "drive": {
-    "fr": "",
-    "ar": ""
+    "fr": "16KDH490ACoH5sGaXr5jgqWF5w5GjoEmy",
+    "ar": "197AROOqa3axUsvc-Y0jEhGOy7hT34xg1"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "La bande arrive toujours dans le même sens, quel que soit le produit : c'est elle qui sert de référence pour juger le sens du wafer.",
@@ -2335,7 +2844,7 @@
   },
   {
    "name": "Etape_10B_2",
-   "order": 72,
+   "order": 85,
    "step": "10.B",
    "main": "10",
    "title": {
@@ -2349,9 +2858,10 @@
    "duration": 118.0,
    "portrait": false,
    "drive": {
-    "fr": "",
-    "ar": ""
+    "fr": "1gXdLL-uZzzu-IYxa4rCfYuDkpRbq6VP0",
+    "ar": "1LYBL16vOgkmDm-oW3xakvLjtfMF4Ofo9"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "La carte se choisit par le numéro du plateau monté, lu sur son étiquette. Une carte qui ne porte pas ce numéro n'est pas la bonne.",
@@ -2368,7 +2878,7 @@
   },
   {
    "name": "Etape_10B_3",
-   "order": 73,
+   "order": 86,
    "step": "10.B",
    "main": "10",
    "title": {
@@ -2382,9 +2892,10 @@
    "duration": 123.0,
    "portrait": false,
    "drive": {
-    "fr": "",
-    "ar": ""
+    "fr": "1njM7DIq534qunHavcZifxTwEXa1r3eLq",
+    "ar": "1M0g_pj9Rh42nU0eXncDLP3SfKuI5zjcX"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "La carte s'affiche à 90° du réel : on la tourne dans le sens antihoraire jusqu'à ce que son repère tombe à droite, comme sur la machine.",
@@ -2401,7 +2912,7 @@
   },
   {
    "name": "Etape_10B_4",
-   "order": 74,
+   "order": 87,
    "step": "10.B",
    "main": "10",
    "title": {
@@ -2415,9 +2926,10 @@
    "duration": 130.0,
    "portrait": false,
    "drive": {
-    "fr": "",
-    "ar": ""
+    "fr": "1p3I8KUf0PehdRhVayUK-21lpD2KdP6e-",
+    "ar": "1Y0oumGmSwmUiJBVd16sCypSWmqCyWcQh"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Quand on ne sait plus où l'on est sur le wafer, on s'accroupit et on suit le point lumineux : il montre la position réelle.",
@@ -2436,7 +2948,7 @@
   },
   {
    "name": "Etape_10B_5",
-   "order": 75,
+   "order": 88,
    "step": "10.B",
    "main": "10",
    "title": {
@@ -2450,9 +2962,10 @@
    "duration": 184.0,
    "portrait": false,
    "drive": {
-    "fr": "",
-    "ar": ""
+    "fr": "1MvkzOEVbKnoG4GYvfnshkh1e1SfaQuLj",
+    "ar": "14QMFp-L-Oi8Qhv0MPtc76vm7o3eaQtw6"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "On ne compte pas les cases : on cherche des formes reconnaissables — un T, une zone entièrement mauvaise — et on vérifie qu'elles se retrouvent des deux côtés.",
@@ -2469,7 +2982,7 @@
   },
   {
    "name": "Etape_10B_6",
-   "order": 76,
+   "order": 89,
    "step": "10.B",
    "main": "10",
    "title": {
@@ -2483,9 +2996,10 @@
    "duration": 182.0,
    "portrait": false,
    "drive": {
-    "fr": "",
-    "ar": ""
+    "fr": "192K6HreJzoKvHole4EhfyMsi8h3NFyqT",
+    "ar": "1VdTVQdH4P9zlYwjj7lWz0BZvPYvmYYc8"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Depuis le point de départ elle monte, atteint le haut, puis change de ligne du côté choisi. Le sens inverse descend et change de ligne de l'autre côté.",
@@ -2504,7 +3018,7 @@
   },
   {
    "name": "Etape_10B_7",
-   "order": 77,
+   "order": 90,
    "step": "10.B",
    "main": "10",
    "title": {
@@ -2518,9 +3032,10 @@
    "duration": 136.0,
    "portrait": false,
    "drive": {
-    "fr": "",
-    "ar": ""
+    "fr": "1st3u2TralM_imKndvspfSsSuOD935Ykw",
+    "ar": "1v-6Q1Sanr1dVCkOlg7UyXF3spdBqNyWS"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "En mode carte, une case doit être cochée : sans elle, la cartographie est chargée mais sans aucun effet, et la machine prend les puces comme si elle n'existait pas.",
@@ -2537,7 +3052,7 @@
   },
   {
    "name": "Etape_10B_8",
-   "order": 78,
+   "order": 91,
    "step": "10.B",
    "main": "10",
    "title": {
@@ -2551,9 +3066,10 @@
    "duration": 121.0,
    "portrait": false,
    "drive": {
-    "fr": "",
-    "ar": ""
+    "fr": "1jD-iCp_4ojnQrQaUpl1eatvTjObQ2qI8",
+    "ar": "1xoc33kM98TTz6UH4ZCDiYyyW8cGW5O_z"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Trois échecs cumulés et la machine s'arrête en alarme. Ce n'est pas une panne : c'est elle qui demande qu'on regarde le modèle.",
@@ -2572,7 +3088,7 @@
   },
   {
    "name": "Etape_10B_9",
-   "order": 79,
+   "order": 92,
    "step": "10.B",
    "main": "10",
    "title": {
@@ -2586,9 +3102,10 @@
    "duration": 177.0,
    "portrait": false,
    "drive": {
-    "fr": "",
-    "ar": ""
+    "fr": "1L-GG2_GuLsnNRhg52W8QZJhs1qYSkmfA",
+    "ar": "1jAvagLSnqUX_BUUrUUhuPBxjHNuBnArf"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "On se déplace en ne regardant que l'image et le point lumineux : les bords du wafer et les zones mauvaises suffisent à savoir où l'on est.",
@@ -2607,7 +3124,7 @@
   },
   {
    "name": "Etape_10B_10",
-   "order": 80,
+   "order": 93,
    "step": "10.B",
    "main": "10",
    "title": {
@@ -2621,9 +3138,10 @@
    "duration": 157.0,
    "portrait": false,
    "drive": {
-    "fr": "",
-    "ar": ""
+    "fr": "1dGx0IZP7CLLaTW3GkSGRVg4yC60NrL-y",
+    "ar": "1xkoZ4OtW8SKadaED-8DDURNi18Xvbx-B"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Enregistrer, puis Enregistrer sous, avec un nom qui dit qu'elle est entamée. Le fichier ainsi créé n'a plus les lignes d'en-tête de la carte d'origine.",
@@ -2639,8 +3157,140 @@
    "added": "2026-09-24"
   },
   {
+   "name": "Etape_10B_11",
+   "order": 94,
+   "step": "10.B",
+   "main": "10",
+   "title": {
+    "fr": "Revenir à la zone déjà travaillée",
+    "ar": "العودة إلى المنطقة التي عُمل عليها"
+   },
+   "sub": {
+    "fr": "Charger et orienter la cartographie du wafer",
+    "ar": "تحميل خريطة الرقاقة وتوجيهها"
+   },
+   "duration": 77.0,
+   "portrait": false,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "fiche": true,
+   "keys": {
+    "fr": [
+     "Après tout démontage, la première tâche est de retrouver l'endroit où l'on s'était arrêté. On se repère par rapport au mark le plus proche, et non en comptant depuis le bord."
+    ],
+    "ar": [
+     "بعد كلّ فكّ، أوّل مهمّة هي إيجاد الموضع الذي توقّفنا عنده. ونستدلّ بأقرب علامة، لا بالعدّ من الحافّة."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-25"
+  },
+  {
+   "name": "Etape_10B_12",
+   "order": 95,
+   "step": "10.B",
+   "main": "10",
+   "title": {
+    "fr": "Réutiliser la carte en place plutôt que d'en charger une neuve",
+    "ar": "إعادة استعمال الخريطة الموجودة بدل تحميل خريطة جديدة"
+   },
+   "sub": {
+    "fr": "Charger et orienter la cartographie du wafer",
+    "ar": "تحميل خريطة الرقاقة وتوجيهها"
+   },
+   "duration": 28.0,
+   "portrait": false,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "fiche": true,
+   "keys": {
+    "fr": [
+     "Le critère est unique : c'est le même plateau de puces qu'avant le démontage. Alors la carte en place reste valable, avec les puces déjà prises. Recharger une carte neuve effacerait cet historique et ferait reprendre sur des puces absentes."
+    ],
+    "ar": [
+     "المعيار واحد: أنّه حامل الشرائح نفسه قبل الفكّ. فتبقى الخريطة الموجودة صالحة، بما فيها الشرائح المأخوذة. وتحميل خريطة جديدة يمحو هذا السجلّ ويجعل الالتقاط يبدأ على شرائح غير موجودة."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-25"
+  },
+  {
+   "name": "Etape_10B_13",
+   "order": 96,
+   "step": "10.B",
+   "main": "10",
+   "title": {
+    "fr": "Retrouver la zone : l'échelle, les traces de prise, et la flèche bleue",
+    "ar": "إيجاد المنطقة: شكل السلّم، وآثار الالتقاط، والسهم الأزرق"
+   },
+   "sub": {
+    "fr": "Charger et orienter la cartographie du wafer",
+    "ar": "تحميل خريطة الرقاقة وتوجيهها"
+   },
+   "duration": 113.0,
+   "portrait": false,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "fiche": true,
+   "keys": {
+    "fr": [
+     "Le point lumineux est l'aiguille d'éjection, pas une puce prélevée. Les traces de prélèvement sont autour. Les confondre, c'est se caler un rang à côté.",
+     "Une ligne de traces là où la carte en annonce deux : il faut monter. C'est en comparant le nombre de lignes, des deux côtés, qu'on sait dans quel sens se déplacer — et on suit la flèche bleue, jamais le texte."
+    ],
+    "ar": [
+     "النقطة المضيئة هي إبرة الدفع لا شريحةً ملتقَطة. وآثار الالتقاط حولها. والخلط بينهما يُوقع في صفٍّ مجاور.",
+     "سطرُ آثارٍ حيث تُعلن الخريطة سطرين: فيجب الصعود. وبمقارنة عدد الأسطر في الجهتين نعرف اتّجاه التحرّك — ونتبع السهم الأزرق لا النصّ."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-25"
+  },
+  {
+   "name": "Etape_10B_14",
+   "order": 97,
+   "step": "10.B",
+   "main": "10",
+   "title": {
+    "fr": "Le repère à l'envers : la carte était décalée d'une case",
+    "ar": "العلامة مقلوبة: الخريطة كانت منزاحة خانةً واحدة"
+   },
+   "sub": {
+    "fr": "Charger et orienter la cartographie du wafer",
+    "ar": "تحميل خريطة الرقاقة وتوجيهها"
+   },
+   "duration": 104.0,
+   "portrait": false,
+   "drive": {
+    "fr": "",
+    "ar": ""
+   },
+   "fiche": true,
+   "keys": {
+    "fr": [
+     "Le mark a une forme et un sens attendus. Retourné par rapport à ce qu'annonce la carte, il ne signale pas un défaut du wafer : il dit que la carte elle-même est décalée.",
+     "Le décalage d'une case existait déjà et n'avait pas été repéré. Sans la correction, la machine aurait continué de prélever un rang à côté — et le contrôle n'aurait rien signalé."
+    ],
+    "ar": [
+     "للعلامة شكل واتّجاه متوقّعان. فإن كانت مقلوبةً عمّا تُعلنه الخريطة فهي لا تدلّ على عيبٍ في الرقاقة: بل تقول إنّ الخريطة نفسها منزاحة.",
+     "كان الانزياح بخانة موجوداً ولم يُلحَظ. وبدون التصحيح لكانت الآلة تابعت الالتقاط في صفٍّ مجاور — ولما نبّه الفحص إلى شيء."
+    ]
+   },
+   "note": "",
+   "confidence": "confirmed",
+   "added": "2026-09-25"
+  },
+  {
    "name": "Etape_10C_1",
-   "order": 81,
+   "order": 98,
    "step": "10.C",
    "main": "10",
    "title": {
@@ -2654,9 +3304,10 @@
    "duration": 233.0,
    "portrait": false,
    "drive": {
-    "fr": "",
-    "ar": ""
+    "fr": "1nnrd2kwUf90JTOmy6Hh_GynW-kkUqonD",
+    "ar": "1i6MNOv8PlsuvQxce6T3I4-Vu4zgVeK4x"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Un rien plus grand que la puce, mais sans mordre sur la voisine : c'est tout l'art du modèle.",
@@ -2675,7 +3326,7 @@
   },
   {
    "name": "Etape_10C_2",
-   "order": 82,
+   "order": 99,
    "step": "10.C",
    "main": "10",
    "title": {
@@ -2689,9 +3340,10 @@
    "duration": 169.0,
    "portrait": false,
    "drive": {
-    "fr": "",
-    "ar": ""
+    "fr": "1nbYKaRXyFsslKgbZRYqWpwDpXt_C1XAg",
+    "ar": "1YAc0SYKYsyyeyhBcfZEEIVD1-GlK7M5i"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Chaque calcul remet le nombre de recherche à neuf. En production il vaut trois : on le remet systématiquement, sinon la machine cherche neuf puces là où il n'en faut que trois.",
@@ -2710,7 +3362,7 @@
   },
   {
    "name": "Etape_10C_3",
-   "order": 83,
+   "order": 100,
    "step": "10.C",
    "main": "10",
    "title": {
@@ -2724,9 +3376,10 @@
    "duration": 250.0,
    "portrait": false,
    "drive": {
-    "fr": "",
-    "ar": ""
+    "fr": "1huBx-5dz4Ibi1IDhtAMWxpMCIfPmkEi9",
+    "ar": "1cRWVv1a8ZlAVYp0CLPMFKx45XVR4utcn"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Les plots utiles de la puce sont ceux de gauche et de droite. Une rotation du plateau change l'aspect sans forcément gêner — sauf si le produit impose un sens précis.",
@@ -2745,7 +3398,7 @@
   },
   {
    "name": "Etape_11A_2",
-   "order": 84,
+   "order": 101,
    "step": "11.A",
    "main": "11",
    "title": {
@@ -2762,6 +3415,7 @@
     "fr": "1x3GAJVuNkQh-1J3z3J_UnuyXR5xgJ2Pm",
     "ar": "1qBNvwuu7cIEidFMJwVj2lQ_1O6neJKtj"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Chaque étape suppose la précédente faite : la bande passe, puis on dispose les têtes chauffantes."
@@ -2776,7 +3430,7 @@
   },
   {
    "name": "Etape_11A_3",
-   "order": 85,
+   "order": 102,
    "step": "11.A",
    "main": "11",
    "title": {
@@ -2793,6 +3447,7 @@
     "fr": "1Ywyht0u-i9z5TT3TVXWXlv3wT5ioKhmP",
     "ar": "1GVerECRbomfDxxDyBgk2o3rMJ9ht8AjT"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Un connecteur ne se tire jamais par le câble : on appuie sur le verrou, il se libère seul.",
@@ -2811,7 +3466,7 @@
   },
   {
    "name": "Etape_11A_4",
-   "order": 86,
+   "order": 103,
    "step": "11.A",
    "main": "11",
    "title": {
@@ -2828,6 +3483,7 @@
     "fr": "1r53TZqEt4WQmYkhYA2JvOAPLOdllDvLV",
     "ar": "10iYk_NmB3TCmUE86j8vU2pYcYYtri1JH"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Avant de toucher aux têtes : relâcher la tension, couper l'interrupteur, purger l'air, retirer le papier siliconé.",
@@ -2846,7 +3502,7 @@
   },
   {
    "name": "Etape_11A_5",
-   "order": 87,
+   "order": 104,
    "step": "11.A",
    "main": "11",
    "title": {
@@ -2863,6 +3519,7 @@
     "fr": "1qgNMCaKZuyUN_s6RCeBR2SvakU94fXTl",
     "ar": "1FYgENu2nhwV_hZMHWQ-dxq_xeSOgCv3V"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Les « pistons » ou « éléments de cure », ce sont les têtes chauffantes : le même organe, deux façons de le nommer sur le terrain.",
@@ -2881,7 +3538,7 @@
   },
   {
    "name": "Etape_11A_6",
-   "order": 88,
+   "order": 105,
    "step": "11.A",
    "main": "11",
    "title": {
@@ -2898,6 +3555,7 @@
     "fr": "1LFtXQV1YgqpSMbN0lY-OaNjcE-Iv45zz",
     "ar": "1bn67kKlayVA0gSGuLo_osq8gaqTRnVk7"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Le nombre de têtes posées doit être déclaré dans les réglages : la machine ne cuit que le nombre d'éléments qu'on lui annonce.",
@@ -2914,7 +3572,7 @@
   },
   {
    "name": "Etape_11A_1",
-   "order": 89,
+   "order": 106,
    "step": "11.A",
    "main": "11",
    "title": {
@@ -2931,6 +3589,7 @@
     "fr": "1xCg5Hw-yDkAsu8meJeD-d5YtoOEp5DQX",
     "ar": "15EGDArMDH05d4nSP3a4IlQGhkv7yI_w4"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "On n'utilise que les têtes qui correspondent à la longueur d'étiquette du produit, et on désactive les autres.",
@@ -2947,7 +3606,7 @@
   },
   {
    "name": "Etape_11B_1",
-   "order": 90,
+   "order": 107,
    "step": "11.B",
    "main": "11",
    "title": {
@@ -2964,6 +3623,7 @@
     "fr": "1zSAD_nb0RSeZnpIOykrOPNGAgBrnMBdL",
     "ar": "1u4Xco0RMIZVyX5vE5I1Ir5QOt-_s3LPk"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Upper Alarm Set : le manuel demande d'ouvrir ce réglage avant le démarrage global.",
@@ -2982,7 +3642,7 @@
   },
   {
    "name": "Etape_11B_2",
-   "order": 91,
+   "order": 108,
    "step": "11.B",
    "main": "11",
    "title": {
@@ -2999,6 +3659,7 @@
     "fr": "1LMCULIPmEbRjyCpTnH6JWoDST7OhosoN",
     "ar": "1Yh7ozHQx1HKivv2AWQnARck5b9Qj9aGs"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Exemples relevés : 190 °C en haut, 180 °C en bas ; 160 °C sur une autre machine.",
@@ -3015,7 +3676,7 @@
   },
   {
    "name": "Etape_11B_3",
-   "order": 92,
+   "order": 109,
    "step": "11.B",
    "main": "11",
    "title": {
@@ -3032,6 +3693,7 @@
     "fr": "1RLuVUYk-SftNYatyZctgLrlQv0TS0u5l",
     "ar": "1wvDlYfpesXtq1S0Wbi2L2StJ4UWn2zsS"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Up temperature monitoring : c'est ici qu'on vérifie la stabilité avant de produire."
@@ -3046,7 +3708,7 @@
   },
   {
    "name": "Etape_11D_1",
-   "order": 93,
+   "order": 110,
    "step": "11.D",
    "main": "11",
    "title": {
@@ -3063,6 +3725,7 @@
     "fr": "1f7Uv8qLWLrLbkkC19hUyogJp6Qsaz2Q0",
     "ar": "1jzwv-rrdy9IDsZ6r5oZD2OwV9ecnpYOO"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Un papier siliconé passe entre les têtes et l'étiquette pour éviter que la colle ne colle aux têtes ; il se consomme et se remplace.",
@@ -3079,7 +3742,7 @@
   },
   {
    "name": "Etape_11D_2",
-   "order": 94,
+   "order": 111,
    "step": "11.D",
    "main": "11",
    "title": {
@@ -3096,6 +3759,7 @@
     "fr": "1MRRDeug4W_58EO1Z6beAZmDXHz3e2etm",
     "ar": "1XdnSClJSMaDvcTgOTY0nYUOwFTVO1Ox5"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Bande pleine et alarme persistante : ce n'est pas la matière qui manque. Après une dépose des têtes chauffantes, le papier siliconé doit être remonté, sinon la machine refuse d'avancer.",
@@ -3112,7 +3776,7 @@
   },
   {
    "name": "Etape_13_1",
-   "order": 95,
+   "order": 112,
    "step": "13",
    "main": "13",
    "title": {
@@ -3129,6 +3793,7 @@
     "fr": "1DveVsqIM6QEGHC7iyPsQMsItMw1p8W2N",
     "ar": "1IKydHutJyRfFE_3QSAitqb6I5gJXz5e1"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Au rembobinage, variateurs et système de tension compensent en permanence pour que la bande reste tendue de façon régulière."
@@ -3143,7 +3808,7 @@
   },
   {
    "name": "Etape_13_2",
-   "order": 96,
+   "order": 113,
    "step": "13",
    "main": "13",
    "title": {
@@ -3160,6 +3825,7 @@
     "fr": "1CWDNYBRnEC0lgSiPqvmz4Ng-VYmPBIqc",
     "ar": "1Xp0Cn0WM22ebjUQUS58CZn96DwdAnWYb"
    },
+   "fiche": true,
    "keys": {
     "fr": [],
     "ar": []
@@ -3170,7 +3836,7 @@
   },
   {
    "name": "Etape_13_3",
-   "order": 97,
+   "order": 114,
    "step": "13",
    "main": "13",
    "title": {
@@ -3187,6 +3853,7 @@
     "fr": "1w73k-AnSeDIO_kTW8yruEkq83eAQYdWA",
     "ar": "1_BhMIzyTAmj_TLGWTCXt0yvNDr2R_rtK"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Use Take-up : doit rester coché quand l'enrouleur est utilisé — ne jamais le décocher."
@@ -3201,7 +3868,7 @@
   },
   {
    "name": "Etape_14C_6",
-   "order": 98,
+   "order": 115,
    "step": "14.C",
    "main": "14",
    "title": {
@@ -3218,6 +3885,7 @@
     "fr": "1gdldLqsu3SKNWS6I26gERGQZ93CiiCSn",
     "ar": "1aCCb_MvPpjXK5WmT05gOEGO2UhHtAMdi"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Dans l'ordre : position « Changer » dans le logiciel, puis couper l'air, puis débrancher — jamais l'inverse.",
@@ -3236,7 +3904,7 @@
   },
   {
    "name": "Etape_14C_1",
-   "order": 99,
+   "order": 116,
    "step": "14.C",
    "main": "14",
    "title": {
@@ -3253,6 +3921,7 @@
     "fr": "1HDiOoIzNlTtJBfk0oUD3-JT02U5Qg3BG",
     "ar": "1rjTXi_qAObv29FK2yXQDXF-NxLryyvO8"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Unité de dépose : la colle passe par la valve, le pointeau et la buse — ce sont ces pièces qui s'encrassent.",
@@ -3269,7 +3938,7 @@
   },
   {
    "name": "Etape_14C_2",
-   "order": 100,
+   "order": 117,
    "step": "14.C",
    "main": "14",
    "title": {
@@ -3286,6 +3955,7 @@
     "fr": "1XzSMCL04dsfA3JTFcK_ktPReeKC52sER",
     "ar": "1JOxARyngTSiyvfUAuqISlxyXEzDmrmOr"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Démontage et remontage strictement verticaux : la céramique ne supporte aucun effort de travers.",
@@ -3302,7 +3972,7 @@
   },
   {
    "name": "Etape_14C_3",
-   "order": 101,
+   "order": 118,
    "step": "14.C",
    "main": "14",
    "title": {
@@ -3319,6 +3989,7 @@
     "fr": "16kRWTuueQqug0oLujW5ygV2Vfq-NtIeH",
     "ar": "1TyMTruJuNAEFrEtMsYQwH-dMX1TrPm6L"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Buse et pointeau tous les 3 jours, corps de passage une fois par semaine. Le guide ne cite que le nettoyage de la buse en fin de poste.",
@@ -3335,7 +4006,7 @@
   },
   {
    "name": "Etape_14C_4",
-   "order": 102,
+   "order": 119,
    "step": "14.C",
    "main": "14",
    "title": {
@@ -3352,6 +4023,7 @@
     "fr": "1VPsNYcoW7lwHeOajTOKRvLPwouP6-cRQ",
     "ar": "1lO6lBmU-LmZqpG0xLImgfOCuMtlhhJSm"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Joint torique et buse sont des consommables : on les remplace quand ils sont marqués, on ne les récupère pas.",
@@ -3370,7 +4042,7 @@
   },
   {
    "name": "Etape_14C_7",
-   "order": 103,
+   "order": 120,
    "step": "14.C",
    "main": "14",
    "title": {
@@ -3387,6 +4059,7 @@
     "fr": "1cnVjcxlT-Ht3Oy4Nrhm1gqL4jTBKSbUs",
     "ar": "1FKj4-xk9whKy_DWPxW9NFs9xS1o8WZGk"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Même règle qu'au démontage : verticalement, sans effort latéral, sinon la céramique casse.",
@@ -3403,7 +4076,7 @@
   },
   {
    "name": "Etape_14C_8",
-   "order": 104,
+   "order": 121,
    "step": "14.C",
    "main": "14",
    "title": {
@@ -3420,6 +4093,7 @@
     "fr": "15Z0y7oBJDpNjbkN4B_dBFwyVODw0MUbj",
     "ar": "16IehrtjNmjPa12OIHv5i7VLBB9Ez21Qx"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Les valeurs relevées ne sont pas des consignes : 1030 est la valeur lue ce jour-là, sur ce produit.",
@@ -3436,7 +4110,7 @@
   },
   {
    "name": "Etape_14C_9",
-   "order": 105,
+   "order": 122,
    "step": "14.C",
    "main": "14",
    "title": {
@@ -3453,6 +4127,7 @@
     "fr": "1nzxkTjzVVtJ_Ukjsps2VgYEnbOc-i60v",
     "ar": "1qKJdG2SxCBs1xj_I3GTFidfkWyhPmPAg"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "L'air se coupe avant tout desserrage : une valve encore sous pression peut projeter de la colle au démontage.",
@@ -3469,7 +4144,7 @@
   },
   {
    "name": "Etape_14C_10",
-   "order": 106,
+   "order": 123,
    "step": "14.C",
    "main": "14",
    "title": {
@@ -3486,6 +4161,7 @@
     "fr": "1puEQEk6V-Q3e37H7pawgRhsRyx4-0EkZ",
     "ar": "1hL89Mb9re_miQStZt1Fzb3aqWpfds7FB"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "AC268 et SR129 ne sont pas interchangeables. La SR129 est à prise rapide : deux secondes de pressage suffisent, le réglage de temps en dépend.",
@@ -3506,7 +4182,7 @@
   },
   {
    "name": "Etape_14C_11",
-   "order": 107,
+   "order": 124,
    "step": "14.C",
    "main": "14",
    "title": {
@@ -3523,6 +4199,7 @@
     "fr": "1LDYUwfqktSHxUFbioDJKN3NJkgqWBCaj",
     "ar": "1vQca7bgd_33WCaqX6ydgig4S9GHzv2fH"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Après le remontage de la valve, la lecture doit se situer entre 1030 et 1035 avec le voyant au vert. Hors de cette plage, on reprend le réglage avant de valider."
@@ -3537,7 +4214,7 @@
   },
   {
    "name": "Etape_14C_5",
-   "order": 108,
+   "order": 125,
    "step": "14.C",
    "main": "14",
    "title": {
@@ -3554,6 +4231,7 @@
     "fr": "16kFTKHReQcRQltqmPpbSq86DNioSTqk6",
     "ar": "1zPRO6yKFq4psrkstz-J6olb2uGNTKQz5"
    },
+   "fiche": true,
    "keys": {
     "fr": [
      "Serrer à fond : une pièce mal serrée est éjectée au premier souffle d'air (voir les vidéos précédentes de l'étape 14.C). Cette règle vient du technicien, pas du guide.",
@@ -3819,7 +4497,7 @@
    "is_main": false,
    "fr": "Axe Y — de haut en bas (positions A1 / B1 / A2 / B2)",
    "ar": "المحور Y — من الأعلى إلى الأسفل (المواضع A1 / B1 / A2 / B2)",
-   "has_video": false,
+   "has_video": true,
    "note": "Pas de vidéo dédiée par axe : les vidéos de l'étape 9 règlent Y puis X, position par position (A1, B1, A2, B2)."
   },
   {
